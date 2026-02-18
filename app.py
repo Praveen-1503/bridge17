@@ -3,10 +3,71 @@ import json
 import pandas as pd
 from agents import ngo_agent, csr_agent, supplier_agent, decision_agent
 
+# -------------------------------
+# Page Configuration
+# -------------------------------
 st.set_page_config(page_title="Bridge17 Agentic AI Engine", layout="wide")
 
-st.title("🤖 Bridge17 - Agentic Partnership Intelligence System")
-st.markdown("Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration.")
+# -------------------------------
+# Custom CSS for professional look
+# -------------------------------
+st.markdown("""
+<style>
+/* Page background */
+[data-testid="stAppViewContainer"] {
+    background-color: #f5f5f7;
+}
+
+/* Table headers */
+div[data-baseweb="table"] th {
+    background-color: #004080;
+    color: white;
+    font-size: 16px;
+}
+
+/* Table cells */
+div[data-baseweb="table"] td {
+    font-size: 15px;
+}
+
+/* Card style for details */
+.ngo-card {
+    border: 1px solid #d9d9d9;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 15px;
+}
+
+/* Buttons style */
+.stButton>button {
+    background-color: #004080;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.stButton>button:hover {
+    background-color: #0066cc;
+}
+
+/* SDG badge */
+.sdg-badge {
+    padding: 4px 8px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+</style>
+""", unsafe_allow_html=True)
+
+# -------------------------------
+# Title
+# -------------------------------
+st.markdown("<h1 style='color:#004080;'>🤖 Bridge17 - Agentic Partnership Intelligence System</h1>", unsafe_allow_html=True)
+st.markdown("<p style='font-size:16px;'>Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration.</p>", unsafe_allow_html=True)
 
 # -------------------------------
 # Load Data
@@ -20,9 +81,7 @@ with open("csr.json") as f:
 with open("suppliers.json") as f:
     suppliers = json.load(f)
 
-# -------------------------------
 # SDG Colors
-# -------------------------------
 sdg_colors = {
     "SDG 1 – No Poverty": "#E5243B",
     "SDG 2 – Zero Hunger": "#DDA63A",
@@ -58,7 +117,6 @@ selected_sdg = st.sidebar.selectbox("Select SDG Goal", sdgs)
 filtered_ngos = [ngo for ngo in ngos if ngo["state"] == selected_state and ngo["sdg_goal"] == selected_sdg]
 
 results = []
-
 for ngo in filtered_ngos:
     ngo_score, risk, ngo_reason = ngo_agent(ngo)
     csr_score, csr_amount, csr_reason = csr_agent(ngo, csr_data)
@@ -82,11 +140,13 @@ for ngo in filtered_ngos:
 # -------------------------------
 if results:
     results = sorted(results, key=lambda x: x["Final Score"], reverse=True)
-    
+
     if "selected_ngo" not in st.session_state:
         st.session_state.selected_ngo = None
 
-    # Header
+    st.subheader("📊 Ranked Partnership Recommendations")
+
+    # Header Row
     header_cols = st.columns([2,1,1,1,1,1])
     header_cols[0].write("**NGO**")
     header_cols[1].write("**Final Score**")
@@ -113,15 +173,17 @@ if results:
         ngo_detail = next((r["NGO Details"] for r in results if r["NGO"] == st.session_state.selected_ngo), None)
         if ngo_detail:
             sdg_color = sdg_colors.get(ngo_detail["sdg_goal"], "#cccccc")
-            st.subheader(f"🏛 {ngo_detail['name']} - Full Details")
+            st.markdown(f"<div class='ngo-card'>", unsafe_allow_html=True)
+            st.markdown(f"### {ngo_detail['name']}")
             st.markdown(f"**ID:** {ngo_detail['ngo_id']}")
             st.markdown(f"**State:** {ngo_detail['state']}")
-            st.markdown(f"<span style='background-color:{sdg_color}; color:white; padding:3px; border-radius:3px;'>{ngo_detail['sdg_goal']}</span>", unsafe_allow_html=True)
+            st.markdown(f"<span class='sdg-badge' style='background-color:{sdg_color};'>{ngo_detail['sdg_goal']}</span>", unsafe_allow_html=True)
             st.markdown(f"**Certified:** {'✅ Yes' if ngo_detail['certified'] else '❌ No'}")
             st.markdown(f"**Trustee Contact:** {ngo_detail['trustee_contact']}")
             st.markdown(f"**About NGO:** {ngo_detail['about']}")
             if st.button("⬅ Back to Rankings"):
                 st.session_state.selected_ngo = None
+            st.markdown("</div>", unsafe_allow_html=True)
 
     # -------------------------------
     # Top Recommendation & Breakdown
@@ -148,7 +210,7 @@ if results:
     st.write(top["Supplier Agent Reasoning"])
 
     # -------------------------------
-    # CSR Allocation per SDG Visualization
+    # CSR Allocation Chart
     # -------------------------------
     st.subheader("📊 CSR Allocation in Selected State")
     state_csr = [c for c in csr_data if c["state"] == selected_state]
@@ -156,5 +218,6 @@ if results:
         csr_df = pd.DataFrame(state_csr)
         csr_df_plot = csr_df.groupby("sdg_goal")["csr_amount"].sum().reset_index()
         st.bar_chart(csr_df_plot.set_index("sdg_goal")["csr_amount"])
+
 else:
     st.warning("No NGOs found for selected filters.")
