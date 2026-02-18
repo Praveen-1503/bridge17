@@ -1,17 +1,90 @@
 [
-    {"name": "Rural Pipe Solutions", "state": "Maharashtra", "sector": "Water", "reliability": 0.85},
-    {"name": "AquaInfra Systems", "state": "Maharashtra", "sector": "Water", "reliability": 0.78},
+    {"name": "Andhra EduInfra Pvt Ltd", "state": "Andhra Pradesh", "sector": "Education", "reliability": 0.83},
+    {"name": "Coastal Health Systems", "state": "Andhra Pradesh", "sector": "Health", "reliability": 0.75},
 
-    {"name": "HealthEquip India", "state": "Tamil Nadu", "sector": "Health", "reliability": 0.82},
-    {"name": "MedSupply South", "state": "Tamil Nadu", "sector": "Health", "reliability": 0.74},
+    {"name": "Arun Rural Works", "state": "Arunachal Pradesh", "sector": "Rural Development", "reliability": 0.72},
+    {"name": "NorthEast Water Tech", "state": "Arunachal Pradesh", "sector": "Water", "reliability": 0.69},
+
+    {"name": "Assam Health Devices", "state": "Assam", "sector": "Health", "reliability": 0.84},
+    {"name": "Brahmaputra Edu Supplies", "state": "Assam", "sector": "Education", "reliability": 0.73},
+
+    {"name": "Bihar School Infra Co", "state": "Bihar", "sector": "Education", "reliability": 0.77},
+    {"name": "Ganga Skill Equipment", "state": "Bihar", "sector": "Skill", "reliability": 0.7},
+
+    {"name": "Tribal SkillTech", "state": "Chhattisgarh", "sector": "Skill", "reliability": 0.82},
+    {"name": "ForestMed Supply", "state": "Chhattisgarh", "sector": "Health", "reliability": 0.68},
+
+    {"name": "Goa Eco Systems", "state": "Goa", "sector": "Environment", "reliability": 0.9},
+    {"name": "Seaside MedEquip", "state": "Goa", "sector": "Health", "reliability": 0.74},
+
+    {"name": "SkillTools Gujarat", "state": "Gujarat", "sector": "Skill", "reliability": 0.84},
+    {"name": "Desert Water Engineering", "state": "Gujarat", "sector": "Water", "reliability": 0.79},
+
+    {"name": "Haryana Women Industrial", "state": "Haryana", "sector": "Women", "reliability": 0.81},
+    {"name": "NorthAgro Skill Systems", "state": "Haryana", "sector": "Skill", "reliability": 0.76},
+
+    {"name": "Himalayan HealthTech", "state": "Himachal Pradesh", "sector": "Health", "reliability": 0.88},
+    {"name": "HillEdu Infrastructure", "state": "Himachal Pradesh", "sector": "Education", "reliability": 0.72},
+
+    {"name": "Jharkhand WaterWorks", "state": "Jharkhand", "sector": "Water", "reliability": 0.8},
+    {"name": "Tribal School Supplies", "state": "Jharkhand", "sector": "Education", "reliability": 0.69},
 
     {"name": "EduTech Supplies", "state": "Karnataka", "sector": "Education", "reliability": 0.88},
     {"name": "SmartClass Providers", "state": "Karnataka", "sector": "Education", "reliability": 0.76},
+    {"name": "Bengaluru Health Instruments", "state": "Karnataka", "sector": "Health", "reliability": 0.85},
+
+    {"name": "Kerala MedSystems", "state": "Kerala", "sector": "Health", "reliability": 0.91},
+    {"name": "Backwater Women Industries", "state": "Kerala", "sector": "Women", "reliability": 0.78},
+
+    {"name": "Narmada InfraTech", "state": "Madhya Pradesh", "sector": "Water", "reliability": 0.83},
+    {"name": "Central Edu Systems", "state": "Madhya Pradesh", "sector": "Education", "reliability": 0.71},
+
+    {"name": "Rural Pipe Solutions", "state": "Maharashtra", "sector": "Water", "reliability": 0.85},
+    {"name": "AquaInfra Systems", "state": "Maharashtra", "sector": "Water", "reliability": 0.78},
+    {"name": "Mumbai HealthTech Supply", "state": "Maharashtra", "sector": "Health", "reliability": 0.87},
+
+    {"name": "Imphal Skill Industries", "state": "Manipur", "sector": "Skill", "reliability": 0.73},
+    {"name": "Manipur Women Enterprises", "state": "Manipur", "sector": "Women", "reliability": 0.68},
+
+    {"name": "Shillong Eco Works", "state": "Meghalaya", "sector": "Environment", "reliability": 0.89},
+    {"name": "Hill Education Tech", "state": "Meghalaya", "sector": "Education", "reliability": 0.7},
+
+    {"name": "Mizo Health Supplies", "state": "Mizoram", "sector": "Health", "reliability": 0.81},
+    {"name": "Community Skill Mizoram", "state": "Mizoram", "sector": "Skill", "reliability": 0.67},
+
+    {"name": "Nagaland Youth Tools", "state": "Nagaland", "sector": "Skill", "reliability": 0.75},
+    {"name": "Tribal Women Manufacturing", "state": "Nagaland", "sector": "Women", "reliability": 0.7},
+
+    {"name": "Odisha Rural Infra", "state": "Odisha", "sector": "Rural Development", "reliability": 0.86},
+    {"name": "Coastal Health Equip Odisha", "state": "Odisha", "sector": "Health", "reliability": 0.73},
+
+    {"name": "Punjab MedTech Systems", "state": "Punjab", "sector": "Health", "reliability": 0.9},
+    {"name": "GreenFields Skill Equip", "state": "Punjab", "sector": "Skill", "reliability": 0.74},
 
     {"name": "WomenSkill Enterprises", "state": "Rajasthan", "sector": "Women", "reliability": 0.8},
+    {"name": "Desert Water Infra", "state": "Rajasthan", "sector": "Water", "reliability": 0.77},
 
-    {"name": "SkillTools Gujarat", "state": "Gujarat", "sector": "Skill", "reliability": 0.84},
+    {"name": "Sikkim EcoTech", "state": "Sikkim", "sector": "Environment", "reliability": 0.92},
+    {"name": "Himalayan Health Supply Sikkim", "state": "Sikkim", "sector": "Health", "reliability": 0.71},
+
+    {"name": "HealthEquip India", "state": "Tamil Nadu", "sector": "Health", "reliability": 0.82},
+    {"name": "MedSupply South", "state": "Tamil Nadu", "sector": "Health", "reliability": 0.74},
+    {"name": "Chennai Skill Systems", "state": "Tamil Nadu", "sector": "Skill", "reliability": 0.86},
+
+    {"name": "Telangana SkillTech", "state": "Telangana", "sector": "Skill", "reliability": 0.88},
+    {"name": "Hyderabad Women Industries", "state": "Telangana", "sector": "Women", "reliability": 0.79},
+
+    {"name": "Tripura Edu Supplies", "state": "Tripura", "sector": "Education", "reliability": 0.72},
+    {"name": "Northeast Health Infra Tripura", "state": "Tripura", "sector": "Health", "reliability": 0.68},
+
+    {"name": "UP School Infrastructure Co", "state": "Uttar Pradesh", "sector": "Education", "reliability": 0.84},
+    {"name": "Ganga Water Engineering UP", "state": "Uttar Pradesh", "sector": "Water", "reliability": 0.78},
+    {"name": "WomenSkill UP Industries", "state": "Uttar Pradesh", "sector": "Women", "reliability": 0.73},
+
+    {"name": "Uttarakhand WaterWorks", "state": "Uttarakhand", "sector": "Water", "reliability": 0.86},
+    {"name": "Hill Women Industrial Co", "state": "Uttarakhand", "sector": "Women", "reliability": 0.69},
 
     {"name": "EastWater Logistics", "state": "West Bengal", "sector": "Water", "reliability": 0.81},
-    {"name": "Bengal Health Supplies", "state": "West Bengal", "sector": "Health", "reliability": 0.79}
+    {"name": "Bengal Health Supplies", "state": "West Bengal", "sector": "Health", "reliability": 0.79},
+    {"name": "Kolkata EduTech Infra", "state": "West Bengal", "sector": "Education", "reliability": 0.83}
 ]
