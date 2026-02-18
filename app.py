@@ -4,7 +4,7 @@ import pandas as pd
 from agents import ngo_agent, csr_agent, supplier_agent, decision_agent
 
 # -----------------------
-# Page config
+# Page Config
 # -----------------------
 st.set_page_config(
     page_title="Bridge17 Agentic AI Engine",
@@ -12,9 +12,60 @@ st.set_page_config(
     page_icon="🤝"
 )
 
-st.title("🤖 Bridge17 - Agentic Partnership Intelligence System")
+# -----------------------
+# Inject Custom CSS
+# -----------------------
 st.markdown(
-    "Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration for SDG-aligned partnerships."
+    """
+    <style>
+    /* Background Gradient */
+    .stApp {
+        background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+        background-attachment: fixed;
+    }
+
+    /* Card-like effect for metrics and dataframes */
+    .stDataFrame, .stMetric, .stButton {
+        border-radius: 12px;
+        box-shadow: 3px 3px 15px rgba(0,0,0,0.1);
+        background-color: rgba(255,255,255,0.85);
+    }
+
+    /* Hover effect for buttons */
+    button:hover {
+        background-color: #6c63ff !important;
+        color: white !important;
+        font-weight: bold;
+    }
+
+    /* Styled headers */
+    h2, h3 {
+        color: #3b3b98;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    }
+
+    /* Animate progress bars */
+    .stProgress > div > div {
+        transition: width 1s ease-in-out;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# -----------------------
+# Title with subtle animation
+# -----------------------
+st.markdown(
+    """
+    <h1 style='text-align:center; color:#2d3436;'>
+        🤖 Bridge17 - Agentic Partnership Intelligence System
+    </h1>
+    <p style='text-align:center; font-size:16px; color:#636e72;'>
+        Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration for SDG-aligned partnerships.
+    </p>
+    """,
+    unsafe_allow_html=True
 )
 
 # -----------------------
@@ -46,7 +97,7 @@ filtered_ngos = [
 results = []
 
 # -----------------------
-# Run Multi-Agent Engine
+# Multi-Agent Engine
 # -----------------------
 for ngo in filtered_ngos:
     ngo_score, risk, ngo_reason = ngo_agent(ngo)
@@ -95,7 +146,7 @@ if st.session_state.selected_ngo:
 
     st.markdown("---")
 
-    # --- Component Scores with progress bars ---
+    # --- Component Scores with animated progress bars ---
     st.subheader("📈 Component Scores")
     for component, score in zip(
         ["NGO Strength", "CSR Opportunity", "Supplier Reliability"],
@@ -149,7 +200,10 @@ else:
                     color = "orange"
                 else:
                     color = "red"
-                st.markdown(f"<span style='color:{color}; font-weight:bold'>{score}</span>", unsafe_allow_html=True)
+                st.markdown(
+                    f"<span style='color:{color}; font-weight:bold'>{score}</span>",
+                    unsafe_allow_html=True
+                )
 
         st.divider()
 
