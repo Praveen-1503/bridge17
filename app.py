@@ -1,76 +1,59 @@
+# app.py
 import streamlit as st
 import json
 import pandas as pd
 from agents import ngo_agent, csr_agent, supplier_agent, decision_agent
 
-# -----------------------
-# Page Config
-# -----------------------
+# -------------------------------
+# Page Configuration
+# -------------------------------
 st.set_page_config(
-    page_title="Bridge17 Agentic AI Engine",
+    page_title="Bridge17 - AI Partnership Engine",
     layout="wide",
-    page_icon="🤝"
+    initial_sidebar_state="expanded"
 )
 
-# -----------------------
-# Inject Custom CSS
-# -----------------------
-st.markdown(
-    """
+# -------------------------------
+# Custom CSS for styling
+# -------------------------------
+st.markdown("""
     <style>
-    /* Background Gradient */
+    /* Background gradient */
     .stApp {
-        background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
-        background-attachment: fixed;
+        background: linear-gradient(to bottom right, #f0f8ff, #e6f7ff);
+        color: #333333;
+        font-family: 'Segoe UI', sans-serif;
     }
-
-    /* Card-like effect for metrics and dataframes */
-    .stDataFrame, .stMetric, .stButton {
-        border-radius: 12px;
-        box-shadow: 3px 3px 15px rgba(0,0,0,0.1);
-        background-color: rgba(255,255,255,0.85);
+    /* Sidebar styling */
+    .css-1d391kg { 
+        background-color: #e0f0ff !important;
     }
-
-    /* Hover effect for buttons */
-    button:hover {
-        background-color: #6c63ff !important;
-        color: white !important;
-        font-weight: bold;
-    }
-
-    /* Styled headers */
-    h2, h3 {
-        color: #3b3b98;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-    }
-
-    /* Animate progress bars */
-    .stProgress > div > div {
-        transition: width 1s ease-in-out;
+    /* DataFrame styling */
+    .stDataFrame div.row_heading.level0 {font-weight:bold; color:#004080;}
+    .stDataFrame th {background-color:#cce6ff; color:#003366;}
+    /* Button styling */
+    div.stButton > button:first-child {
+        background-color: #007acc;
+        color: white;
+        border-radius:5px;
     }
     </style>
-    """,
-    unsafe_allow_html=True
-)
+""", unsafe_allow_html=True)
 
-# -----------------------
-# Title with subtle animation
-# -----------------------
+# -------------------------------
+# Title & Description
+# -------------------------------
+st.title("🤖 Bridge17 - Agentic Partnership Intelligence System")
 st.markdown(
     """
-    <h1 style='text-align:center; color:#2d3436;'>
-        🤖 Bridge17 - Agentic Partnership Intelligence System
-    </h1>
-    <p style='text-align:center; font-size:16px; color:#636e72;'>
-        Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration for SDG-aligned partnerships.
-    </p>
-    """,
-    unsafe_allow_html=True
+    Multi-Agent AI evaluating NGO-Corporate-SDG collaborations.
+    Click an NGO's name in the recommendations to view details.
+    """
 )
 
-# -----------------------
+# -------------------------------
 # Load Data
-# -----------------------
+# -------------------------------
 with open("ngos.json") as f:
     ngos = json.load(f)
 
@@ -80,25 +63,26 @@ with open("csr.json") as f:
 with open("suppliers.json") as f:
     suppliers = json.load(f)
 
+# -------------------------------
+# Convert to DataFrame for filters
+# -------------------------------
 ngos_df = pd.DataFrame(ngos)
 
-# -----------------------
+# -------------------------------
 # Sidebar Filters
-# -----------------------
+# -------------------------------
 st.sidebar.header("🔎 Filter Options")
 selected_state = st.sidebar.selectbox("Select State", ngos_df["state"].unique())
-selected_focus = st.sidebar.selectbox("Select Sector", ngos_df["focus"].unique())
+selected_sdg = st.sidebar.selectbox("Select SDG Goal", ngos_df["sdg_goal"].unique())
 
-filtered_ngos = [
-    ngo for ngo in ngos
-    if ngo["state"] == selected_state and ngo["focus"] == selected_focus
-]
+# Filter NGOs
+filtered_ngos = [ngo for ngo in ngos if ngo["state"] == selected_state and ngo["sdg_goal"] == selected_sdg]
 
+# -------------------------------
+# Evaluate NGOs
+# -------------------------------
 results = []
 
-# -----------------------
-# Multi-Agent Engine
-# -----------------------
 for ngo in filtered_ngos:
     ngo_score, risk, ngo_reason = ngo_agent(ngo)
     csr_score, csr_amount, csr_reason = csr_agent(ngo, csr_data)
@@ -106,109 +90,63 @@ for ngo in filtered_ngos:
     final_score = decision_agent(ngo_score, csr_score, supplier_score)
 
     results.append({
-        "NGO ID": ngo.get("ngo_id", ""),
         "NGO": ngo["name"],
-        "Certified": "✅" if ngo.get("certified", False) else "❌",
-        "Trustee Contact": ngo.get("trustee_contact", ""),
-        "About": ngo.get("about", ""),
         "Final Score": final_score,
-        "NGO Score": ngo_score,
-        "CSR Score": csr_score,
-        "Supplier Score": supplier_score,
         "Risk Level": risk,
         "CSR Available": csr_amount,
         "Supplier": supplier_name,
         "NGO Agent Reasoning": ngo_reason,
         "CSR Agent Reasoning": csr_reason,
-        "Supplier Agent Reasoning": supplier_reason
+        "Supplier Agent Reasoning": supplier_reason,
+        "NGO Details": ngo  # full details for click view
     })
 
-# -----------------------
-# Session state for clicked NGO
-# -----------------------
-if "selected_ngo" not in st.session_state:
-    st.session_state.selected_ngo = None
+# -------------------------------
+# Display Results
+# -------------------------------
+if results:
+    df = pd.DataFrame(results).sort_values(by="Final Score", ascending=False)
 
-# -----------------------
-# DETAIL VIEW
-# -----------------------
-if st.session_state.selected_ngo:
-    top = next(item for item in results if item["NGO"] == st.session_state.selected_ngo)
+    st.subheader("📊 Ranked Partnership Recommendations")
 
-    st.subheader(f"📌 NGO Details: {top['NGO']}")
+    # Add clickable selection
+    ngo_names = df["NGO"].tolist()
+    selected_ngo_name = st.selectbox("Select NGO to view details:", ["--Select--"] + ngo_names)
 
-    # --- Key Metrics Cards ---
-    col1, col2, col3, col4 = st.columns(4)
-    col1.metric("Final Score", top["Final Score"])
-    col2.metric("Risk Level", top["Risk Level"])
-    col3.metric("CSR Available", f"₹{top['CSR Available']:,}")
-    col4.metric("Supplier Partner", top["Supplier"])
-
-    st.markdown("---")
-
-    # --- Component Scores with animated progress bars ---
-    st.subheader("📈 Component Scores")
-    for component, score in zip(
-        ["NGO Strength", "CSR Opportunity", "Supplier Reliability"],
-        [top["NGO Score"], top["CSR Score"], top["Supplier Score"]]
-    ):
-        st.write(f"**{component}**")
-        st.progress(min(score, 1.0))
-
-    st.markdown("---")
-
-    # --- NGO Info Section ---
-    with st.expander("ℹ️ NGO Additional Details"):
-        st.write(f"**NGO ID:** {top['NGO ID']}")
-        st.write(f"**Certified:** {top['Certified']}")
-        st.write(f"**Trustee Contact:** {top['Trustee Contact']}")
-        st.write(f"**About NGO:** {top['About']}")
-
-    # --- Agent Reasoning Section ---
-    with st.expander("🧠 Agent Reasoning Explanation"):
-        st.write("**NGO Agent:**", top["NGO Agent Reasoning"])
-        st.write("**CSR Agent:**", top["CSR Agent Reasoning"])
-        st.write("**Supplier Agent:**", top["Supplier Agent Reasoning"])
-
-    st.markdown("---")
-
-    if st.button("⬅ Back to Rankings"):
-        st.session_state.selected_ngo = None
-        st.rerun()
-
-# -----------------------
-# RANKING VIEW
-# -----------------------
-else:
-    if results:
-        df = pd.DataFrame(results).sort_values(by="Final Score", ascending=False)
-
-        st.subheader("📊 Ranked Partnership Recommendations")
-
-        for index, row in df.iterrows():
-            col1, col2 = st.columns([3, 1])
-            with col1:
-                if st.button(f"🔍 {row['NGO']}", key=row["NGO"]):
-                    st.session_state.selected_ngo = row["NGO"]
-                    st.rerun()
-            with col2:
-                # Color-coded score
-                score = row["Final Score"]
-                if score >= 1.5:
-                    color = "green"
-                elif score >= 0.8:
-                    color = "orange"
-                else:
-                    color = "red"
-                st.markdown(
-                    f"<span style='color:{color}; font-weight:bold'>{score}</span>",
-                    unsafe_allow_html=True
-                )
-
-        st.divider()
+    if selected_ngo_name != "--Select--":
+        # Show NGO details
+        ngo_detail = next((r["NGO Details"] for r in results if r["NGO"] == selected_ngo_name), None)
+        if ngo_detail:
+            st.markdown(f"### 🏛 {ngo_detail['name']}")
+            st.markdown(f"**ID:** {ngo_detail['ngo_id']}")
+            st.markdown(f"**State:** {ngo_detail['state']}")
+            st.markdown(f"**SDG Goal:** {ngo_detail['sdg_goal']}")
+            st.markdown(f"**Certified:** {'✅ Yes' if ngo_detail['certified'] else '❌ No'}")
+            st.markdown(f"**Trustee Contact:** {ngo_detail['trustee_contact']}")
+            st.markdown(f"**About NGO:** {ngo_detail['about']}")
+            # Back button
+            if st.button("⬅ Back to Rankings"):
+                selected_ngo_name = "--Select--"
+    else:
+        st.dataframe(df[["NGO","Final Score","Risk Level","CSR Available","Supplier"]])
 
         st.subheader("🏆 Top Recommendation")
         top = df.iloc[0]
         st.success(f"Top NGO: {top['NGO']} with Score {top['Final Score']}")
-    else:
-        st.warning("No NGOs found for selected filters.")
+
+        st.subheader("📈 Score Breakdown")
+        breakdown_data = {
+            "Component": ["NGO Strength", "CSR Opportunity", "Supplier Reliability"],
+            "Score": [ngo_agent(top["NGO Details"])[0],
+                      csr_agent(top["NGO Details"], csr_data)[0],
+                      supplier_agent(top["NGO Details"], suppliers)[0]]
+        }
+        breakdown_df = pd.DataFrame(breakdown_data)
+        st.bar_chart(breakdown_df.set_index("Component"))
+
+        st.subheader("🧠 Agent Reasoning Explanation")
+        st.write(top["NGO Agent Reasoning"])
+        st.write(top["CSR Agent Reasoning"])
+        st.write(top["Supplier Agent Reasoning"])
+else:
+    st.warning("No NGOs found for selected filters.")
