@@ -1,92 +1,152 @@
 [
-    {"name": "Coastal Education Trust", "state": "Andhra Pradesh", "focus": "Education", "trust_score": 0.68},
-    {"name": "Delta Health Initiative", "state": "Andhra Pradesh", "focus": "Health", "trust_score": 0.57},
-
-    {"name": "Himalayan Rural Mission", "state": "Arunachal Pradesh", "focus": "Rural Development", "trust_score": 0.52},
-    {"name": "NorthEast Women Collective", "state": "Arunachal Pradesh", "focus": "Women", "trust_score": 0.44},
-
-    {"name": "Brahmaputra Health Trust", "state": "Assam", "focus": "Health", "trust_score": 0.73},
-    {"name": "Tea Garden Education Society", "state": "Assam", "focus": "Education", "trust_score": 0.49},
-
-    {"name": "Ganga Learning Foundation", "state": "Bihar", "focus": "Education", "trust_score": 0.61},
-    {"name": "Rural Skill Bihar", "state": "Bihar", "focus": "Skill", "trust_score": 0.46},
-
-    {"name": "Tribal Skill Network", "state": "Chhattisgarh", "focus": "Skill", "trust_score": 0.64},
-    {"name": "Forest Health Collective", "state": "Chhattisgarh", "focus": "Health", "trust_score": 0.41},
-
-    {"name": "Goa Coastal Care", "state": "Goa", "focus": "Environment", "trust_score": 0.78},
-    {"name": "Seaside Community Health", "state": "Goa", "focus": "Health", "trust_score": 0.55},
-
-    {"name": "SkillUp India", "state": "Gujarat", "focus": "Skill", "trust_score": 0.72},
-    {"name": "Youth Career Builders", "state": "Gujarat", "focus": "Skill", "trust_score": 0.38},
-    {"name": "Desert Water Revival", "state": "Gujarat", "focus": "Water", "trust_score": 0.67},
-
-    {"name": "Women Empower Haryana", "state": "Haryana", "focus": "Women", "trust_score": 0.71},
-    {"name": "Rural Sports & Skill Trust", "state": "Haryana", "focus": "Skill", "trust_score": 0.48},
-
-    {"name": "Mountain Health Outreach", "state": "Himachal Pradesh", "focus": "Health", "trust_score": 0.74},
-    {"name": "Hill Education Society", "state": "Himachal Pradesh", "focus": "Education", "trust_score": 0.59},
-
-    {"name": "Jharkhand Water Collective", "state": "Jharkhand", "focus": "Water", "trust_score": 0.63},
-    {"name": "Tribal Education Forum", "state": "Jharkhand", "focus": "Education", "trust_score": 0.47},
-
-    {"name": "EduFuture Society", "state": "Karnataka", "focus": "Education", "trust_score": 0.7},
-    {"name": "Bright Schools Initiative", "state": "Karnataka", "focus": "Education", "trust_score": 0.5},
-    {"name": "Rural Learning Mission", "state": "Karnataka", "focus": "Education", "trust_score": 0.3},
-
-    {"name": "Kerala Public Health Forum", "state": "Kerala", "focus": "Health", "trust_score": 0.82},
-    {"name": "Backwater Women Cooperative", "state": "Kerala", "focus": "Women", "trust_score": 0.66},
-
-    {"name": "Narmada Water Alliance", "state": "Madhya Pradesh", "focus": "Water", "trust_score": 0.69},
-    {"name": "Central India Education Trust", "state": "Madhya Pradesh", "focus": "Education", "trust_score": 0.53},
-
-    {"name": "WaterHope Foundation", "state": "Maharashtra", "focus": "Water", "trust_score": 0.6},
-    {"name": "Green Village NGO", "state": "Maharashtra", "focus": "Water", "trust_score": 0.4},
-    {"name": "Urban Sanitation Trust", "state": "Maharashtra", "focus": "Water", "trust_score": 0.75},
-
-    {"name": "Imphal Women Network", "state": "Manipur", "focus": "Women", "trust_score": 0.62},
-    {"name": "Northeast Skill Builders", "state": "Manipur", "focus": "Skill", "trust_score": 0.39},
-
-    {"name": "Shillong Education Trust", "state": "Meghalaya", "focus": "Education", "trust_score": 0.58},
-    {"name": "Green Hills Environment Society", "state": "Meghalaya", "focus": "Environment", "trust_score": 0.72},
-
-    {"name": "Mizoram Health Collective", "state": "Mizoram", "focus": "Health", "trust_score": 0.67},
-    {"name": "Community Learning Mizoram", "state": "Mizoram", "focus": "Education", "trust_score": 0.42},
-
-    {"name": "Nagaland Youth Skill Trust", "state": "Nagaland", "focus": "Skill", "trust_score": 0.55},
-    {"name": "Tribal Women Empower Nagaland", "state": "Nagaland", "focus": "Women", "trust_score": 0.48},
-
-    {"name": "Odisha Rural Development Forum", "state": "Odisha", "focus": "Rural Development", "trust_score": 0.73},
-    {"name": "Coastal Health Odisha", "state": "Odisha", "focus": "Health", "trust_score": 0.51},
-
-    {"name": "Punjab Health Mission", "state": "Punjab", "focus": "Health", "trust_score": 0.77},
-    {"name": "Green Fields Skill Society", "state": "Punjab", "focus": "Skill", "trust_score": 0.45},
-
-    {"name": "WomenRise Collective", "state": "Rajasthan", "focus": "Women", "trust_score": 0.65},
-    {"name": "EmpowerHer Foundation", "state": "Rajasthan", "focus": "Women", "trust_score": 0.45},
-    {"name": "Desert Water Trust", "state": "Rajasthan", "focus": "Water", "trust_score": 0.6},
-
-    {"name": "Sikkim Eco Foundation", "state": "Sikkim", "focus": "Environment", "trust_score": 0.81},
-    {"name": "Himalayan Health Sikkim", "state": "Sikkim", "focus": "Health", "trust_score": 0.52},
-
-    {"name": "Rural Health Trust", "state": "Tamil Nadu", "focus": "Health", "trust_score": 0.8},
-    {"name": "LifeCare Foundation", "state": "Tamil Nadu", "focus": "Health", "trust_score": 0.55},
-    {"name": "Village Medical Aid", "state": "Tamil Nadu", "focus": "Health", "trust_score": 0.35},
-
-    {"name": "Telangana Skill Network", "state": "Telangana", "focus": "Skill", "trust_score": 0.74},
-    {"name": "Hyderabad Women Collective", "state": "Telangana", "focus": "Women", "trust_score": 0.59},
-
-    {"name": "Tripura Education Mission", "state": "Tripura", "focus": "Education", "trust_score": 0.54},
-    {"name": "Northeast Rural Health Tripura", "state": "Tripura", "focus": "Health", "trust_score": 0.43},
-
-    {"name": "UP Education Reform Society", "state": "Uttar Pradesh", "focus": "Education", "trust_score": 0.69},
-    {"name": "Ganga Water Revival UP", "state": "Uttar Pradesh", "focus": "Water", "trust_score": 0.57},
-    {"name": "Women Empower UP", "state": "Uttar Pradesh", "focus": "Women", "trust_score": 0.46},
-
-    {"name": "Himalayan Water Uttarakhand", "state": "Uttarakhand", "focus": "Water", "trust_score": 0.71},
-    {"name": "Hill Women Livelihood Forum", "state": "Uttarakhand", "focus": "Women", "trust_score": 0.49},
-
-    {"name": "CleanRiver Initiative", "state": "West Bengal", "focus": "Water", "trust_score": 0.58},
-    {"name": "HealthBridge East", "state": "West Bengal", "focus": "Health", "trust_score": 0.62},
-    {"name": "Bengal Education Collective", "state": "West Bengal", "focus": "Education", "trust_score": 0.51}
+    {
+        "ngo_id": "MH-WAT-001",
+        "name": "WaterHope Foundation",
+        "state": "Maharashtra",
+        "focus": "Water",
+        "trust_score": 0.6,
+        "certified": true,
+        "trustee_contact": "Anil Deshmukh - +91 9823456789",
+        "about": "WaterHope Foundation works on rural water pipeline infrastructure and sanitation projects across Maharashtra."
+    },
+    {
+        "ngo_id": "MH-WAT-002",
+        "name": "Green Village NGO",
+        "state": "Maharashtra",
+        "focus": "Water",
+        "trust_score": 0.4,
+        "certified": false,
+        "trustee_contact": "Priya Kulkarni - +91 9876543210",
+        "about": "Green Village NGO focuses on water conservation and village-level rainwater harvesting programs."
+    },
+    {
+        "ngo_id": "MH-WAT-003",
+        "name": "Urban Sanitation Trust",
+        "state": "Maharashtra",
+        "focus": "Water",
+        "trust_score": 0.75,
+        "certified": true,
+        "trustee_contact": "Rohit Patil - +91 9765432109",
+        "about": "Urban Sanitation Trust specializes in urban water sanitation and sewage management solutions."
+    },
+    {
+        "ngo_id": "TN-HEA-001",
+        "name": "Rural Health Trust",
+        "state": "Tamil Nadu",
+        "focus": "Health",
+        "trust_score": 0.8,
+        "certified": true,
+        "trustee_contact": "Dr. Meena Raj - +91 9444556677",
+        "about": "Rural Health Trust provides healthcare access to rural populations, including mobile clinics and telemedicine."
+    },
+    {
+        "ngo_id": "TN-HEA-002",
+        "name": "LifeCare Foundation",
+        "state": "Tamil Nadu",
+        "focus": "Health",
+        "trust_score": 0.55,
+        "certified": false,
+        "trustee_contact": "Suresh Kumar - +91 9871122334",
+        "about": "LifeCare Foundation focuses on health awareness campaigns and preventive healthcare in villages."
+    },
+    {
+        "ngo_id": "TN-HEA-003",
+        "name": "Village Medical Aid",
+        "state": "Tamil Nadu",
+        "focus": "Health",
+        "trust_score": 0.35,
+        "certified": false,
+        "trustee_contact": "Dr. Anita Raj - +91 9887766554",
+        "about": "Village Medical Aid provides emergency medical support and basic health infrastructure in remote areas."
+    },
+    {
+        "ngo_id": "KA-EDU-001",
+        "name": "EduFuture Society",
+        "state": "Karnataka",
+        "focus": "Education",
+        "trust_score": 0.7,
+        "certified": true,
+        "trustee_contact": "Ramesh Shetty - +91 9912345678",
+        "about": "EduFuture Society promotes digital literacy and school infrastructure improvements in rural Karnataka."
+    },
+    {
+        "ngo_id": "KA-EDU-002",
+        "name": "Bright Schools Initiative",
+        "state": "Karnataka",
+        "focus": "Education",
+        "trust_score": 0.5,
+        "certified": true,
+        "trustee_contact": "Ananya Rao - +91 9988776655",
+        "about": "Bright Schools Initiative focuses on teacher training and scholarship programs for underprivileged students."
+    },
+    {
+        "ngo_id": "KA-EDU-003",
+        "name": "Rural Learning Mission",
+        "state": "Karnataka",
+        "focus": "Education",
+        "trust_score": 0.3,
+        "certified": false,
+        "trustee_contact": "Manoj Kumar - +91 9876554433",
+        "about": "Rural Learning Mission improves literacy and vocational training in remote villages."
+    },
+    {
+        "ngo_id": "RJ-WOM-001",
+        "name": "WomenRise Collective",
+        "state": "Rajasthan",
+        "focus": "Women",
+        "trust_score": 0.65,
+        "certified": true,
+        "trustee_contact": "Sunita Sharma - +91 9811223344",
+        "about": "WomenRise Collective empowers women through skill development and microfinance programs."
+    },
+    {
+        "ngo_id": "RJ-WOM-002",
+        "name": "EmpowerHer Foundation",
+        "state": "Rajasthan",
+        "focus": "Women",
+        "trust_score": 0.45,
+        "certified": false,
+        "trustee_contact": "Neha Verma - +91 9876543211",
+        "about": "EmpowerHer Foundation focuses on women's health, education, and entrepreneurship initiatives."
+    },
+    {
+        "ngo_id": "GJ-SKI-001",
+        "name": "SkillUp India",
+        "state": "Gujarat",
+        "focus": "Skill",
+        "trust_score": 0.72,
+        "certified": true,
+        "trustee_contact": "Vikram Patel - +91 9822334455",
+        "about": "SkillUp India offers vocational training and job placement programs for youth."
+    },
+    {
+        "ngo_id": "GJ-SKI-002",
+        "name": "Youth Career Builders",
+        "state": "Gujarat",
+        "focus": "Skill",
+        "trust_score": 0.38,
+        "certified": false,
+        "trustee_contact": "Rita Shah - +91 9911223344",
+        "about": "Youth Career Builders provides career guidance and entrepreneurship support for rural youth."
+    },
+    {
+        "ngo_id": "WB-WAT-001",
+        "name": "CleanRiver Initiative",
+        "state": "West Bengal",
+        "focus": "Water",
+        "trust_score": 0.58,
+        "certified": true,
+        "trustee_contact": "Arun Ghosh - +91 9876654321",
+        "about": "CleanRiver Initiative works on river cleaning, water purification, and community awareness projects."
+    },
+    {
+        "ngo_id": "WB-HEA-001",
+        "name": "HealthBridge East",
+        "state": "West Bengal",
+        "focus": "Health",
+        "trust_score": 0.62,
+        "certified": true,
+        "trustee_contact": "Dr. Suman Roy - +91 9887766550",
+        "about": "HealthBridge East provides healthcare access, mobile clinics, and health education programs."
+    }
 ]
