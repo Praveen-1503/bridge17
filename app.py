@@ -18,20 +18,15 @@ st.set_page_config(
 # -------------------------------
 st.markdown("""
     <style>
-    /* Background gradient */
     .stApp {
         background: linear-gradient(to bottom right, #f0f8ff, #e6f7ff);
         color: #333333;
         font-family: 'Segoe UI', sans-serif;
     }
-    /* Sidebar styling */
     .css-1d391kg { 
         background-color: #e0f0ff !important;
     }
-    /* DataFrame styling */
-    .stDataFrame div.row_heading.level0 {font-weight:bold; color:#004080;}
     .stDataFrame th {background-color:#cce6ff; color:#003366;}
-    /* Button styling */
     div.stButton > button:first-child {
         background-color: #007acc;
         color: white;
@@ -41,14 +36,34 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # -------------------------------
+# SDG Color Mapping
+# -------------------------------
+sdg_colors = {
+    "SDG 1 – No Poverty": "#E5243B",
+    "SDG 2 – Zero Hunger": "#DDA63A",
+    "SDG 3 – Good Health & Well-being": "#4C9F38",
+    "SDG 4 – Quality Education": "#C5192D",
+    "SDG 5 – Gender Equality": "#FF3A21",
+    "SDG 6 – Clean Water & Sanitation": "#26BDE2",
+    "SDG 7 – Affordable & Clean Energy": "#FCC30B",
+    "SDG 8 – Decent Work & Economic Growth": "#A21942",
+    "SDG 9 – Industry, Innovation & Infrastructure": "#FD6925",
+    "SDG 10 – Reduced Inequalities": "#DD1367",
+    "SDG 11 – Sustainable Cities & Communities": "#FD9D24",
+    "SDG 12 – Responsible Consumption & Production": "#BF8B2E",
+    "SDG 13 – Climate Action": "#3F7E44",
+    "SDG 14 – Life Below Water": "#0A97D9",
+    "SDG 15 – Life on Land": "#56C02B",
+    "SDG 16 – Peace, Justice & Strong Institutions": "#00689D",
+    "SDG 17 – Partnerships for the Goals": "#19486A"
+}
+
+# -------------------------------
 # Title & Description
 # -------------------------------
 st.title("🤖 Bridge17 - Agentic Partnership Intelligence System")
 st.markdown(
-    """
-    Multi-Agent AI evaluating NGO-Corporate-SDG collaborations.
-    Click an NGO's name in the recommendations to view details.
-    """
+    "Multi-Agent AI evaluating NGO-Corporate-SDG collaborations. Click an NGO name in the table to view details."
 )
 
 # -------------------------------
@@ -95,6 +110,7 @@ for ngo in filtered_ngos:
         "Risk Level": risk,
         "CSR Available": csr_amount,
         "Supplier": supplier_name,
+        "SDG Goal": ngo["sdg_goal"],
         "NGO Agent Reasoning": ngo_reason,
         "CSR Agent Reasoning": csr_reason,
         "Supplier Agent Reasoning": supplier_reason,
@@ -107,39 +123,47 @@ for ngo in filtered_ngos:
 if results:
     df = pd.DataFrame(results).sort_values(by="Final Score", ascending=False)
 
+    # Highlight SDG color in table
+    def color_sdg(val):
+        color = sdg_colors.get(val, "#ffffff")
+        return f'background-color: {color}; color: white; font-weight:bold'
+
     st.subheader("📊 Ranked Partnership Recommendations")
 
-    # Add clickable selection
-    ngo_names = df["NGO"].tolist()
-    selected_ngo_name = st.selectbox("Select NGO to view details:", ["--Select--"] + ngo_names)
-
-    if selected_ngo_name != "--Select--":
-        # Show NGO details
-        ngo_detail = next((r["NGO Details"] for r in results if r["NGO"] == selected_ngo_name), None)
-        if ngo_detail:
+    # Display clickable table
+    st.markdown("**Click an NGO name to view details:**")
+    for idx, row in df.iterrows():
+        ngo_button = st.button(row["NGO"], key=row["NGO"])
+        sdg_color = sdg_colors.get(row["SDG Goal"], "#ffffff")
+        if ngo_button:
+            ngo_detail = row["NGO Details"]
             st.markdown(f"### 🏛 {ngo_detail['name']}")
             st.markdown(f"**ID:** {ngo_detail['ngo_id']}")
             st.markdown(f"**State:** {ngo_detail['state']}")
-            st.markdown(f"**SDG Goal:** {ngo_detail['sdg_goal']}")
+            st.markdown(f"<span style='background-color:{sdg_color}; color:white; padding:3px;'>{ngo_detail['sdg_goal']}</span>", unsafe_allow_html=True)
             st.markdown(f"**Certified:** {'✅ Yes' if ngo_detail['certified'] else '❌ No'}")
             st.markdown(f"**Trustee Contact:** {ngo_detail['trustee_contact']}")
             st.markdown(f"**About NGO:** {ngo_detail['about']}")
-            # Back button
-            if st.button("⬅ Back to Rankings"):
-                selected_ngo_name = "--Select--"
+            st.button("⬅ Back to Rankings", key="back")
+            break
     else:
-        st.dataframe(df[["NGO","Final Score","Risk Level","CSR Available","Supplier"]])
+        # Show the table if no NGO clicked
+        display_df = df[["NGO","Final Score","Risk Level","CSR Available","Supplier","SDG Goal"]].style.applymap(lambda v: f'background-color:{sdg_colors.get(v,"")}; color:white; font-weight:bold' if v in sdg_colors else '')
+        st.dataframe(display_df, height=400)
 
-        st.subheader("🏆 Top Recommendation")
+        # Top NGO and breakdown
         top = df.iloc[0]
+        st.subheader("🏆 Top Recommendation")
         st.success(f"Top NGO: {top['NGO']} with Score {top['Final Score']}")
 
         st.subheader("📈 Score Breakdown")
         breakdown_data = {
             "Component": ["NGO Strength", "CSR Opportunity", "Supplier Reliability"],
-            "Score": [ngo_agent(top["NGO Details"])[0],
-                      csr_agent(top["NGO Details"], csr_data)[0],
-                      supplier_agent(top["NGO Details"], suppliers)[0]]
+            "Score": [
+                ngo_agent(top["NGO Details"])[0],
+                csr_agent(top["NGO Details"], csr_data)[0],
+                supplier_agent(top["NGO Details"], suppliers)[0]
+            ]
         }
         breakdown_df = pd.DataFrame(breakdown_data)
         st.bar_chart(breakdown_df.set_index("Component"))
@@ -148,5 +172,6 @@ if results:
         st.write(top["NGO Agent Reasoning"])
         st.write(top["CSR Agent Reasoning"])
         st.write(top["Supplier Agent Reasoning"])
+
 else:
     st.warning("No NGOs found for selected filters.")
