@@ -3,10 +3,19 @@ import json
 import pandas as pd
 from agents import ngo_agent, csr_agent, supplier_agent, decision_agent
 
-st.set_page_config(page_title="Bridge17 Agentic AI Engine", layout="wide")
+# -----------------------
+# Page config
+# -----------------------
+st.set_page_config(
+    page_title="Bridge17 Agentic AI Engine",
+    layout="wide",
+    page_icon="🤝"
+)
 
 st.title("🤖 Bridge17 - Agentic Partnership Intelligence System")
-st.markdown("Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration.")
+st.markdown(
+    "Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration for SDG-aligned partnerships."
+)
 
 # -----------------------
 # Load Data
@@ -37,20 +46,18 @@ filtered_ngos = [
 results = []
 
 # -----------------------
-# Multi-Agent Engine
+# Run Multi-Agent Engine
 # -----------------------
 for ngo in filtered_ngos:
-
     ngo_score, risk, ngo_reason = ngo_agent(ngo)
     csr_score, csr_amount, csr_reason = csr_agent(ngo, csr_data)
     supplier_score, supplier_name, supplier_reason = supplier_agent(ngo, suppliers)
-
     final_score = decision_agent(ngo_score, csr_score, supplier_score)
 
     results.append({
         "NGO ID": ngo.get("ngo_id", ""),
         "NGO": ngo["name"],
-        "Certified": "Yes" if ngo.get("certified", False) else "No",
+        "Certified": "✅" if ngo.get("certified", False) else "❌",
         "Trustee Contact": ngo.get("trustee_contact", ""),
         "About": ngo.get("about", ""),
         "Final Score": final_score,
@@ -66,7 +73,7 @@ for ngo in filtered_ngos:
     })
 
 # -----------------------
-# Initialize session state for click
+# Session state for clicked NGO
 # -----------------------
 if "selected_ngo" not in st.session_state:
     st.session_state.selected_ngo = None
@@ -79,29 +86,40 @@ if st.session_state.selected_ngo:
 
     st.subheader(f"📌 NGO Details: {top['NGO']}")
 
-    st.write(f"**NGO ID:** {top['NGO ID']}")
-    st.write(f"**Certified:** {top['Certified']}")
-    st.write(f"**Trustee Contact:** {top['Trustee Contact']}")
-    st.write(f"**About NGO:** {top['About']}")
-    st.write(f"**Risk Level:** {top['Risk Level']}")
-    st.write(f"**CSR Available:** ₹{top['CSR Available']}")
-    st.write(f"**Supplier Partner:** {top['Supplier']}")
+    # --- Key Metrics Cards ---
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("Final Score", top["Final Score"])
+    col2.metric("Risk Level", top["Risk Level"])
+    col3.metric("CSR Available", f"₹{top['CSR Available']:,}")
+    col4.metric("Supplier Partner", top["Supplier"])
 
-    st.subheader("📈 Score Breakdown")
-    breakdown_df = pd.DataFrame({
-        "Component": ["NGO Strength", "CSR Opportunity", "Supplier Reliability"],
-        "Score": [
-            top["NGO Score"],
-            top["CSR Score"],
-            top["Supplier Score"]
-        ]
-    })
-    st.bar_chart(breakdown_df.set_index("Component"))
+    st.markdown("---")
 
-    st.subheader("🧠 Agent Reasoning")
-    st.write(top["NGO Agent Reasoning"])
-    st.write(top["CSR Agent Reasoning"])
-    st.write(top["Supplier Agent Reasoning"])
+    # --- Component Scores with progress bars ---
+    st.subheader("📈 Component Scores")
+    for component, score in zip(
+        ["NGO Strength", "CSR Opportunity", "Supplier Reliability"],
+        [top["NGO Score"], top["CSR Score"], top["Supplier Score"]]
+    ):
+        st.write(f"**{component}**")
+        st.progress(min(score, 1.0))
+
+    st.markdown("---")
+
+    # --- NGO Info Section ---
+    with st.expander("ℹ️ NGO Additional Details"):
+        st.write(f"**NGO ID:** {top['NGO ID']}")
+        st.write(f"**Certified:** {top['Certified']}")
+        st.write(f"**Trustee Contact:** {top['Trustee Contact']}")
+        st.write(f"**About NGO:** {top['About']}")
+
+    # --- Agent Reasoning Section ---
+    with st.expander("🧠 Agent Reasoning Explanation"):
+        st.write("**NGO Agent:**", top["NGO Agent Reasoning"])
+        st.write("**CSR Agent:**", top["CSR Agent Reasoning"])
+        st.write("**Supplier Agent:**", top["Supplier Agent Reasoning"])
+
+    st.markdown("---")
 
     if st.button("⬅ Back to Rankings"):
         st.session_state.selected_ngo = None
@@ -118,15 +136,20 @@ else:
 
         for index, row in df.iterrows():
             col1, col2 = st.columns([3, 1])
-
             with col1:
-                # Make NGO name clickable
                 if st.button(f"🔍 {row['NGO']}", key=row["NGO"]):
                     st.session_state.selected_ngo = row["NGO"]
                     st.rerun()
-
             with col2:
-                st.write(f"⭐ {row['Final Score']}")
+                # Color-coded score
+                score = row["Final Score"]
+                if score >= 1.5:
+                    color = "green"
+                elif score >= 0.8:
+                    color = "orange"
+                else:
+                    color = "red"
+                st.markdown(f"<span style='color:{color}; font-weight:bold'>{score}</span>", unsafe_allow_html=True)
 
         st.divider()
 
