@@ -55,31 +55,36 @@ if results:
     st.subheader("📊 Ranked Partnership Recommendations")
     st.dataframe(df)
 
+    # Select Supplier to View Details
+    st.subheader("🔍 View Supplier Details")
+
+    supplier_names = df["Supplier"].unique()
+    selected_supplier = st.selectbox("Select Supplier", supplier_names)
+
+    if selected_supplier != "No Supplier Found":
+        supplier_info = next(
+            (sup for sup in suppliers if sup["name"] == selected_supplier),
+            None
+        )
+
+        if supplier_info:
+            st.markdown("### 🏢 Supplier Information")
+            st.write(f"**Name:** {supplier_info['name']}")
+            st.write(f"**State:** {supplier_info['state']}")
+            st.write(f"**Sector:** {supplier_info['sector']}")
+            st.write(f"**Reliability Score:** {supplier_info['reliability']}")
+
+            # Visual reliability bar
+            st.progress(supplier_info["reliability"])
+
+    else:
+        st.info("No supplier matched for this NGO.")
+
+    # Top Recommendation
     st.subheader("🏆 Top Recommendation")
 
     top = df.iloc[0]
     st.success(f"Top NGO: {top['NGO']} with Score {top['Final Score']}")
-
-    # Score Breakdown Visualization
-    st.subheader("📈 Score Breakdown")
-
-    breakdown_data = {
-        "Component": ["NGO Strength", "CSR Opportunity", "Supplier Reliability"],
-        "Score": [
-            ngo_score,
-            csr_score,
-            supplier_score
-        ]
-    }
-
-    breakdown_df = pd.DataFrame(breakdown_data)
-    st.bar_chart(breakdown_df.set_index("Component"))
-
-    # Agent Reasoning
-    st.subheader("🧠 Agent Reasoning Explanation")
-    st.write(top["NGO Agent Reasoning"])
-    st.write(top["CSR Agent Reasoning"])
-    st.write(top["Supplier Agent Reasoning"])
 
 else:
     st.warning("No NGOs found for selected filters.")
