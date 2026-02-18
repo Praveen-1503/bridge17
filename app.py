@@ -114,7 +114,7 @@ for ngo in filtered_ngos:
         "NGO Agent Reasoning": ngo_reason,
         "CSR Agent Reasoning": csr_reason,
         "Supplier Agent Reasoning": supplier_reason,
-        "NGO Details": ngo  # full details for click view
+        "NGO Details": ngo
     })
 
 # -------------------------------
@@ -123,32 +123,38 @@ for ngo in filtered_ngos:
 if results:
     df = pd.DataFrame(results).sort_values(by="Final Score", ascending=False)
 
-    # Highlight SDG color in table
-    def color_sdg(val):
-        color = sdg_colors.get(val, "#ffffff")
-        return f'background-color: {color}; color: white; font-weight:bold'
-
     st.subheader("📊 Ranked Partnership Recommendations")
 
-    # Display clickable table
-    st.markdown("**Click an NGO name to view details:**")
+    # Display table with clickable NGO names
+    st.markdown("**Click on an NGO name to view details:**")
     for idx, row in df.iterrows():
-        ngo_button = st.button(row["NGO"], key=row["NGO"])
-        sdg_color = sdg_colors.get(row["SDG Goal"], "#ffffff")
-        if ngo_button:
+        sdg_color = sdg_colors.get(row["SDG Goal"], "#cccccc")
+        ngo_click = st.button(
+            f"{row['NGO']}  |  {row['SDG Goal']}",
+            key=row["NGO"],
+            help="Click to view full NGO details"
+        )
+        if ngo_click:
             ngo_detail = row["NGO Details"]
             st.markdown(f"### 🏛 {ngo_detail['name']}")
             st.markdown(f"**ID:** {ngo_detail['ngo_id']}")
             st.markdown(f"**State:** {ngo_detail['state']}")
-            st.markdown(f"<span style='background-color:{sdg_color}; color:white; padding:3px;'>{ngo_detail['sdg_goal']}</span>", unsafe_allow_html=True)
+            st.markdown(
+                f"<span style='background-color:{sdg_color}; color:white; padding:3px; border-radius:3px;'>{ngo_detail['sdg_goal']}</span>",
+                unsafe_allow_html=True
+            )
             st.markdown(f"**Certified:** {'✅ Yes' if ngo_detail['certified'] else '❌ No'}")
             st.markdown(f"**Trustee Contact:** {ngo_detail['trustee_contact']}")
             st.markdown(f"**About NGO:** {ngo_detail['about']}")
-            st.button("⬅ Back to Rankings", key="back")
+            st.button("⬅ Back to Rankings", key=f"back_{row['NGO']}")
             break
     else:
         # Show the table if no NGO clicked
-        display_df = df[["NGO","Final Score","Risk Level","CSR Available","Supplier","SDG Goal"]].style.applymap(lambda v: f'background-color:{sdg_colors.get(v,"")}; color:white; font-weight:bold' if v in sdg_colors else '')
+        display_df = df[["NGO","Final Score","Risk Level","CSR Available","Supplier","SDG Goal"]].copy()
+        # Style SDG Goal column
+        display_df = display_df.style.applymap(
+            lambda val: f"background-color:{sdg_colors[val]}; color:white; font-weight:bold" if val in sdg_colors else ""
+        )
         st.dataframe(display_df, height=400)
 
         # Top NGO and breakdown
@@ -172,6 +178,5 @@ if results:
         st.write(top["NGO Agent Reasoning"])
         st.write(top["CSR Agent Reasoning"])
         st.write(top["Supplier Agent Reasoning"])
-
 else:
     st.warning("No NGOs found for selected filters.")
