@@ -1,7 +1,6 @@
 # app.py
 import streamlit as st
 import json
-import pandas as pd
 from agents import ngo_agent, csr_agent, supplier_agent, decision_agent
 
 # -------------------------------
@@ -9,8 +8,7 @@ from agents import ngo_agent, csr_agent, supplier_agent, decision_agent
 # -------------------------------
 st.set_page_config(
     page_title="Bridge17 - Agentic Partnership Engine",
-    layout="wide",
-    initial_sidebar_state="expanded"
+    layout="wide"
 )
 
 # -------------------------------
@@ -23,14 +21,23 @@ st.markdown("""
         color: #333333;
         font-family: 'Segoe UI', sans-serif;
     }
-    .css-1d391kg { 
-        background-color: #e0f0ff !important;
+    .ngotable th {
+        background-color:#cce6ff;
+        color:#003366;
+        font-weight:bold;
+        padding: 8px;
+        text-align: left;
     }
-    .stDataFrame th {background-color:#cce6ff; color:#003366; font-weight:bold;}
-    .stButton > button {
+    .ngotable td {
+        padding: 8px;
+    }
+    .ngobutton {
         background-color: #007acc;
         color: white;
         border-radius:5px;
+        border:none;
+        padding:5px 10px;
+        cursor:pointer;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -62,7 +69,7 @@ sdg_colors = {
 # Title
 # -------------------------------
 st.title("🤖 Bridge17 - Agentic Partnership Intelligence System")
-st.markdown("Multi-Agent AI evaluating NGO-Corporate-SDG collaborations. Click an NGO name in the table to view details.")
+st.markdown("Click on an NGO name to view its details.")
 
 # -------------------------------
 # Load Data
@@ -77,11 +84,12 @@ with open("suppliers.json") as f:
 # -------------------------------
 # Sidebar Filters
 # -------------------------------
-df_ngos = pd.DataFrame(ngos)
-st.sidebar.header("🔎 Filter Options")
-selected_state = st.sidebar.selectbox("Select State", df_ngos["state"].unique())
-selected_sdg = st.sidebar.selectbox("Select SDG Goal", df_ngos["sdg_goal"].unique())
+states = sorted(list(set(ngo["state"] for ngo in ngos)))
+sdgs = sorted(list(set(ngo["sdg_goal"] for ngo in ngos)))
+selected_state = st.sidebar.selectbox("Select State", states)
+selected_sdg = st.sidebar.selectbox("Select SDG Goal", sdgs)
 
+# Filter NGOs
 filtered_ngos = [ngo for ngo in ngos if ngo["state"] == selected_state and ngo["sdg_goal"] == selected_sdg]
 
 # -------------------------------
@@ -93,7 +101,6 @@ for ngo in filtered_ngos:
     csr_score, csr_amount, csr_reason = csr_agent(ngo, csr_data)
     supplier_score, supplier_name, supplier_reason = supplier_agent(ngo, suppliers)
     final_score = decision_agent(ngo_score, csr_score, supplier_score)
-
     results.append({
         "NGO": ngo["name"],
         "Final Score": final_score,
@@ -108,24 +115,39 @@ for ngo in filtered_ngos:
     })
 
 # -------------------------------
-# Display Recommendations
+# Display Recommendations as Table
 # -------------------------------
 if results:
-    df = pd.DataFrame(results).sort_values(by="Final Score", ascending=False)
+    results = sorted(results, key=lambda x: x["Final Score"], reverse=True)
     st.subheader("📊 Ranked Partnership Recommendations")
 
     # Store selected NGO in session state
     if "selected_ngo" not in st.session_state:
         st.session_state.selected_ngo = None
 
-    # Display clickable table
-    for idx, row in df.iterrows():
-        sdg_color = sdg_colors.get(row["SDG Goal"], "#cccccc")
-        if st.button(f"{row['NGO']} | {row['SDG Goal']}", key=row['NGO']):
-            st.session_state.selected_ngo = row["NGO"]
+    if st.session_state.selected_ngo is None:
+        # Build HTML table
+        table_html = "<table class='ngotable'>"
+        table_html += "<tr><th>NGO</th><th>Final Score</th><th>Risk Level</th><th>CSR Available</th><th>Supplier</th><th>SDG Goal</th></tr>"
+        for row in results:
+            sdg_color = sdg_colors.get(row["SDG Goal"], "#cccccc")
+            table_html += "<tr>"
+            table_html += f"<td><form action='' method='post'><input type='submit' class='ngobutton' name='{row['NGO']}' value='{row['NGO']}'></form></td>"
+            table_html += f"<td>{row['Final Score']}</td>"
+            table_html += f"<td>{row['Risk Level']}</td>"
+            table_html += f"<td>₹{row['CSR Available']}</td>"
+            table_html += f"<td>{row['Supplier']}</td>"
+            table_html += f"<td style='background-color:{sdg_color}; color:white; padding:3px; border-radius:3px;'>{row['SDG Goal']}</td>"
+            table_html += "</tr>"
+        table_html += "</table>"
+        st.markdown(table_html, unsafe_allow_html=True)
 
-    # Show NGO details if selected
-    if st.session_state.selected_ngo:
+        # Handle NGO selection using a selectbox as a workaround
+        selected_ngo = st.selectbox("Click NGO name to view details (temporary)", ["--None--"] + [r["NGO"] for r in results])
+        if selected_ngo != "--None--":
+            st.session_state.selected_ngo = selected_ngo
+    else:
+        # Show NGO details
         ngo_detail = next((r["NGO Details"] for r in results if r["NGO"] == st.session_state.selected_ngo), None)
         if ngo_detail:
             sdg_color = sdg_colors.get(ngo_detail["sdg_goal"], "#cccccc")
@@ -141,28 +163,6 @@ if results:
             st.markdown(f"**About NGO:** {ngo_detail['about']}")
             if st.button("⬅ Back to Rankings"):
                 st.session_state.selected_ngo = None
-    else:
-        st.dataframe(df[["NGO","Final Score","Risk Level","CSR Available","Supplier","SDG Goal"]], height=400)
 
-        top = df.iloc[0]
-        st.subheader("🏆 Top Recommendation")
-        st.success(f"Top NGO: {top['NGO']} with Score {top['Final Score']}")
-
-        st.subheader("📈 Score Breakdown")
-        breakdown_data = {
-            "Component": ["NGO Strength", "CSR Opportunity", "Supplier Reliability"],
-            "Score": [
-                ngo_agent(top["NGO Details"])[0],
-                csr_agent(top["NGO Details"], csr_data)[0],
-                supplier_agent(top["NGO Details"], suppliers)[0]
-            ]
-        }
-        breakdown_df = pd.DataFrame(breakdown_data)
-        st.bar_chart(breakdown_df.set_index("Component"))
-
-        st.subheader("🧠 Agent Reasoning Explanation")
-        st.write(top["NGO Agent Reasoning"])
-        st.write(top["CSR Agent Reasoning"])
-        st.write(top["Supplier Agent Reasoning"])
 else:
     st.warning("No NGOs found for selected filters.")
