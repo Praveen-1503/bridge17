@@ -9,68 +9,65 @@ from agents import ngo_agent, csr_agent, supplier_agent, decision_agent
 st.set_page_config(page_title="Bridge17 Agentic AI Engine", layout="wide")
 
 # -------------------------------
-# Custom CSS for Light Theme
+# Custom CSS for Simple Aesthetic Design
 # -------------------------------
 st.markdown("""
 <style>
-/* Main page background: light gray diagonal gradient */
+/* Main page: default background, simple padding */
 [data-testid="stAppViewContainer"] {
-    background: linear-gradient(135deg, #e0e0e0, #f5f5f5);
-    color: black;
-    border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
 }
 
-/* Sidebar background: Lavender with slightly rounded corners */
+/* Sidebar: soft muted lavender, lightly rounded */
 [data-testid="stSidebar"] {
-    background-color: #E6E6FA;
-    color: black;
+    background-color: #f3f0ff;
     border-radius: 8px;
-    padding: 10px;
+    padding: 15px;
 }
 
 /* Table headers */
 div[data-baseweb="table"] th {
-    background-color: #b39ddb;
+    background-color: #d6c7ff;
     color: black;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 /* Table cells */
 div[data-baseweb="table"] td {
-    font-size: 15px;
+    font-size: 14px;
     color: black;
 }
 
-/* Card style for NGO details */
+/* NGO cards: clean white with subtle shadow */
 .ngo-card {
-    border: 1px solid #aaaaaa;
+    border: 1px solid #e0e0e0;
     padding: 15px;
     border-radius: 10px;
-    background-color: #d1c4e9;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
     margin-bottom: 15px;
 }
 
-/* Buttons style */
+/* Buttons style: soft violet */
 .stButton>button {
-    background-color: #7e57c2;
-    color: white;
+    background-color: #b9a3ff;
+    color: black;
     font-weight: bold;
     border-radius: 5px;
     padding: 5px 10px;
 }
 
 .stButton>button:hover {
-    background-color: #5e35b1;
+    background-color: #9d87ff;
 }
 
-/* SDG badge */
+/* SDG badge: soft pastel rounded */
 .sdg-badge {
-    padding: 4px 8px;
+    padding: 3px 7px;
     border-radius: 5px;
-    color: white;
     font-weight: bold;
+    color: black;
+    font-size: 13px;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -78,8 +75,8 @@ div[data-baseweb="table"] td {
 # -------------------------------
 # Title
 # -------------------------------
-st.markdown("<h1 style='color:#4B0082;'>🤖 Bridge17 - Agentic Partnership Intelligence System</h1>", unsafe_allow_html=True)
-st.markdown("<p style='font-size:16px; color:black;'>Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration.</p>", unsafe_allow_html=True)
+st.markdown("<h1 style='color:#5C4BFF;'>🤖 Bridge17 - Agentic Partnership Intelligence System</h1>", unsafe_allow_html=True)
+st.markdown("<p style='font-size:16px; color:#333;'>Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration.</p>", unsafe_allow_html=True)
 
 # -------------------------------
 # Load Data
@@ -94,26 +91,26 @@ with open("suppliers.json") as f:
     suppliers = json.load(f)
 
 # -------------------------------
-# SDG Colors (Pastel Version)
+# SDG Colors (Pastel Minimal)
 # -------------------------------
 sdg_colors = {
-    "SDG 1 – No Poverty": "#FFB3B3",
-    "SDG 2 – Zero Hunger": "#FFE0B3",
-    "SDG 3 – Good Health & Well-being": "#B3E6B3",
-    "SDG 4 – Quality Education": "#FFCCCB",
-    "SDG 5 – Gender Equality": "#FFB3D1",
-    "SDG 6 – Clean Water & Sanitation": "#B3E0FF",
-    "SDG 7 – Affordable & Clean Energy": "#FFF0B3",
-    "SDG 8 – Decent Work & Economic Growth": "#FFCCE6",
-    "SDG 9 – Industry, Innovation & Infrastructure": "#FFD9B3",
-    "SDG 10 – Reduced Inequalities": "#E6B3FF",
-    "SDG 11 – Sustainable Cities & Communities": "#FFE6B3",
-    "SDG 12 – Responsible Consumption & Production": "#D9FFB3",
-    "SDG 13 – Climate Action": "#B3FFCC",
-    "SDG 14 – Life Below Water": "#B3E0FF",
-    "SDG 15 – Life on Land": "#CCFFB3",
-    "SDG 16 – Peace, Justice & Strong Institutions": "#B3CCFF",
-    "SDG 17 – Partnerships for the Goals": "#D9B3FF"
+    "SDG 1 – No Poverty": "#FFDDDD",
+    "SDG 2 – Zero Hunger": "#FFF1CC",
+    "SDG 3 – Good Health & Well-being": "#DDFFDD",
+    "SDG 4 – Quality Education": "#FFE6E6",
+    "SDG 5 – Gender Equality": "#FFD9E6",
+    "SDG 6 – Clean Water & Sanitation": "#D9EEFF",
+    "SDG 7 – Affordable & Clean Energy": "#FFF8CC",
+    "SDG 8 – Decent Work & Economic Growth": "#FFE0F0",
+    "SDG 9 – Industry, Innovation & Infrastructure": "#FFE5CC",
+    "SDG 10 – Reduced Inequalities": "#E6DDFF",
+    "SDG 11 – Sustainable Cities & Communities": "#FFF5CC",
+    "SDG 12 – Responsible Consumption & Production": "#EEFFDD",
+    "SDG 13 – Climate Action": "#CCFFEE",
+    "SDG 14 – Life Below Water": "#CCEBFF",
+    "SDG 15 – Life on Land": "#E6FFCC",
+    "SDG 16 – Peace, Justice & Strong Institutions": "#D9E6FF",
+    "SDG 17 – Partnerships for the Goals": "#E6CCFF"
 }
 
 # -------------------------------
