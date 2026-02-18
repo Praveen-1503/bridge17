@@ -1,152 +1,101 @@
 [
-    {
-        "ngo_id": "MH-WAT-001",
-        "name": "WaterHope Foundation",
-        "state": "Maharashtra",
-        "focus": "Water",
-        "trust_score": 0.6,
-        "certified": true,
-        "trustee_contact": "Anil Deshmukh - +91 9823456789",
-        "about": "WaterHope Foundation works on rural water pipeline infrastructure and sanitation projects across Maharashtra."
-    },
-    {
-        "ngo_id": "MH-WAT-002",
-        "name": "Green Village NGO",
-        "state": "Maharashtra",
-        "focus": "Water",
-        "trust_score": 0.4,
-        "certified": false,
-        "trustee_contact": "Priya Kulkarni - +91 9876543210",
-        "about": "Green Village NGO focuses on water conservation and village-level rainwater harvesting programs."
-    },
-    {
-        "ngo_id": "MH-WAT-003",
-        "name": "Urban Sanitation Trust",
-        "state": "Maharashtra",
-        "focus": "Water",
-        "trust_score": 0.75,
-        "certified": true,
-        "trustee_contact": "Rohit Patil - +91 9765432109",
-        "about": "Urban Sanitation Trust specializes in urban water sanitation and sewage management solutions."
-    },
-    {
-        "ngo_id": "TN-HEA-001",
-        "name": "Rural Health Trust",
-        "state": "Tamil Nadu",
-        "focus": "Health",
-        "trust_score": 0.8,
-        "certified": true,
-        "trustee_contact": "Dr. Meena Raj - +91 9444556677",
-        "about": "Rural Health Trust provides healthcare access to rural populations, including mobile clinics and telemedicine."
-    },
-    {
-        "ngo_id": "TN-HEA-002",
-        "name": "LifeCare Foundation",
-        "state": "Tamil Nadu",
-        "focus": "Health",
-        "trust_score": 0.55,
-        "certified": false,
-        "trustee_contact": "Suresh Kumar - +91 9871122334",
-        "about": "LifeCare Foundation focuses on health awareness campaigns and preventive healthcare in villages."
-    },
-    {
-        "ngo_id": "TN-HEA-003",
-        "name": "Village Medical Aid",
-        "state": "Tamil Nadu",
-        "focus": "Health",
-        "trust_score": 0.35,
-        "certified": false,
-        "trustee_contact": "Dr. Anita Raj - +91 9887766554",
-        "about": "Village Medical Aid provides emergency medical support and basic health infrastructure in remote areas."
-    },
-    {
-        "ngo_id": "KA-EDU-001",
-        "name": "EduFuture Society",
-        "state": "Karnataka",
-        "focus": "Education",
-        "trust_score": 0.7,
-        "certified": true,
-        "trustee_contact": "Ramesh Shetty - +91 9912345678",
-        "about": "EduFuture Society promotes digital literacy and school infrastructure improvements in rural Karnataka."
-    },
-    {
-        "ngo_id": "KA-EDU-002",
-        "name": "Bright Schools Initiative",
-        "state": "Karnataka",
-        "focus": "Education",
-        "trust_score": 0.5,
-        "certified": true,
-        "trustee_contact": "Ananya Rao - +91 9988776655",
-        "about": "Bright Schools Initiative focuses on teacher training and scholarship programs for underprivileged students."
-    },
-    {
-        "ngo_id": "KA-EDU-003",
-        "name": "Rural Learning Mission",
-        "state": "Karnataka",
-        "focus": "Education",
-        "trust_score": 0.3,
-        "certified": false,
-        "trustee_contact": "Manoj Kumar - +91 9876554433",
-        "about": "Rural Learning Mission improves literacy and vocational training in remote villages."
-    },
-    {
-        "ngo_id": "RJ-WOM-001",
-        "name": "WomenRise Collective",
-        "state": "Rajasthan",
-        "focus": "Women",
-        "trust_score": 0.65,
-        "certified": true,
-        "trustee_contact": "Sunita Sharma - +91 9811223344",
-        "about": "WomenRise Collective empowers women through skill development and microfinance programs."
-    },
-    {
-        "ngo_id": "RJ-WOM-002",
-        "name": "EmpowerHer Foundation",
-        "state": "Rajasthan",
-        "focus": "Women",
-        "trust_score": 0.45,
-        "certified": false,
-        "trustee_contact": "Neha Verma - +91 9876543211",
-        "about": "EmpowerHer Foundation focuses on women's health, education, and entrepreneurship initiatives."
-    },
-    {
-        "ngo_id": "GJ-SKI-001",
-        "name": "SkillUp India",
-        "state": "Gujarat",
-        "focus": "Skill",
-        "trust_score": 0.72,
-        "certified": true,
-        "trustee_contact": "Vikram Patel - +91 9822334455",
-        "about": "SkillUp India offers vocational training and job placement programs for youth."
-    },
-    {
-        "ngo_id": "GJ-SKI-002",
-        "name": "Youth Career Builders",
-        "state": "Gujarat",
-        "focus": "Skill",
-        "trust_score": 0.38,
-        "certified": false,
-        "trustee_contact": "Rita Shah - +91 9911223344",
-        "about": "Youth Career Builders provides career guidance and entrepreneurship support for rural youth."
-    },
-    {
-        "ngo_id": "WB-WAT-001",
-        "name": "CleanRiver Initiative",
-        "state": "West Bengal",
-        "focus": "Water",
-        "trust_score": 0.58,
-        "certified": true,
-        "trustee_contact": "Arun Ghosh - +91 9876654321",
-        "about": "CleanRiver Initiative works on river cleaning, water purification, and community awareness projects."
-    },
-    {
-        "ngo_id": "WB-HEA-001",
-        "name": "HealthBridge East",
-        "state": "West Bengal",
-        "focus": "Health",
-        "trust_score": 0.62,
-        "certified": true,
-        "trustee_contact": "Dr. Suman Roy - +91 9887766550",
-        "about": "HealthBridge East provides healthcare access, mobile clinics, and health education programs."
-    }
+  {"ngo_id":"AP-EDU-001","name":"Andhra EduFuture","state":"Andhra Pradesh","focus":"Education","trust_score":0.7,"certified":true,"trustee_contact":"Ravi Kumar - +91 9001234567","about":"Provides digital literacy and rural school support."},
+  {"ngo_id":"AP-EDU-002","name":"Bright Andhra Schools","state":"Andhra Pradesh","focus":"Education","trust_score":0.55,"certified":true,"trustee_contact":"Sita Reddy - +91 9007654321","about":"Scholarship and teacher training programs for underprivileged students."},
+  {"ngo_id":"AP-WAT-001","name":"Andhra Water Aid","state":"Andhra Pradesh","focus":"Water","trust_score":0.65,"certified":true,"trustee_contact":"Manoj Das - +91 9001122334","about":"Water infrastructure and sanitation projects."},
+
+  {"ngo_id":"AR-ENV-001","name":"Arunachal Green Trust","state":"Arunachal Pradesh","focus":"Environment","trust_score":0.6,"certified":true,"trustee_contact":"Tashi Wangchuk - +91 8976543210","about":"Forest conservation and wildlife protection."},
+  {"ngo_id":"AR-EDU-001","name":"Arunachal Learning Mission","state":"Arunachal Pradesh","focus":"Education","trust_score":0.5,"certified":false,"trustee_contact":"Pema Dorjee - +91 8976123456","about":"Provides rural school infrastructure support."},
+
+  {"ngo_id":"AS-WAT-001","name":"Assam WaterWorks","state":"Assam","focus":"Water","trust_score":0.7,"certified":true,"trustee_contact":"Rohit Bora - +91 9865123456","about":"Clean water and river projects for rural areas."},
+  {"ngo_id":"AS-HEA-001","name":"Assam HealthBridge","state":"Assam","focus":"Health","trust_score":0.65,"certified":true,"trustee_contact":"Anita Das - +91 9865432109","about":"Mobile health clinics and awareness programs."},
+  {"ngo_id":"AS-EDU-001","name":"Assam EduMission","state":"Assam","focus":"Education","trust_score":0.6,"certified":true,"trustee_contact":"Rina Saikia - +91 9865123457","about":"School digital learning programs."},
+
+  {"ngo_id":"BR-WAT-001","name":"Bihar WaterAid","state":"Bihar","focus":"Water","trust_score":0.6,"certified":true,"trustee_contact":"Sunil Kumar - +91 9123456789","about":"Water purification and sanitation in villages."},
+  {"ngo_id":"BR-EDU-001","name":"Bihar Learning Foundation","state":"Bihar","focus":"Education","trust_score":0.55,"certified":false,"trustee_contact":"Priya Singh - +91 9123456790","about":"Rural literacy and vocational training."},
+  {"ngo_id":"BR-HEA-001","name":"Bihar Health Network","state":"Bihar","focus":"Health","trust_score":0.65,"certified":true,"trustee_contact":"Dr. Anil Kumar - +91 9123456791","about":"Mobile clinics and preventive care."},
+
+  {"ngo_id":"CH-WOM-001","name":"Chandigarh WomenRise","state":"Chandigarh","focus":"Women","trust_score":0.7,"certified":true,"trustee_contact":"Neha Sharma - +91 9876543210","about":"Women empowerment and skill development programs."},
+  {"ngo_id":"CH-EDU-001","name":"Chandigarh EduSociety","state":"Chandigarh","focus":"Education","trust_score":0.6,"certified":true,"trustee_contact":"Ramesh Kumar - +91 9876543211","about":"Education support and scholarships."},
+
+  {"ngo_id":"CT-ENV-001","name":"Chhattisgarh Green Earth","state":"Chhattisgarh","focus":"Environment","trust_score":0.65,"certified":true,"trustee_contact":"Sanjay Verma - +91 9988776655","about":"Forest conservation and eco-awareness programs."},
+  {"ngo_id":"CT-WAT-001","name":"Chhattisgarh WaterCare","state":"Chhattisgarh","focus":"Water","trust_score":0.6,"certified":false,"trustee_contact":"Anita Singh - +91 9988776644","about":"Village water supply and sanitation projects."},
+
+  {"ngo_id":"DL-HEA-001","name":"Delhi Health Foundation","state":"Delhi","focus":"Health","trust_score":0.8,"certified":true,"trustee_contact":"Dr. Anil Gupta - +91 9112345678","about":"Health camps and preventive healthcare."},
+  {"ngo_id":"DL-EDU-001","name":"Delhi EduTrust","state":"Delhi","focus":"Education","trust_score":0.7,"certified":true,"trustee_contact":"Rina Kapoor - +91 9112345679","about":"Digital literacy and school programs."},
+
+  {"ngo_id":"GA-WAT-001","name":"Goa Water Initiative","state":"Goa","focus":"Water","trust_score":0.65,"certified":true,"trustee_contact":"Antonio D'Souza - +91 9823456789","about":"Clean water and sanitation support."},
+  {"ngo_id":"GA-ENV-001","name":"Goa EcoTourism Trust","state":"Goa","focus":"Environment","trust_score":0.55,"certified":false,"trustee_contact":"Maria Fernandes - +91 9823456790","about":"Eco-tourism and environmental awareness."},
+
+  {"ngo_id":"GJ-SKI-001","name":"SkillUp Gujarat","state":"Gujarat","focus":"Skill","trust_score":0.72,"certified":true,"trustee_contact":"Vikram Patel - +91 9822334455","about":"Vocational training for youth."},
+  {"ngo_id":"GJ-YOU-001","name":"Youth Career Builders","state":"Gujarat","focus":"Skill","trust_score":0.38,"certified":false,"trustee_contact":"Rita Shah - +91 9911223344","about":"Career guidance and entrepreneurship support."},
+  {"ngo_id":"GJ-HEA-001","name":"Gujarat HealthAid","state":"Gujarat","focus":"Health","trust_score":0.6,"certified":true,"trustee_contact":"Dr. Meera Desai - +91 9822334466","about":"Healthcare access for rural communities."},
+
+  {"ngo_id":"HR-HEA-001","name":"Haryana Health Network","state":"Haryana","focus":"Health","trust_score":0.7,"certified":true,"trustee_contact":"Dr. Sunil Choudhary - +91 9811223344","about":"Mobile clinics and health awareness."},
+  {"ngo_id":"HR-SKI-001","name":"Haryana SkillUp","state":"Haryana","focus":"Skill","trust_score":0.65,"certified":true,"trustee_contact":"Anil Sharma - +91 9811223345","about":"Vocational training programs for youth."},
+
+  {"ngo_id":"HP-ENV-001","name":"Himachal Green Society","state":"Himachal Pradesh","focus":"Environment","trust_score":0.7,"certified":true,"trustee_contact":"Puneet Thakur - +91 9812345670","about":"Forest conservation and eco-awareness."},
+  {"ngo_id":"HP-HEA-001","name":"Himachal Health Network","state":"Himachal Pradesh","focus":"Health","trust_score":0.65,"certified":true,"trustee_contact":"Dr. Anjali Rana - +91 9812345671","about":"Healthcare support for rural villages."},
+
+  {"ngo_id":"JH-HEA-001","name":"Jharkhand HealthAid","state":"Jharkhand","focus":"Health","trust_score":0.65,"certified":true,"trustee_contact":"Ramesh Kumar - +91 9876543212","about":"Mobile health services for rural villages."},
+  {"ngo_id":"JH-EDU-001","name":"Jharkhand EduMission","state":"Jharkhand","focus":"Education","trust_score":0.6,"certified":true,"trustee_contact":"Anita Devi - +91 9876543213","about":"Literacy and school programs for children."},
+
+  {"ngo_id":"KA-EDU-001","name":"EduFuture Society","state":"Karnataka","focus":"Education","trust_score":0.7,"certified":true,"trustee_contact":"Ramesh Shetty - +91 9912345678","about":"Digital literacy and rural school support."},
+  {"ngo_id":"KA-EDU-002","name":"Bright Schools Initiative","state":"Karnataka","focus":"Education","trust_score":0.5,"certified":true,"trustee_contact":"Ananya Rao - +91 9988776655","about":"Teacher training and scholarships."},
+  {"ngo_id":"KA-WAT-001","name":"Karnataka WaterAid","state":"Karnataka","focus":"Water","trust_score":0.6,"certified":true,"trustee_contact":"Vikram Rao - +91 9911223344","about":"Water infrastructure and sanitation."},
+
+  {"ngo_id":"KL-HEA-001","name":"Kerala HealthNet","state":"Kerala","focus":"Health","trust_score":0.75,"certified":true,"trustee_contact":"Dr. Priya Nair - +91 9898765432","about":"Rural healthcare and telemedicine."},
+  {"ngo_id":"KL-EDU-001","name":"Kerala EduTrust","state":"Kerala","focus":"Education","trust_score":0.7,"certified":true,"trustee_contact":"Anil Menon - +91 9898765433","about":"Digital learning and school support."},
+
+  {"ngo_id":"MP-EDU-001","name":"Madhya EduMission","state":"Madhya Pradesh","focus":"Education","trust_score":0.65,"certified":true,"trustee_contact":"Rohit Verma - +91 9123456781","about":"School infrastructure and teacher training."},
+  {"ngo_id":"MP-WAT-001","name":"Madhya Pradesh WaterAid","state":"Madhya Pradesh","focus":"Water","trust_score":0.6,"certified":true,"trustee_contact":"Sunil Patel - +91 9123456782","about":"Clean water and sanitation projects."},
+
+  {"ngo_id":"MH-WAT-001","name":"WaterHope Foundation","state":"Maharashtra","focus":"Water","trust_score":0.6,"certified":true,"trustee_contact":"Anil Deshmukh - +91 9823456789","about":"Rural water pipelines and sanitation."},
+  {"ngo_id":"MH-WAT-002","name":"Green Village NGO","state":"Maharashtra","focus":"Water","trust_score":0.4,"certified":false,"trustee_contact":"Priya Kulkarni - +91 9876543210","about":"Water conservation and rainwater harvesting."},
+  {"ngo_id":"MH-WAT-003","name":"Urban Sanitation Trust","state":"Maharashtra","focus":"Water","trust_score":0.75,"certified":true,"trustee_contact":"Rohit Patil - +91 9765432109","about":"Urban sanitation and sewage management."},
+
+  {"ngo_id":"MN-EDU-001","name":"Manipur Learning Mission","state":"Manipur","focus":"Education","trust_score":0.6,"certified":true,"trustee_contact":"Rina Devi - +91 9865123450","about":"School infrastructure and literacy programs."},
+  {"ngo_id":"MN-HEA-001","name":"Manipur HealthAid","state":"Manipur","focus":"Health","trust_score":0.65,"certified":true,"trustee_contact":"Dr. Suresh Singh - +91 9865123451","about":"Health camps and mobile clinics."},
+
+  {"ngo_id":"ML-ENV-001","name":"Meghalaya Green Trust","state":"Meghalaya","focus":"Environment","trust_score":0.65,"certified":true,"trustee_contact":"Pritam Dkhar - +91 9865123452","about":"Forest conservation and eco-awareness."},
+  {"ngo_id":"ML-WAT-001","name":"Meghalaya WaterCare","state":"Meghalaya","focus":"Water","trust_score":0.6,"certified":true,"trustee_contact":"Anita Sangma - +91 9865123453","about":"Water supply and sanitation projects."},
+
+  {"ngo_id":"MZ-HEA-001","name":"Mizoram Health Foundation","state":"Mizoram","focus":"Health","trust_score":0.7,"certified":true,"trustee_contact":"Dr. Lalhmingthanga - +91 9865123454","about":"Mobile health services in villages."},
+  {"ngo_id":"MZ-EDU-001","name":"Mizoram EduTrust","state":"Mizoram","focus":"Education","trust_score":0.6,"certified":true,"trustee_contact":"Rina Sailo - +91 9865123455","about":"School support and literacy programs."},
+
+  {"ngo_id":"NL-ENV-001","name":"Nagaland Green Mission","state":"Nagaland","focus":"Environment","trust_score":0.65,"certified":true,"trustee_contact":"Kaito Ao - +91 9865123456","about":"Forest protection and eco-awareness."},
+  {"ngo_id":"NL-EDU-001","name":"Nagaland EduMission","state":"Nagaland","focus":"Education","trust_score":0.6,"certified":true,"trustee_contact":"Zhimomi Liezietsu - +91 9865123457","about":"School support for rural areas."},
+
+  {"ngo_id":"OR-WAT-001","name":"Odisha WaterAid","state":"Odisha","focus":"Water","trust_score":0.65,"certified":true,"trustee_contact":"Ramesh Patnaik - +91 9865123458","about":"Water supply and sanitation for villages."},
+  {"ngo_id":"OR-EDU-001","name":"Odisha EduTrust","state":"Odisha","focus":"Education","trust_score":0.6,"certified":true,"trustee_contact":"Anita Mohanty - +91 9865123459","about":"Literacy programs and school support."},
+
+  {"ngo_id":"PB-EDU-001","name":"Punjab EduMission","state":"Punjab","focus":"Education","trust_score":0.65,"certified":true,"trustee_contact":"Raman Singh - +91 9876543213","about":"School infrastructure and digital learning."},
+  {"ngo_id":"PB-HEA-001","name":"Punjab HealthNet","state":"Punjab","focus":"Health","trust_score":0.7,"certified":true,"trustee_contact":"Dr. Preeti Kaur - +91 9876543214","about":"Rural health camps and preventive care."},
+
+  {"ngo_id":"RJ-WOM-001","name":"WomenRise Collective","state":"Rajasthan","focus":"Women","trust_score":0.65,"certified":true,"trustee_contact":"Sunita Rathore - +91 9876543215","about":"Women empowerment and skill development."},
+  {"ngo_id":"RJ-EMP-001","name":"EmpowerHer Foundation","state":"Rajasthan","focus":"Women","trust_score":0.45,"certified":false,"trustee_contact":"Meena Sharma - +91 9876543216","about":"Financial support and microloans for women."},
+  {"ngo_id":"RJ-EDU-001","name":"Rajasthan EduTrust","state":"Rajasthan","focus":"Education","trust_score":0.6,"certified":true,"trustee_contact":"Rohit Singh - +91 9876543217","about":"Digital literacy and rural schools."},
+
+  {"ngo_id":"SK-EDU-001","name":"Sikkim EduMission","state":"Sikkim","focus":"Education","trust_score":0.6,"certified":true,"trustee_contact":"Sonam Bhutia - +91 9876543218","about":"Rural literacy and teacher training."},
+  {"ngo_id":"SK-ENV-001","name":"Sikkim Green Trust","state":"Sikkim","focus":"Environment","trust_score":0.65,"certified":true,"trustee_contact":"Tashi Lepcha - +91 9876543219","about":"Forest and biodiversity protection."},
+
+  {"ngo_id":"TN-HEA-001","name":"Rural Health Trust","state":"Tamil Nadu","focus":"Health","trust_score":0.8,"certified":true,"trustee_contact":"Dr. Arjun - +91 9876543220","about":"Health services for rural areas."},
+  {"ngo_id":"TN-HEA-002","name":"LifeCare Foundation","state":"Tamil Nadu","focus":"Health","trust_score":0.55,"certified":true,"trustee_contact":"Dr. Priya - +91 9876543221","about":"Health awareness and mobile clinics."},
+  {"ngo_id":"TN-HEA-003","name":"Village Medical Aid","state":"Tamil Nadu","focus":"Health","trust_score":0.35,"certified":false,"trustee_contact":"Ravi Kumar - +91 9876543222","about":"Medical support in villages."},
+
+  {"ngo_id":"TG-EDU-001","name":"Telangana EduTrust","state":"Telangana","focus":"Education","trust_score":0.65,"certified":true,"trustee_contact":"Rohit Reddy - +91 9876543223","about":"School support and scholarships."},
+  {"ngo_id":"TG-WAT-001","name":"Telangana WaterAid","state":"Telangana","focus":"Water","trust_score":0.6,"certified":true,"trustee_contact":"Sita Reddy - +91 9876543224","about":"Rural water and sanitation projects."},
+
+  {"ngo_id":"TR-EDU-001","name":"Tripura EduMission","state":"Tripura","focus":"Education","trust_score":0.6,"certified":true,"trustee_contact":"Rina Debbarma - +91 9876543225","about":"Rural school support and literacy programs."},
+  {"ngo_id":"TR-HEA-001","name":"Tripura HealthAid","state":"Tripura","focus":"Health","trust_score":0.65,"certified":true,"trustee_contact":"Dr. Rajesh Deb - +91 9876543226","about":"Healthcare support for villages."},
+
+  {"ngo_id":"UP-EDU-001","name":"Uttar Pradesh EduTrust","state":"Uttar Pradesh","focus":"Education","trust_score":0.6,"certified":true,"trustee_contact":"Amit Singh - +91 9876543227","about":"Rural school infrastructure support."},
+  {"ngo_id":"UP-HEA-001","name":"UP HealthNet","state":"Uttar Pradesh","focus":"Health","trust_score":0.65,"certified":true,"trustee_contact":"Dr. Priya - +91 9876543228","about":"Mobile health services and awareness."},
+  {"ngo_id":"UP-WAT-001","name":"UP WaterAid","state":"Uttar Pradesh","focus":"Water","trust_score":0.6,"certified":true,"trustee_contact":"Ramesh Kumar - +91 9876543229","about":"Water sanitation and pipelines."},
+
+  {"ngo_id":"UK-EDU-001","name":"Uttarakhand EduMission","state":"Uttarakhand","focus":"Education","trust_score":0.65,"certified":true,"trustee_contact":"Ravi Rawat - +91 9876543230","about":"School and literacy programs in rural areas."},
+  {"ngo_id":"UK-WAT-001","name":"Uttarakhand WaterTrust","state":"Uttarakhand","focus":"Water","trust_score":0.6,"certified":true,"trustee_contact":"Anita Negi - +91 9876543231","about":"Clean water and sanitation support."},
+
+  {"ngo_id":"WB-WAT-001","name":"CleanRiver Initiative","state":"West Bengal","focus":"Water","trust_score":0.58,"certified":true,"trustee_contact":"Sanjay Sen - +91 9876543232","about":"Water purification and river cleanup programs."},
+  {"ngo_id":"WB-HEA-001","name":"HealthBridge East","state":"West Bengal","focus":"Health","trust_score":0.62,"certified":true,"trustee_contact":"Dr. Ananya Chatterjee - +91 9876543233","about":"Health services for rural communities."},
+  {"ngo_id":"WB-EDU-001","name":"Bengal EduMission","state":"West Bengal","focus":"Education","trust_score":0.6,"certified":true,"trustee_contact":"Rina Das - +91 9876543234","about":"School support and literacy programs."}
 ]
