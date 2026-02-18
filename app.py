@@ -9,13 +9,20 @@ from agents import ngo_agent, csr_agent, supplier_agent, decision_agent
 st.set_page_config(page_title="Bridge17 Agentic AI Engine", layout="wide")
 
 # -------------------------------
-# Custom CSS for professional look
+# Custom CSS for professional black theme
 # -------------------------------
 st.markdown("""
 <style>
-/* Page background */
+/* Main page background */
 [data-testid="stAppViewContainer"] {
-    background-color: #f5f5f7;
+    background-color: #0a0a0a;  /* Black */
+    color: white;
+}
+
+/* Sidebar background */
+[data-testid="stSidebar"] {
+    background-color: #0a0a0a;  /* Black */
+    color: white;
 }
 
 /* Table headers */
@@ -28,15 +35,16 @@ div[data-baseweb="table"] th {
 /* Table cells */
 div[data-baseweb="table"] td {
     font-size: 15px;
+    color: white;
 }
 
-/* Card style for details */
+/* Card style for NGO details */
 .ngo-card {
-    border: 1px solid #d9d9d9;
+    border: 1px solid #444444;
     padding: 15px;
     border-radius: 10px;
-    background-color: white;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    background-color: #1a1a1a;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     margin-bottom: 15px;
 }
 
@@ -66,8 +74,8 @@ div[data-baseweb="table"] td {
 # -------------------------------
 # Title
 # -------------------------------
-st.markdown("<h1 style='color:#004080;'>🤖 Bridge17 - Agentic Partnership Intelligence System</h1>", unsafe_allow_html=True)
-st.markdown("<p style='font-size:16px;'>Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration.</p>", unsafe_allow_html=True)
+st.markdown("<h1 style='color:#00ccff;'>🤖 Bridge17 - Agentic Partnership Intelligence System</h1>", unsafe_allow_html=True)
+st.markdown("<p style='font-size:16px; color:white;'>Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration.</p>", unsafe_allow_html=True)
 
 # -------------------------------
 # Load Data
@@ -81,7 +89,9 @@ with open("csr.json") as f:
 with open("suppliers.json") as f:
     suppliers = json.load(f)
 
+# -------------------------------
 # SDG Colors
+# -------------------------------
 sdg_colors = {
     "SDG 1 – No Poverty": "#E5243B",
     "SDG 2 – Zero Hunger": "#DDA63A",
