@@ -9,17 +9,17 @@ from agents import ngo_agent, csr_agent, supplier_agent, decision_agent
 st.set_page_config(page_title="Bridge17 Agentic AI Engine", layout="wide")
 
 # -------------------------------
-# Custom CSS for professional black theme
+# Custom CSS for professional look with Spatial Violet mainbar
 # -------------------------------
 st.markdown("""
 <style>
-/* Main page background */
+/* Main page background (Spatial Violet) */
 [data-testid="stAppViewContainer"] {
-    background-color: #0a0a0a;  /* Black */
+    background-color: #5D3FD3;  /* Spatial Violet */
     color: white;
 }
 
-/* Sidebar background */
+/* Sidebar background (Black) */
 [data-testid="stSidebar"] {
     background-color: #0a0a0a;  /* Black */
     color: white;
@@ -43,7 +43,7 @@ div[data-baseweb="table"] td {
     border: 1px solid #444444;
     padding: 15px;
     border-radius: 10px;
-    background-color: #1a1a1a;
+    background-color: #3a2ea0;  /* Darker violet for cards */
     box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     margin-bottom: 15px;
 }
@@ -74,7 +74,7 @@ div[data-baseweb="table"] td {
 # -------------------------------
 # Title
 # -------------------------------
-st.markdown("<h1 style='color:#00ccff;'>🤖 Bridge17 - Agentic Partnership Intelligence System</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color:#ffdd00;'>🤖 Bridge17 - Agentic Partnership Intelligence System</h1>", unsafe_allow_html=True)
 st.markdown("<p style='font-size:16px; color:white;'>Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration.</p>", unsafe_allow_html=True)
 
 # -------------------------------
