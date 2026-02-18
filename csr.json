@@ -1,94 +1,18 @@
 [
-  {"state":"Andhra Pradesh","focus":"Education","csr_amount":75000000},
-  {"state":"Andhra Pradesh","focus":"Water","csr_amount":50000000},
-
-  {"state":"Arunachal Pradesh","focus":"Education","csr_amount":15000000},
-  {"state":"Arunachal Pradesh","focus":"Environment","csr_amount":12000000},
-
-  {"state":"Assam","focus":"Water","csr_amount":40000000},
-  {"state":"Assam","focus":"Health","csr_amount":35000000},
-  {"state":"Assam","focus":"Education","csr_amount":30000000},
-
-  {"state":"Bihar","focus":"Water","csr_amount":45000000},
-  {"state":"Bihar","focus":"Education","csr_amount":40000000},
-  {"state":"Bihar","focus":"Health","csr_amount":35000000},
-
-  {"state":"Chandigarh","focus":"Women","csr_amount":25000000},
-  {"state":"Chandigarh","focus":"Education","csr_amount":30000000},
-
-  {"state":"Chhattisgarh","focus":"Environment","csr_amount":30000000},
-  {"state":"Chhattisgarh","focus":"Water","csr_amount":25000000},
-
-  {"state":"Delhi","focus":"Health","csr_amount":60000000},
-  {"state":"Delhi","focus":"Education","csr_amount":55000000},
-
-  {"state":"Goa","focus":"Water","csr_amount":20000000},
-  {"state":"Goa","focus":"Environment","csr_amount":18000000},
-
-  {"state":"Gujarat","focus":"Skill","csr_amount":45000000},
-  {"state":"Gujarat","focus":"Health","csr_amount":40000000},
-
-  {"state":"Haryana","focus":"Health","csr_amount":40000000},
-  {"state":"Haryana","focus":"Skill","csr_amount":35000000},
-
-  {"state":"Himachal Pradesh","focus":"Environment","csr_amount":20000000},
-  {"state":"Himachal Pradesh","focus":"Health","csr_amount":18000000},
-
-  {"state":"Jharkhand","focus":"Health","csr_amount":35000000},
-  {"state":"Jharkhand","focus":"Education","csr_amount":30000000},
-
-  {"state":"Karnataka","focus":"Education","csr_amount":50000000},
-  {"state":"Karnataka","focus":"Water","csr_amount":40000000},
-
-  {"state":"Kerala","focus":"Health","csr_amount":45000000},
-  {"state":"Kerala","focus":"Education","csr_amount":40000000},
-
-  {"state":"Madhya Pradesh","focus":"Education","csr_amount":40000000},
-  {"state":"Madhya Pradesh","focus":"Water","csr_amount":35000000},
-
-  {"state":"Maharashtra","focus":"Water","csr_amount":85000000},
-  {"state":"Maharashtra","focus":"Education","csr_amount":60000000},
-
-  {"state":"Manipur","focus":"Education","csr_amount":15000000},
-  {"state":"Manipur","focus":"Health","csr_amount":18000000},
-
-  {"state":"Meghalaya","focus":"Environment","csr_amount":18000000},
-  {"state":"Meghalaya","focus":"Water","csr_amount":15000000},
-
-  {"state":"Mizoram","focus":"Health","csr_amount":15000000},
-  {"state":"Mizoram","focus":"Education","csr_amount":12000000},
-
-  {"state":"Nagaland","focus":"Environment","csr_amount":15000000},
-  {"state":"Nagaland","focus":"Education","csr_amount":12000000},
-
-  {"state":"Odisha","focus":"Water","csr_amount":35000000},
-  {"state":"Odisha","focus":"Education","csr_amount":30000000},
-
-  {"state":"Punjab","focus":"Education","csr_amount":40000000},
-  {"state":"Punjab","focus":"Health","csr_amount":35000000},
-
-  {"state":"Rajasthan","focus":"Women","csr_amount":30000000},
-  {"state":"Rajasthan","focus":"Education","csr_amount":25000000},
-
-  {"state":"Sikkim","focus":"Education","csr_amount":12000000},
-  {"state":"Sikkim","focus":"Environment","csr_amount":10000000},
-
-  {"state":"Tamil Nadu","focus":"Health","csr_amount":62000000},
-
-  {"state":"Telangana","focus":"Education","csr_amount":40000000},
-  {"state":"Telangana","focus":"Water","csr_amount":35000000},
-
-  {"state":"Tripura","focus":"Education","csr_amount":15000000},
-  {"state":"Tripura","focus":"Health","csr_amount":18000000},
-
-  {"state":"Uttar Pradesh","focus":"Education","csr_amount":50000000},
-  {"state":"Uttar Pradesh","focus":"Health","csr_amount":45000000},
-  {"state":"Uttar Pradesh","focus":"Water","csr_amount":40000000},
-
-  {"state":"Uttarakhand","focus":"Education","csr_amount":30000000},
-  {"state":"Uttarakhand","focus":"Water","csr_amount":25000000},
-
-  {"state":"West Bengal","focus":"Water","csr_amount":40000000},
-  {"state":"West Bengal","focus":"Health","csr_amount":38000000},
-  {"state":"West Bengal","focus":"Education","csr_amount":35000000}
+  {"state":"Maharashtra","sdg_goal":"SDG 6 – Clean Water & Sanitation","csr_amount":85000000},
+  {"state":"Maharashtra","sdg_goal":"SDG 4 – Quality Education","csr_amount":60000000},
+  {"state":"Tamil Nadu","sdg_goal":"SDG 3 – Good Health & Well-being","csr_amount":62000000},
+  {"state":"Tamil Nadu","sdg_goal":"SDG 4 – Quality Education","csr_amount":50000000},
+  {"state":"Karnataka","sdg_goal":"SDG 4 – Quality Education","csr_amount":50000000},
+  {"state":"Karnataka","sdg_goal":"SDG 8 – Decent Work & Economic Growth","csr_amount":45000000},
+  {"state":"Gujarat","sdg_goal":"SDG 8 – Decent Work & Economic Growth","csr_amount":45000000},
+  {"state":"Gujarat","sdg_goal":"SDG 3 – Good Health & Well-being","csr_amount":40000000},
+  {"state":"Rajasthan","sdg_goal":"SDG 5 – Gender Equality","csr_amount":30000000},
+  {"state":"Rajasthan","sdg_goal":"SDG 4 – Quality Education","csr_amount":25000000},
+  {"state":"West Bengal","sdg_goal":"SDG 6 – Clean Water & Sanitation","csr_amount":40000000},
+  {"state":"West Bengal","sdg_goal":"SDG 3 – Good Health & Well-being","csr_amount":38000000},
+  {"state":"Delhi","sdg_goal":"SDG 3 – Good Health & Well-being","csr_amount":60000000},
+  {"state":"Delhi","sdg_goal":"SDG 4 – Quality Education","csr_amount":55000000},
+  {"state":"Andhra Pradesh","sdg_goal":"SDG 4 – Quality Education","csr_amount":75000000},
+  {"state":"Andhra Pradesh","sdg_goal":"SDG 6 – Clean Water & Sanitation","csr_amount":50000000}
 ]
