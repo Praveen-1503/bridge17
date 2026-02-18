@@ -37,7 +37,7 @@ filtered_ngos = [
 results = []
 
 # -----------------------
-# Run Multi-Agent Engine
+# Multi-Agent Engine
 # -----------------------
 for ngo in filtered_ngos:
 
@@ -48,7 +48,11 @@ for ngo in filtered_ngos:
     final_score = decision_agent(ngo_score, csr_score, supplier_score)
 
     results.append({
+        "NGO ID": ngo.get("ngo_id", ""),
         "NGO": ngo["name"],
+        "Certified": "Yes" if ngo.get("certified", False) else "No",
+        "Trustee Contact": ngo.get("trustee_contact", ""),
+        "About": ngo.get("about", ""),
         "Final Score": final_score,
         "NGO Score": ngo_score,
         "CSR Score": csr_score,
@@ -62,61 +66,53 @@ for ngo in filtered_ngos:
     })
 
 # -----------------------
-# UI Rendering
+# Initialize session state for click
 # -----------------------
-if results:
+if "selected_ngo" not in st.session_state:
+    st.session_state.selected_ngo = None
 
-    df = pd.DataFrame(results).sort_values(by="Final Score", ascending=False)
+# -----------------------
+# DETAIL VIEW
+# -----------------------
+if st.session_state.selected_ngo:
+    top = next(item for item in results if item["NGO"] == st.session_state.selected_ngo)
 
-    # Initialize session state
-    if "selected_ngo" not in st.session_state:
+    st.subheader(f"📌 NGO Details: {top['NGO']}")
+
+    st.write(f"**NGO ID:** {top['NGO ID']}")
+    st.write(f"**Certified:** {top['Certified']}")
+    st.write(f"**Trustee Contact:** {top['Trustee Contact']}")
+    st.write(f"**About NGO:** {top['About']}")
+    st.write(f"**Risk Level:** {top['Risk Level']}")
+    st.write(f"**CSR Available:** ₹{top['CSR Available']}")
+    st.write(f"**Supplier Partner:** {top['Supplier']}")
+
+    st.subheader("📈 Score Breakdown")
+    breakdown_df = pd.DataFrame({
+        "Component": ["NGO Strength", "CSR Opportunity", "Supplier Reliability"],
+        "Score": [
+            top["NGO Score"],
+            top["CSR Score"],
+            top["Supplier Score"]
+        ]
+    })
+    st.bar_chart(breakdown_df.set_index("Component"))
+
+    st.subheader("🧠 Agent Reasoning")
+    st.write(top["NGO Agent Reasoning"])
+    st.write(top["CSR Agent Reasoning"])
+    st.write(top["Supplier Agent Reasoning"])
+
+    if st.button("⬅ Back to Rankings"):
         st.session_state.selected_ngo = None
+        st.rerun()
 
-    # =======================
-    # DETAIL VIEW
-    # =======================
-    if st.session_state.selected_ngo:
-
-        top = df[df["NGO"] == st.session_state.selected_ngo].iloc[0]
-
-        st.subheader(f"📌 NGO Details: {top['NGO']}")
-
-        col1, col2 = st.columns(2)
-
-        with col1:
-            st.metric("Final Partnership Score", top["Final Score"])
-            st.write(f"**Risk Level:** {top['Risk Level']}")
-            st.write(f"**CSR Available:** ₹{top['CSR Available']}")
-
-        with col2:
-            st.write(f"**Supplier Partner:** {top['Supplier']}")
-
-        st.subheader("📈 Score Breakdown")
-
-        breakdown_df = pd.DataFrame({
-            "Component": ["NGO Strength", "CSR Opportunity", "Supplier Reliability"],
-            "Score": [
-                top["NGO Score"],
-                top["CSR Score"],
-                top["Supplier Score"]
-            ]
-        })
-
-        st.bar_chart(breakdown_df.set_index("Component"))
-
-        st.subheader("🧠 Agent Reasoning")
-        st.write(top["NGO Agent Reasoning"])
-        st.write(top["CSR Agent Reasoning"])
-        st.write(top["Supplier Agent Reasoning"])
-
-        if st.button("⬅ Back to Rankings"):
-            st.session_state.selected_ngo = None
-            st.rerun()
-
-    # =======================
-    # RANKING VIEW
-    # =======================
-    else:
+# -----------------------
+# RANKING VIEW
+# -----------------------
+else:
+    if results:
+        df = pd.DataFrame(results).sort_values(by="Final Score", ascending=False)
 
         st.subheader("📊 Ranked Partnership Recommendations")
 
@@ -124,6 +120,7 @@ if results:
             col1, col2 = st.columns([3, 1])
 
             with col1:
+                # Make NGO name clickable
                 if st.button(f"🔍 {row['NGO']}", key=row["NGO"]):
                     st.session_state.selected_ngo = row["NGO"]
                     st.rerun()
@@ -136,6 +133,5 @@ if results:
         st.subheader("🏆 Top Recommendation")
         top = df.iloc[0]
         st.success(f"Top NGO: {top['NGO']} with Score {top['Final Score']}")
-
-else:
-    st.warning("No NGOs found for selected filters.")
+    else:
+        st.warning("No NGOs found for selected filters.")
