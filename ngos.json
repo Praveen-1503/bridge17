@@ -1,0 +1,6 @@
+[
+    {"name": "WaterHope Foundation", "state": "Maharashtra", "focus": "Water", "trust_score": 0.6},
+    {"name": "Rural Health Trust", "state": "Tamil Nadu", "focus": "Health", "trust_score": 0.8},
+    {"name": "Green Village NGO", "state": "Maharashtra", "focus": "Water", "trust_score": 0.4},
+    {"name": "EduFuture Society", "state": "Karnataka", "focus": "Education", "trust_score": 0.7}
+]

@@ -1,0 +1,5 @@
+[
+    {"state": "Maharashtra", "focus": "Water", "csr_amount": 50000000},
+    {"state": "Tamil Nadu", "focus": "Health", "csr_amount": 30000000},
+    {"state": "Karnataka", "focus": "Education", "csr_amount": 20000000}
+]
