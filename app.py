@@ -9,48 +9,52 @@ from agents import ngo_agent, csr_agent, supplier_agent, decision_agent
 st.set_page_config(page_title="Bridge17 Agentic AI Engine", layout="wide")
 
 # -------------------------------
-# Custom CSS for professional look with Spatial Violet mainbar
+# Custom CSS for Light Theme
 # -------------------------------
 st.markdown("""
 <style>
-/* Main page background (Spatial Violet) */
+/* Main page background: light gray diagonal gradient */
 [data-testid="stAppViewContainer"] {
-    background-color: #5D3FD3;  /* Spatial Violet */
-    color: white;
+    background: linear-gradient(135deg, #e0e0e0, #f5f5f5);
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-/* Sidebar background (Black) */
+/* Sidebar background: Lavender with slightly rounded corners */
 [data-testid="stSidebar"] {
-    background-color: #0a0a0a;  /* Black */
-    color: white;
+    background-color: #E6E6FA;
+    color: black;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 /* Table headers */
 div[data-baseweb="table"] th {
-    background-color: #004080;
-    color: white;
+    background-color: #b39ddb;
+    color: black;
     font-size: 16px;
 }
 
 /* Table cells */
 div[data-baseweb="table"] td {
     font-size: 15px;
-    color: white;
+    color: black;
 }
 
 /* Card style for NGO details */
 .ngo-card {
-    border: 1px solid #444444;
+    border: 1px solid #aaaaaa;
     padding: 15px;
     border-radius: 10px;
-    background-color: #3a2ea0;  /* Darker violet for cards */
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    background-color: #d1c4e9;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
     margin-bottom: 15px;
 }
 
 /* Buttons style */
 .stButton>button {
-    background-color: #004080;
+    background-color: #7e57c2;
     color: white;
     font-weight: bold;
     border-radius: 5px;
@@ -58,7 +62,7 @@ div[data-baseweb="table"] td {
 }
 
 .stButton>button:hover {
-    background-color: #0066cc;
+    background-color: #5e35b1;
 }
 
 /* SDG badge */
@@ -74,8 +78,8 @@ div[data-baseweb="table"] td {
 # -------------------------------
 # Title
 # -------------------------------
-st.markdown("<h1 style='color:#ffdd00;'>🤖 Bridge17 - Agentic Partnership Intelligence System</h1>", unsafe_allow_html=True)
-st.markdown("<p style='font-size:16px; color:white;'>Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration.</p>", unsafe_allow_html=True)
+st.markdown("<h1 style='color:#4B0082;'>🤖 Bridge17 - Agentic Partnership Intelligence System</h1>", unsafe_allow_html=True)
+st.markdown("<p style='font-size:16px; color:black;'>Multi-Agent AI evaluating NGO-Government-CSR-Supplier collaboration.</p>", unsafe_allow_html=True)
 
 # -------------------------------
 # Load Data
@@ -90,26 +94,26 @@ with open("suppliers.json") as f:
     suppliers = json.load(f)
 
 # -------------------------------
-# SDG Colors
+# SDG Colors (Pastel Version)
 # -------------------------------
 sdg_colors = {
-    "SDG 1 – No Poverty": "#E5243B",
-    "SDG 2 – Zero Hunger": "#DDA63A",
-    "SDG 3 – Good Health & Well-being": "#4C9F38",
-    "SDG 4 – Quality Education": "#C5192D",
-    "SDG 5 – Gender Equality": "#FF3A21",
-    "SDG 6 – Clean Water & Sanitation": "#26BDE2",
-    "SDG 7 – Affordable & Clean Energy": "#FCC30B",
-    "SDG 8 – Decent Work & Economic Growth": "#A21942",
-    "SDG 9 – Industry, Innovation & Infrastructure": "#FD6925",
-    "SDG 10 – Reduced Inequalities": "#DD1367",
-    "SDG 11 – Sustainable Cities & Communities": "#FD9D24",
-    "SDG 12 – Responsible Consumption & Production": "#BF8B2E",
-    "SDG 13 – Climate Action": "#3F7E44",
-    "SDG 14 – Life Below Water": "#0A97D9",
-    "SDG 15 – Life on Land": "#56C02B",
-    "SDG 16 – Peace, Justice & Strong Institutions": "#00689D",
-    "SDG 17 – Partnerships for the Goals": "#19486A"
+    "SDG 1 – No Poverty": "#FFB3B3",
+    "SDG 2 – Zero Hunger": "#FFE0B3",
+    "SDG 3 – Good Health & Well-being": "#B3E6B3",
+    "SDG 4 – Quality Education": "#FFCCCB",
+    "SDG 5 – Gender Equality": "#FFB3D1",
+    "SDG 6 – Clean Water & Sanitation": "#B3E0FF",
+    "SDG 7 – Affordable & Clean Energy": "#FFF0B3",
+    "SDG 8 – Decent Work & Economic Growth": "#FFCCE6",
+    "SDG 9 – Industry, Innovation & Infrastructure": "#FFD9B3",
+    "SDG 10 – Reduced Inequalities": "#E6B3FF",
+    "SDG 11 – Sustainable Cities & Communities": "#FFE6B3",
+    "SDG 12 – Responsible Consumption & Production": "#D9FFB3",
+    "SDG 13 – Climate Action": "#B3FFCC",
+    "SDG 14 – Life Below Water": "#B3E0FF",
+    "SDG 15 – Life on Land": "#CCFFB3",
+    "SDG 16 – Peace, Justice & Strong Institutions": "#B3CCFF",
+    "SDG 17 – Partnerships for the Goals": "#D9B3FF"
 }
 
 # -------------------------------
@@ -122,7 +126,7 @@ selected_state = st.sidebar.selectbox("Select State", states)
 selected_sdg = st.sidebar.selectbox("Select SDG Goal", sdgs)
 
 # -------------------------------
-# Filter NGOs
+# Filter NGOs and Run Agents
 # -------------------------------
 filtered_ngos = [ngo for ngo in ngos if ngo["state"] == selected_state and ngo["sdg_goal"] == selected_sdg]
 
@@ -139,6 +143,9 @@ for ngo in filtered_ngos:
         "Risk Level": risk,
         "CSR Available": csr_amount,
         "Supplier": supplier_name,
+        "NGO Score": ngo_score,
+        "CSR Score": csr_score,
+        "Supplier Score": supplier_score,
         "NGO Agent Reasoning": ngo_reason,
         "CSR Agent Reasoning": csr_reason,
         "Supplier Agent Reasoning": supplier_reason,
@@ -173,7 +180,7 @@ if results:
         cols[2].write(row["Risk Level"])
         cols[3].write(f"₹{row['CSR Available']}")
         cols[4].write(row["Supplier"])
-        if cols[5].button("More Details", key=row['NGO']):
+        if cols[5].button("More Details", key=f"more_{row['NGO']}"):
             st.session_state.selected_ngo = row['NGO']
 
     # -------------------------------
@@ -205,11 +212,7 @@ if results:
     st.subheader("📈 Score Breakdown")
     breakdown_data = {
         "Component": ["NGO Strength", "CSR Opportunity", "Supplier Reliability"],
-        "Score": [
-            ngo_agent(top["NGO Details"])[0],
-            csr_agent(top["NGO Details"], csr_data)[0],
-            supplier_agent(top["NGO Details"], suppliers)[0]
-        ]
+        "Score": [top["NGO Score"], top["CSR Score"], top["Supplier Score"]]
     }
     breakdown_df = pd.DataFrame(breakdown_data)
     st.bar_chart(breakdown_df.set_index("Component"))
