@@ -58,9 +58,19 @@ if results:
     if "selected_ngo" not in st.session_state:
         st.session_state.selected_ngo = None
 
+    # Header row
+    header_cols = st.columns([2,1,1,1,1,1])
+    header_cols[0].write("**NGO**")
+    header_cols[1].write("**Final Score**")
+    header_cols[2].write("**Risk Level**")
+    header_cols[3].write("**CSR Available**")
+    header_cols[4].write("**Supplier**")
+    header_cols[5].write("**More Details**")
+
+    # Display each row
     for idx, row in df.iterrows():
         cols = st.columns([2,1,1,1,1,1])
-        cols[0].write(f"**{row['NGO']}**")
+        cols[0].write(f"{row['NGO']}")
         cols[1].write(row["Final Score"])
         cols[2].write(row["Risk Level"])
         cols[3].write(f"₹{row['CSR Available']}")
