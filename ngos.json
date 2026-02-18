@@ -1,6 +1,22 @@
 [
     {"name": "WaterHope Foundation", "state": "Maharashtra", "focus": "Water", "trust_score": 0.6},
-    {"name": "Rural Health Trust", "state": "Tamil Nadu", "focus": "Health", "trust_score": 0.8},
     {"name": "Green Village NGO", "state": "Maharashtra", "focus": "Water", "trust_score": 0.4},
-    {"name": "EduFuture Society", "state": "Karnataka", "focus": "Education", "trust_score": 0.7}
+    {"name": "Urban Sanitation Trust", "state": "Maharashtra", "focus": "Water", "trust_score": 0.75},
+
+    {"name": "Rural Health Trust", "state": "Tamil Nadu", "focus": "Health", "trust_score": 0.8},
+    {"name": "LifeCare Foundation", "state": "Tamil Nadu", "focus": "Health", "trust_score": 0.55},
+    {"name": "Village Medical Aid", "state": "Tamil Nadu", "focus": "Health", "trust_score": 0.35},
+
+    {"name": "EduFuture Society", "state": "Karnataka", "focus": "Education", "trust_score": 0.7},
+    {"name": "Bright Schools Initiative", "state": "Karnataka", "focus": "Education", "trust_score": 0.5},
+    {"name": "Rural Learning Mission", "state": "Karnataka", "focus": "Education", "trust_score": 0.3},
+
+    {"name": "WomenRise Collective", "state": "Rajasthan", "focus": "Women", "trust_score": 0.65},
+    {"name": "EmpowerHer Foundation", "state": "Rajasthan", "focus": "Women", "trust_score": 0.45},
+
+    {"name": "SkillUp India", "state": "Gujarat", "focus": "Skill", "trust_score": 0.72},
+    {"name": "Youth Career Builders", "state": "Gujarat", "focus": "Skill", "trust_score": 0.38},
+
+    {"name": "CleanRiver Initiative", "state": "West Bengal", "focus": "Water", "trust_score": 0.58},
+    {"name": "HealthBridge East", "state": "West Bengal", "focus": "Health", "trust_score": 0.62}
 ]
