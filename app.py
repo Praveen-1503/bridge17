@@ -4,9 +4,6 @@ import json
 import pandas as pd
 from agents import ngo_agent, csr_agent, supplier_agent, decision_agent
 
-# -------------------------------
-# Page Configuration
-# -------------------------------
 st.set_page_config(
     page_title="Bridge17 - AI Partnership Engine",
     layout="wide",
@@ -14,29 +11,7 @@ st.set_page_config(
 )
 
 # -------------------------------
-# Custom CSS for styling
-# -------------------------------
-st.markdown("""
-    <style>
-    .stApp {
-        background: linear-gradient(to bottom right, #f0f8ff, #e6f7ff);
-        color: #333333;
-        font-family: 'Segoe UI', sans-serif;
-    }
-    .css-1d391kg { 
-        background-color: #e0f0ff !important;
-    }
-    .stDataFrame th {background-color:#cce6ff; color:#003366;}
-    div.stButton > button:first-child {
-        background-color: #007acc;
-        color: white;
-        border-radius:5px;
-    }
-    </style>
-""", unsafe_allow_html=True)
-
-# -------------------------------
-# SDG Color Mapping
+# SDG Colors
 # -------------------------------
 sdg_colors = {
     "SDG 1 – No Poverty": "#E5243B",
@@ -59,14 +34,6 @@ sdg_colors = {
 }
 
 # -------------------------------
-# Title & Description
-# -------------------------------
-st.title("🤖 Bridge17 - Agentic Partnership Intelligence System")
-st.markdown(
-    "Multi-Agent AI evaluating NGO-Corporate-SDG collaborations. Click an NGO name in the table to view details."
-)
-
-# -------------------------------
 # Load Data
 # -------------------------------
 with open("ngos.json") as f:
@@ -79,16 +46,12 @@ with open("suppliers.json") as f:
     suppliers = json.load(f)
 
 # -------------------------------
-# Convert to DataFrame for filters
-# -------------------------------
-ngos_df = pd.DataFrame(ngos)
-
-# -------------------------------
 # Sidebar Filters
 # -------------------------------
 st.sidebar.header("🔎 Filter Options")
-selected_state = st.sidebar.selectbox("Select State", ngos_df["state"].unique())
-selected_sdg = st.sidebar.selectbox("Select SDG Goal", ngos_df["sdg_goal"].unique())
+df_ngos = pd.DataFrame(ngos)
+selected_state = st.sidebar.selectbox("Select State", df_ngos["state"].unique())
+selected_sdg = st.sidebar.selectbox("Select SDG Goal", df_ngos["sdg_goal"].unique())
 
 # Filter NGOs
 filtered_ngos = [ngo for ngo in ngos if ngo["state"] == selected_state and ngo["sdg_goal"] == selected_sdg]
@@ -97,7 +60,6 @@ filtered_ngos = [ngo for ngo in ngos if ngo["state"] == selected_state and ngo["
 # Evaluate NGOs
 # -------------------------------
 results = []
-
 for ngo in filtered_ngos:
     ngo_score, risk, ngo_reason = ngo_agent(ngo)
     csr_score, csr_amount, csr_reason = csr_agent(ngo, csr_data)
@@ -118,24 +80,29 @@ for ngo in filtered_ngos:
     })
 
 # -------------------------------
-# Display Results
+# Display Table (Clickable)
 # -------------------------------
 if results:
     df = pd.DataFrame(results).sort_values(by="Final Score", ascending=False)
-
     st.subheader("📊 Ranked Partnership Recommendations")
 
-    # Display table with clickable NGO names
-    st.markdown("**Click on an NGO name to view details:**")
+    # Use st.markdown with HTML links to avoid extra spacing
     for idx, row in df.iterrows():
         sdg_color = sdg_colors.get(row["SDG Goal"], "#cccccc")
-        ngo_click = st.button(
-            f"{row['NGO']}  |  {row['SDG Goal']}",
-            key=row["NGO"],
-            help="Click to view full NGO details"
-        )
-        if ngo_click:
-            ngo_detail = row["NGO Details"]
+        ngo_link = f"<button style='background-color:#007ACC;color:white;padding:5px 10px;border-radius:5px;border:none;margin-bottom:3px;cursor:pointer'>{row['NGO']} | <span style='background-color:{sdg_color};padding:3px;border-radius:3px;color:white'>{row['SDG Goal']}</span></button>"
+        if st.markdown(ngo_link, unsafe_allow_html=True):
+            pass  # placeholder, HTML button not interactive, we'll handle click below
+
+    # Use session state to store selected NGO
+    if "selected_ngo" not in st.session_state:
+        st.session_state.selected_ngo = None
+
+    # Click simulation: select NGO via selectbox temporarily to show details
+    selected_ngo_name = st.selectbox("Select NGO to view details (hidden dropdown for session state)", ["--None--"] + df["NGO"].tolist(), index=0)
+    if selected_ngo_name != "--None--":
+        ngo_detail = next((r["NGO Details"] for r in results if r["NGO"] == selected_ngo_name), None)
+        if ngo_detail:
+            sdg_color = sdg_colors.get(ngo_detail["sdg_goal"], "#cccccc")
             st.markdown(f"### 🏛 {ngo_detail['name']}")
             st.markdown(f"**ID:** {ngo_detail['ngo_id']}")
             st.markdown(f"**State:** {ngo_detail['state']}")
@@ -146,37 +113,7 @@ if results:
             st.markdown(f"**Certified:** {'✅ Yes' if ngo_detail['certified'] else '❌ No'}")
             st.markdown(f"**Trustee Contact:** {ngo_detail['trustee_contact']}")
             st.markdown(f"**About NGO:** {ngo_detail['about']}")
-            st.button("⬅ Back to Rankings", key=f"back_{row['NGO']}")
-            break
-    else:
-        # Show the table if no NGO clicked
-        display_df = df[["NGO","Final Score","Risk Level","CSR Available","Supplier","SDG Goal"]].copy()
-        # Style SDG Goal column
-        display_df = display_df.style.applymap(
-            lambda val: f"background-color:{sdg_colors[val]}; color:white; font-weight:bold" if val in sdg_colors else ""
-        )
-        st.dataframe(display_df, height=400)
-
-        # Top NGO and breakdown
-        top = df.iloc[0]
-        st.subheader("🏆 Top Recommendation")
-        st.success(f"Top NGO: {top['NGO']} with Score {top['Final Score']}")
-
-        st.subheader("📈 Score Breakdown")
-        breakdown_data = {
-            "Component": ["NGO Strength", "CSR Opportunity", "Supplier Reliability"],
-            "Score": [
-                ngo_agent(top["NGO Details"])[0],
-                csr_agent(top["NGO Details"], csr_data)[0],
-                supplier_agent(top["NGO Details"], suppliers)[0]
-            ]
-        }
-        breakdown_df = pd.DataFrame(breakdown_data)
-        st.bar_chart(breakdown_df.set_index("Component"))
-
-        st.subheader("🧠 Agent Reasoning Explanation")
-        st.write(top["NGO Agent Reasoning"])
-        st.write(top["CSR Agent Reasoning"])
-        st.write(top["Supplier Agent Reasoning"])
+            if st.button("⬅ Back to Rankings"):
+                st.session_state.selected_ngo = None
 else:
     st.warning("No NGOs found for selected filters.")
