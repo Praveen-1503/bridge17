@@ -1,0 +1,1001 @@
+NGO_Name,Region_Focus,Primary_SDG,Annual_Budget,Data_Assets,Infrastructure_Gap,Debt_Sensitivity,ZOPA_Flexibility
+GlobalImpact_NGO_0001,Southeast Asia,SDG 4: Quality Education,3466812,Community Labor,Clean Energy Grid,Low,0.82
+GlobalImpact_NGO_0002,Latin America,SDG 13: Climate Action,4947501,Regional Soil Data,Clean Energy Grid,Low,0.36
+GlobalImpact_NGO_0003,Central Asia,SDG 17: Partnerships,4889018,Indigenous Knowledge,Last-mile Fiber,Low,0.17
+GlobalImpact_NGO_0004,Latin America,SDG 9: Industry & Innovation,1526938,Regional Soil Data,Satellite Data,High,0.28
+GlobalImpact_NGO_0005,Latin America,SDG 9: Industry & Innovation,2033349,Indigenous Knowledge,Satellite Data,Low,0.43
+GlobalImpact_NGO_0006,Central Asia,SDG 9: Industry & Innovation,4304810,Local Healthcare Records,Remote Server Access,Medium,0.49
+GlobalImpact_NGO_0007,South Asia,SDG 9: Industry & Innovation,980723,Logistics Network,Clean Energy Grid,Low,0.75
+GlobalImpact_NGO_0008,Sub-Saharan Africa,SDG 9: Industry & Innovation,4283045,Community Labor,Satellite Data,High,0.87
+GlobalImpact_NGO_0009,South Asia,SDG 9: Industry & Innovation,2112417,Indigenous Knowledge,Last-mile Fiber,Medium,0.51
+GlobalImpact_NGO_0010,Sub-Saharan Africa,SDG 13: Climate Action,529983,Indigenous Knowledge,Last-mile Fiber,Medium,0.57
+GlobalImpact_NGO_0011,Southeast Asia,SDG 9: Industry & Innovation,4126379,Community Labor,Satellite Data,High,0.15
+GlobalImpact_NGO_0012,Southeast Asia,SDG 13: Climate Action,3465951,Regional Soil Data,Satellite Data,High,0.37
+GlobalImpact_NGO_0013,Latin America,SDG 13: Climate Action,2476327,Indigenous Knowledge,Remote Server Access,Medium,0.16
+GlobalImpact_NGO_0014,Sub-Saharan Africa,SDG 13: Climate Action,4981750,Local Healthcare Records,Digital Literacy Training,High,0.68
+GlobalImpact_NGO_0015,Central Asia,SDG 13: Climate Action,3644769,Indigenous Knowledge,Satellite Data,High,0.6
+GlobalImpact_NGO_0016,Central Asia,SDG 9: Industry & Innovation,4193894,Logistics Network,Last-mile Fiber,Medium,0.52
+GlobalImpact_NGO_0017,Latin America,SDG 4: Quality Education,4115761,Local Healthcare Records,Last-mile Fiber,Low,0.72
+GlobalImpact_NGO_0018,Sub-Saharan Africa,SDG 9: Industry & Innovation,3349113,Logistics Network,Last-mile Fiber,High,0.11
+GlobalImpact_NGO_0019,Sub-Saharan Africa,SDG 17: Partnerships,4126537,Logistics Network,Remote Server Access,High,0.47
+GlobalImpact_NGO_0020,South Asia,SDG 13: Climate Action,3082139,Indigenous Knowledge,Remote Server Access,Medium,0.79
+GlobalImpact_NGO_0021,South Asia,SDG 17: Partnerships,1641993,Local Healthcare Records,Clean Energy Grid,Low,0.73
+GlobalImpact_NGO_0022,Southeast Asia,SDG 9: Industry & Innovation,3038618,Logistics Network,Last-mile Fiber,Medium,0.7
+GlobalImpact_NGO_0023,South Asia,SDG 4: Quality Education,182431,Logistics Network,Remote Server Access,Low,0.61
+GlobalImpact_NGO_0024,Latin America,SDG 4: Quality Education,2269775,Local Healthcare Records,Last-mile Fiber,Low,0.33
+GlobalImpact_NGO_0025,South Asia,SDG 9: Industry & Innovation,918175,Local Healthcare Records,Last-mile Fiber,High,0.11
+GlobalImpact_NGO_0026,Latin America,SDG 4: Quality Education,2055636,Regional Soil Data,Satellite Data,Medium,0.56
+GlobalImpact_NGO_0027,Sub-Saharan Africa,SDG 13: Climate Action,2616127,Regional Soil Data,Remote Server Access,High,0.81
+GlobalImpact_NGO_0028,South Asia,SDG 9: Industry & Innovation,1921029,Logistics Network,Clean Energy Grid,High,0.15
+GlobalImpact_NGO_0029,Southeast Asia,SDG 17: Partnerships,4535632,Local Healthcare Records,Satellite Data,Low,0.89
+GlobalImpact_NGO_0030,Southeast Asia,SDG 9: Industry & Innovation,530577,Logistics Network,Satellite Data,High,0.8
+GlobalImpact_NGO_0031,South Asia,SDG 9: Industry & Innovation,1350273,Indigenous Knowledge,Satellite Data,High,0.79
+GlobalImpact_NGO_0032,Central Asia,SDG 17: Partnerships,4097861,Regional Soil Data,Satellite Data,Low,0.89
+GlobalImpact_NGO_0033,Southeast Asia,SDG 17: Partnerships,4066768,Regional Soil Data,Remote Server Access,Low,0.2
+GlobalImpact_NGO_0034,Central Asia,SDG 9: Industry & Innovation,3472453,Local Healthcare Records,Clean Energy Grid,High,0.36
+GlobalImpact_NGO_0035,Sub-Saharan Africa,SDG 13: Climate Action,4747389,Community Labor,Digital Literacy Training,Low,0.83
+GlobalImpact_NGO_0036,Central Asia,SDG 4: Quality Education,1287335,Community Labor,Satellite Data,Medium,0.78
+GlobalImpact_NGO_0037,Sub-Saharan Africa,SDG 17: Partnerships,567812,Indigenous Knowledge,Clean Energy Grid,Low,0.73
+GlobalImpact_NGO_0038,Central Asia,SDG 4: Quality Education,1218038,Logistics Network,Remote Server Access,High,0.72
+GlobalImpact_NGO_0039,Central Asia,SDG 4: Quality Education,1372817,Logistics Network,Digital Literacy Training,High,0.13
+GlobalImpact_NGO_0040,Latin America,SDG 17: Partnerships,849811,Logistics Network,Clean Energy Grid,Medium,0.76
+GlobalImpact_NGO_0041,Sub-Saharan Africa,SDG 13: Climate Action,1747603,Community Labor,Remote Server Access,High,0.38
+GlobalImpact_NGO_0042,South Asia,SDG 13: Climate Action,3874160,Regional Soil Data,Last-mile Fiber,High,0.33
+GlobalImpact_NGO_0043,South Asia,SDG 13: Climate Action,4019580,Local Healthcare Records,Last-mile Fiber,High,0.49
+GlobalImpact_NGO_0044,Central Asia,SDG 17: Partnerships,4750426,Regional Soil Data,Clean Energy Grid,Medium,0.59
+GlobalImpact_NGO_0045,South Asia,SDG 13: Climate Action,546541,Regional Soil Data,Remote Server Access,Medium,0.75
+GlobalImpact_NGO_0046,Latin America,SDG 17: Partnerships,3020322,Indigenous Knowledge,Last-mile Fiber,Medium,0.49
+GlobalImpact_NGO_0047,Southeast Asia,SDG 17: Partnerships,3321266,Community Labor,Digital Literacy Training,High,0.55
+GlobalImpact_NGO_0048,Sub-Saharan Africa,SDG 17: Partnerships,2999586,Indigenous Knowledge,Remote Server Access,Medium,0.6
+GlobalImpact_NGO_0049,Sub-Saharan Africa,SDG 17: Partnerships,1096949,Logistics Network,Remote Server Access,Medium,0.37
+GlobalImpact_NGO_0050,South Asia,SDG 17: Partnerships,2102112,Community Labor,Remote Server Access,Low,0.75
+GlobalImpact_NGO_0051,South Asia,SDG 13: Climate Action,3332290,Indigenous Knowledge,Clean Energy Grid,Medium,0.18
+GlobalImpact_NGO_0052,Southeast Asia,SDG 4: Quality Education,1081230,Community Labor,Last-mile Fiber,Medium,0.49
+GlobalImpact_NGO_0053,Latin America,SDG 4: Quality Education,4193087,Regional Soil Data,Satellite Data,Medium,0.85
+GlobalImpact_NGO_0054,Sub-Saharan Africa,SDG 13: Climate Action,1698058,Community Labor,Clean Energy Grid,High,0.43
+GlobalImpact_NGO_0055,Southeast Asia,SDG 13: Climate Action,2623988,Community Labor,Remote Server Access,High,0.32
+GlobalImpact_NGO_0056,Central Asia,SDG 9: Industry & Innovation,3261932,Indigenous Knowledge,Last-mile Fiber,Low,0.86
+GlobalImpact_NGO_0057,Sub-Saharan Africa,SDG 4: Quality Education,144382,Logistics Network,Digital Literacy Training,High,0.88
+GlobalImpact_NGO_0058,South Asia,SDG 9: Industry & Innovation,4119038,Indigenous Knowledge,Digital Literacy Training,Medium,0.72
+GlobalImpact_NGO_0059,Southeast Asia,SDG 13: Climate Action,1450475,Community Labor,Last-mile Fiber,Medium,0.19
+GlobalImpact_NGO_0060,Central Asia,SDG 13: Climate Action,3977301,Regional Soil Data,Clean Energy Grid,High,0.64
+GlobalImpact_NGO_0061,Sub-Saharan Africa,SDG 9: Industry & Innovation,987446,Logistics Network,Digital Literacy Training,Low,0.44
+GlobalImpact_NGO_0062,Latin America,SDG 17: Partnerships,2691427,Regional Soil Data,Satellite Data,Low,0.33
+GlobalImpact_NGO_0063,South Asia,SDG 13: Climate Action,4537795,Indigenous Knowledge,Remote Server Access,Low,0.46
+GlobalImpact_NGO_0064,Southeast Asia,SDG 13: Climate Action,680313,Logistics Network,Digital Literacy Training,Low,0.15
+GlobalImpact_NGO_0065,South Asia,SDG 17: Partnerships,475954,Regional Soil Data,Remote Server Access,Medium,0.31
+GlobalImpact_NGO_0066,Central Asia,SDG 13: Climate Action,2233394,Community Labor,Satellite Data,Medium,0.49
+GlobalImpact_NGO_0067,South Asia,SDG 13: Climate Action,2646435,Logistics Network,Clean Energy Grid,High,0.28
+GlobalImpact_NGO_0068,Latin America,SDG 13: Climate Action,2480674,Community Labor,Last-mile Fiber,Medium,0.45
+GlobalImpact_NGO_0069,Central Asia,SDG 17: Partnerships,4391248,Regional Soil Data,Clean Energy Grid,High,0.49
+GlobalImpact_NGO_0070,South Asia,SDG 13: Climate Action,1619847,Community Labor,Last-mile Fiber,High,0.79
+GlobalImpact_NGO_0071,South Asia,SDG 4: Quality Education,4666528,Community Labor,Last-mile Fiber,Low,0.69
+GlobalImpact_NGO_0072,Central Asia,SDG 17: Partnerships,4179074,Local Healthcare Records,Clean Energy Grid,High,0.65
+GlobalImpact_NGO_0073,Sub-Saharan Africa,SDG 17: Partnerships,338486,Regional Soil Data,Clean Energy Grid,Low,0.75
+GlobalImpact_NGO_0074,South Asia,SDG 4: Quality Education,1660812,Indigenous Knowledge,Satellite Data,Medium,0.29
+GlobalImpact_NGO_0075,Sub-Saharan Africa,SDG 4: Quality Education,3272762,Regional Soil Data,Remote Server Access,Medium,0.88
+GlobalImpact_NGO_0076,Latin America,SDG 9: Industry & Innovation,4940577,Logistics Network,Satellite Data,High,0.13
+GlobalImpact_NGO_0077,Sub-Saharan Africa,SDG 17: Partnerships,312123,Logistics Network,Digital Literacy Training,Low,0.7
+GlobalImpact_NGO_0078,Sub-Saharan Africa,SDG 17: Partnerships,1351374,Indigenous Knowledge,Clean Energy Grid,Low,0.12
+GlobalImpact_NGO_0079,Central Asia,SDG 4: Quality Education,4547852,Indigenous Knowledge,Remote Server Access,Low,0.15
+GlobalImpact_NGO_0080,Sub-Saharan Africa,SDG 4: Quality Education,584920,Logistics Network,Last-mile Fiber,Medium,0.73
+GlobalImpact_NGO_0081,South Asia,SDG 17: Partnerships,506203,Logistics Network,Clean Energy Grid,Medium,0.85
+GlobalImpact_NGO_0082,South Asia,SDG 13: Climate Action,870674,Local Healthcare Records,Satellite Data,Low,0.5
+GlobalImpact_NGO_0083,Latin America,SDG 9: Industry & Innovation,1653780,Indigenous Knowledge,Digital Literacy Training,High,0.88
+GlobalImpact_NGO_0084,Southeast Asia,SDG 4: Quality Education,2327417,Local Healthcare Records,Last-mile Fiber,Low,0.47
+GlobalImpact_NGO_0085,South Asia,SDG 13: Climate Action,3772042,Local Healthcare Records,Digital Literacy Training,Low,0.86
+GlobalImpact_NGO_0086,Central Asia,SDG 17: Partnerships,1003102,Community Labor,Satellite Data,High,0.29
+GlobalImpact_NGO_0087,Central Asia,SDG 9: Industry & Innovation,4552255,Local Healthcare Records,Satellite Data,Low,0.51
+GlobalImpact_NGO_0088,Central Asia,SDG 9: Industry & Innovation,2517330,Local Healthcare Records,Clean Energy Grid,Low,0.11
+GlobalImpact_NGO_0089,Latin America,SDG 13: Climate Action,202605,Logistics Network,Digital Literacy Training,Low,0.57
+GlobalImpact_NGO_0090,Southeast Asia,SDG 4: Quality Education,208694,Community Labor,Last-mile Fiber,High,0.11
+GlobalImpact_NGO_0091,Southeast Asia,SDG 13: Climate Action,2545386,Regional Soil Data,Last-mile Fiber,Medium,0.4
+GlobalImpact_NGO_0092,Sub-Saharan Africa,SDG 13: Climate Action,51669,Community Labor,Digital Literacy Training,Low,0.85
+GlobalImpact_NGO_0093,South Asia,SDG 13: Climate Action,2120841,Local Healthcare Records,Last-mile Fiber,Medium,0.18
+GlobalImpact_NGO_0094,Southeast Asia,SDG 4: Quality Education,1367707,Logistics Network,Satellite Data,Low,0.15
+GlobalImpact_NGO_0095,Southeast Asia,SDG 9: Industry & Innovation,1114054,Local Healthcare Records,Digital Literacy Training,Medium,0.86
+GlobalImpact_NGO_0096,Southeast Asia,SDG 9: Industry & Innovation,3218739,Community Labor,Clean Energy Grid,Low,0.87
+GlobalImpact_NGO_0097,Central Asia,SDG 13: Climate Action,3816271,Regional Soil Data,Satellite Data,Medium,0.85
+GlobalImpact_NGO_0098,Southeast Asia,SDG 13: Climate Action,695454,Community Labor,Satellite Data,High,0.49
+GlobalImpact_NGO_0099,Southeast Asia,SDG 9: Industry & Innovation,271400,Community Labor,Digital Literacy Training,Low,0.61
+GlobalImpact_NGO_0100,Southeast Asia,SDG 9: Industry & Innovation,737514,Local Healthcare Records,Last-mile Fiber,Medium,0.75
+GlobalImpact_NGO_0101,South Asia,SDG 4: Quality Education,3342005,Indigenous Knowledge,Clean Energy Grid,Low,0.34
+GlobalImpact_NGO_0102,Latin America,SDG 17: Partnerships,3644194,Regional Soil Data,Remote Server Access,Medium,0.64
+GlobalImpact_NGO_0103,Southeast Asia,SDG 9: Industry & Innovation,691832,Logistics Network,Digital Literacy Training,Medium,0.88
+GlobalImpact_NGO_0104,Central Asia,SDG 13: Climate Action,2209918,Indigenous Knowledge,Remote Server Access,Medium,0.12
+GlobalImpact_NGO_0105,South Asia,SDG 13: Climate Action,4006236,Regional Soil Data,Last-mile Fiber,Medium,0.15
+GlobalImpact_NGO_0106,Southeast Asia,SDG 9: Industry & Innovation,1420430,Regional Soil Data,Digital Literacy Training,Low,0.75
+GlobalImpact_NGO_0107,Sub-Saharan Africa,SDG 9: Industry & Innovation,2700619,Community Labor,Digital Literacy Training,High,0.64
+GlobalImpact_NGO_0108,Sub-Saharan Africa,SDG 4: Quality Education,1964300,Local Healthcare Records,Satellite Data,Medium,0.34
+GlobalImpact_NGO_0109,South Asia,SDG 9: Industry & Innovation,4549916,Local Healthcare Records,Digital Literacy Training,Low,0.78
+GlobalImpact_NGO_0110,Latin America,SDG 17: Partnerships,3537673,Local Healthcare Records,Remote Server Access,Medium,0.81
+GlobalImpact_NGO_0111,Southeast Asia,SDG 4: Quality Education,939826,Indigenous Knowledge,Remote Server Access,Medium,0.58
+GlobalImpact_NGO_0112,Central Asia,SDG 13: Climate Action,3098780,Local Healthcare Records,Last-mile Fiber,Medium,0.44
+GlobalImpact_NGO_0113,Central Asia,SDG 9: Industry & Innovation,181384,Local Healthcare Records,Digital Literacy Training,Medium,0.68
+GlobalImpact_NGO_0114,Southeast Asia,SDG 17: Partnerships,4164902,Logistics Network,Satellite Data,Low,0.81
+GlobalImpact_NGO_0115,Sub-Saharan Africa,SDG 9: Industry & Innovation,389831,Local Healthcare Records,Last-mile Fiber,Low,0.84
+GlobalImpact_NGO_0116,Latin America,SDG 9: Industry & Innovation,1120657,Logistics Network,Digital Literacy Training,Low,0.3
+GlobalImpact_NGO_0117,Sub-Saharan Africa,SDG 13: Climate Action,4254927,Community Labor,Digital Literacy Training,High,0.13
+GlobalImpact_NGO_0118,Central Asia,SDG 13: Climate Action,4963008,Logistics Network,Remote Server Access,Low,0.28
+GlobalImpact_NGO_0119,South Asia,SDG 17: Partnerships,2773403,Logistics Network,Digital Literacy Training,High,0.55
+GlobalImpact_NGO_0120,Central Asia,SDG 13: Climate Action,2682732,Indigenous Knowledge,Last-mile Fiber,Low,0.69
+GlobalImpact_NGO_0121,Latin America,SDG 4: Quality Education,2219456,Indigenous Knowledge,Clean Energy Grid,Medium,0.15
+GlobalImpact_NGO_0122,Latin America,SDG 17: Partnerships,158532,Local Healthcare Records,Digital Literacy Training,Low,0.41
+GlobalImpact_NGO_0123,Sub-Saharan Africa,SDG 4: Quality Education,4537763,Community Labor,Remote Server Access,Low,0.73
+GlobalImpact_NGO_0124,South Asia,SDG 17: Partnerships,3393653,Logistics Network,Digital Literacy Training,Low,0.63
+GlobalImpact_NGO_0125,Central Asia,SDG 4: Quality Education,4714984,Logistics Network,Clean Energy Grid,High,0.49
+GlobalImpact_NGO_0126,Southeast Asia,SDG 17: Partnerships,1090558,Indigenous Knowledge,Remote Server Access,Low,0.57
+GlobalImpact_NGO_0127,Latin America,SDG 13: Climate Action,2231893,Indigenous Knowledge,Last-mile Fiber,Medium,0.81
+GlobalImpact_NGO_0128,Sub-Saharan Africa,SDG 9: Industry & Innovation,2181758,Community Labor,Remote Server Access,High,0.48
+GlobalImpact_NGO_0129,Central Asia,SDG 17: Partnerships,1151585,Logistics Network,Satellite Data,High,0.32
+GlobalImpact_NGO_0130,Central Asia,SDG 13: Climate Action,3204661,Community Labor,Last-mile Fiber,Medium,0.28
+GlobalImpact_NGO_0131,Sub-Saharan Africa,SDG 13: Climate Action,268728,Regional Soil Data,Clean Energy Grid,High,0.38
+GlobalImpact_NGO_0132,Latin America,SDG 13: Climate Action,3023354,Local Healthcare Records,Clean Energy Grid,Low,0.19
+GlobalImpact_NGO_0133,Central Asia,SDG 13: Climate Action,3223848,Logistics Network,Last-mile Fiber,Low,0.65
+GlobalImpact_NGO_0134,Latin America,SDG 13: Climate Action,3164945,Community Labor,Digital Literacy Training,Low,0.8
+GlobalImpact_NGO_0135,Central Asia,SDG 4: Quality Education,979107,Indigenous Knowledge,Satellite Data,High,0.47
+GlobalImpact_NGO_0136,Central Asia,SDG 9: Industry & Innovation,3535636,Regional Soil Data,Last-mile Fiber,High,0.31
+GlobalImpact_NGO_0137,South Asia,SDG 4: Quality Education,4788196,Local Healthcare Records,Clean Energy Grid,Medium,0.45
+GlobalImpact_NGO_0138,South Asia,SDG 4: Quality Education,615824,Community Labor,Remote Server Access,High,0.73
+GlobalImpact_NGO_0139,Sub-Saharan Africa,SDG 13: Climate Action,4403743,Indigenous Knowledge,Digital Literacy Training,High,0.11
+GlobalImpact_NGO_0140,Sub-Saharan Africa,SDG 9: Industry & Innovation,3889635,Regional Soil Data,Digital Literacy Training,Low,0.47
+GlobalImpact_NGO_0141,Sub-Saharan Africa,SDG 17: Partnerships,475576,Local Healthcare Records,Clean Energy Grid,Medium,0.42
+GlobalImpact_NGO_0142,Central Asia,SDG 13: Climate Action,1032184,Local Healthcare Records,Satellite Data,Medium,0.12
+GlobalImpact_NGO_0143,Latin America,SDG 4: Quality Education,3732737,Logistics Network,Digital Literacy Training,High,0.63
+GlobalImpact_NGO_0144,South Asia,SDG 17: Partnerships,1548012,Local Healthcare Records,Clean Energy Grid,Low,0.15
+GlobalImpact_NGO_0145,Latin America,SDG 13: Climate Action,2550277,Regional Soil Data,Last-mile Fiber,High,0.48
+GlobalImpact_NGO_0146,South Asia,SDG 9: Industry & Innovation,702011,Logistics Network,Clean Energy Grid,High,0.21
+GlobalImpact_NGO_0147,South Asia,SDG 9: Industry & Innovation,3115489,Indigenous Knowledge,Satellite Data,Low,0.39
+GlobalImpact_NGO_0148,Central Asia,SDG 9: Industry & Innovation,4882034,Local Healthcare Records,Satellite Data,High,0.61
+GlobalImpact_NGO_0149,Central Asia,SDG 13: Climate Action,4098063,Local Healthcare Records,Satellite Data,Low,0.81
+GlobalImpact_NGO_0150,Southeast Asia,SDG 13: Climate Action,3721608,Local Healthcare Records,Digital Literacy Training,High,0.5
+GlobalImpact_NGO_0151,Central Asia,SDG 4: Quality Education,3086776,Indigenous Knowledge,Clean Energy Grid,Low,0.19
+GlobalImpact_NGO_0152,Central Asia,SDG 4: Quality Education,2818715,Indigenous Knowledge,Clean Energy Grid,High,0.23
+GlobalImpact_NGO_0153,Southeast Asia,SDG 9: Industry & Innovation,4403819,Community Labor,Digital Literacy Training,Medium,0.11
+GlobalImpact_NGO_0154,Central Asia,SDG 17: Partnerships,4024836,Local Healthcare Records,Satellite Data,Low,0.41
+GlobalImpact_NGO_0155,Central Asia,SDG 13: Climate Action,3782124,Community Labor,Clean Energy Grid,High,0.18
+GlobalImpact_NGO_0156,Southeast Asia,SDG 4: Quality Education,4284602,Regional Soil Data,Digital Literacy Training,High,0.42
+GlobalImpact_NGO_0157,South Asia,SDG 4: Quality Education,1313366,Logistics Network,Digital Literacy Training,High,0.36
+GlobalImpact_NGO_0158,Latin America,SDG 4: Quality Education,1764096,Regional Soil Data,Satellite Data,Medium,0.79
+GlobalImpact_NGO_0159,Latin America,SDG 9: Industry & Innovation,1878594,Regional Soil Data,Digital Literacy Training,Medium,0.18
+GlobalImpact_NGO_0160,South Asia,SDG 13: Climate Action,983520,Community Labor,Satellite Data,High,0.58
+GlobalImpact_NGO_0161,South Asia,SDG 13: Climate Action,3640743,Community Labor,Remote Server Access,Medium,0.71
+GlobalImpact_NGO_0162,South Asia,SDG 13: Climate Action,4330732,Regional Soil Data,Digital Literacy Training,Low,0.63
+GlobalImpact_NGO_0163,Southeast Asia,SDG 4: Quality Education,978808,Indigenous Knowledge,Clean Energy Grid,Low,0.68
+GlobalImpact_NGO_0164,Latin America,SDG 9: Industry & Innovation,1890393,Local Healthcare Records,Last-mile Fiber,Low,0.71
+GlobalImpact_NGO_0165,Sub-Saharan Africa,SDG 17: Partnerships,4823679,Community Labor,Remote Server Access,Low,0.24
+GlobalImpact_NGO_0166,Central Asia,SDG 17: Partnerships,4776610,Community Labor,Satellite Data,Medium,0.9
+GlobalImpact_NGO_0167,Central Asia,SDG 4: Quality Education,1495707,Local Healthcare Records,Remote Server Access,Medium,0.82
+GlobalImpact_NGO_0168,Southeast Asia,SDG 9: Industry & Innovation,650657,Regional Soil Data,Satellite Data,Medium,0.47
+GlobalImpact_NGO_0169,Latin America,SDG 13: Climate Action,1392587,Local Healthcare Records,Clean Energy Grid,Medium,0.78
+GlobalImpact_NGO_0170,South Asia,SDG 13: Climate Action,1098976,Regional Soil Data,Clean Energy Grid,Medium,0.86
+GlobalImpact_NGO_0171,Southeast Asia,SDG 17: Partnerships,4239301,Local Healthcare Records,Clean Energy Grid,High,0.26
+GlobalImpact_NGO_0172,Sub-Saharan Africa,SDG 9: Industry & Innovation,1837565,Indigenous Knowledge,Satellite Data,Low,0.25
+GlobalImpact_NGO_0173,Sub-Saharan Africa,SDG 9: Industry & Innovation,4271491,Regional Soil Data,Clean Energy Grid,Low,0.11
+GlobalImpact_NGO_0174,Sub-Saharan Africa,SDG 13: Climate Action,2893034,Logistics Network,Satellite Data,Low,0.27
+GlobalImpact_NGO_0175,Latin America,SDG 4: Quality Education,188928,Community Labor,Remote Server Access,Medium,0.21
+GlobalImpact_NGO_0176,Central Asia,SDG 9: Industry & Innovation,2188041,Logistics Network,Digital Literacy Training,High,0.72
+GlobalImpact_NGO_0177,South Asia,SDG 13: Climate Action,1072660,Local Healthcare Records,Last-mile Fiber,Low,0.73
+GlobalImpact_NGO_0178,Central Asia,SDG 4: Quality Education,4284640,Local Healthcare Records,Last-mile Fiber,High,0.1
+GlobalImpact_NGO_0179,South Asia,SDG 4: Quality Education,912942,Local Healthcare Records,Last-mile Fiber,Low,0.28
+GlobalImpact_NGO_0180,Central Asia,SDG 4: Quality Education,476251,Regional Soil Data,Digital Literacy Training,Medium,0.54
+GlobalImpact_NGO_0181,Central Asia,SDG 4: Quality Education,4036441,Community Labor,Clean Energy Grid,Medium,0.73
+GlobalImpact_NGO_0182,Southeast Asia,SDG 9: Industry & Innovation,2851355,Logistics Network,Clean Energy Grid,Low,0.48
+GlobalImpact_NGO_0183,Sub-Saharan Africa,SDG 17: Partnerships,387314,Regional Soil Data,Last-mile Fiber,High,0.59
+GlobalImpact_NGO_0184,Southeast Asia,SDG 4: Quality Education,4552954,Community Labor,Satellite Data,Medium,0.74
+GlobalImpact_NGO_0185,Central Asia,SDG 4: Quality Education,4348877,Regional Soil Data,Last-mile Fiber,Low,0.76
+GlobalImpact_NGO_0186,Sub-Saharan Africa,SDG 4: Quality Education,1827117,Logistics Network,Digital Literacy Training,Medium,0.56
+GlobalImpact_NGO_0187,Latin America,SDG 13: Climate Action,2017449,Logistics Network,Satellite Data,Low,0.49
+GlobalImpact_NGO_0188,Sub-Saharan Africa,SDG 17: Partnerships,2707766,Logistics Network,Satellite Data,Medium,0.57
+GlobalImpact_NGO_0189,Central Asia,SDG 9: Industry & Innovation,3397615,Indigenous Knowledge,Digital Literacy Training,Medium,0.25
+GlobalImpact_NGO_0190,Central Asia,SDG 9: Industry & Innovation,4797346,Local Healthcare Records,Satellite Data,Medium,0.84
+GlobalImpact_NGO_0191,South Asia,SDG 4: Quality Education,2602511,Logistics Network,Remote Server Access,Medium,0.17
+GlobalImpact_NGO_0192,Latin America,SDG 9: Industry & Innovation,2748976,Local Healthcare Records,Satellite Data,Medium,0.18
+GlobalImpact_NGO_0193,Latin America,SDG 13: Climate Action,4923984,Regional Soil Data,Remote Server Access,Medium,0.14
+GlobalImpact_NGO_0194,Southeast Asia,SDG 4: Quality Education,899731,Regional Soil Data,Satellite Data,Medium,0.83
+GlobalImpact_NGO_0195,Southeast Asia,SDG 17: Partnerships,379712,Regional Soil Data,Remote Server Access,High,0.64
+GlobalImpact_NGO_0196,Sub-Saharan Africa,SDG 4: Quality Education,203801,Logistics Network,Remote Server Access,Low,0.49
+GlobalImpact_NGO_0197,Southeast Asia,SDG 17: Partnerships,1708576,Regional Soil Data,Digital Literacy Training,Medium,0.79
+GlobalImpact_NGO_0198,South Asia,SDG 17: Partnerships,4208201,Regional Soil Data,Remote Server Access,Low,0.72
+GlobalImpact_NGO_0199,Latin America,SDG 17: Partnerships,2775362,Community Labor,Remote Server Access,High,0.39
+GlobalImpact_NGO_0200,South Asia,SDG 17: Partnerships,4145899,Local Healthcare Records,Satellite Data,Low,0.84
+GlobalImpact_NGO_0201,Central Asia,SDG 17: Partnerships,2227207,Local Healthcare Records,Remote Server Access,High,0.33
+GlobalImpact_NGO_0202,South Asia,SDG 17: Partnerships,3360397,Indigenous Knowledge,Remote Server Access,Medium,0.38
+GlobalImpact_NGO_0203,Latin America,SDG 17: Partnerships,3538056,Community Labor,Remote Server Access,Low,0.58
+GlobalImpact_NGO_0204,Sub-Saharan Africa,SDG 13: Climate Action,225211,Local Healthcare Records,Satellite Data,Low,0.45
+GlobalImpact_NGO_0205,Sub-Saharan Africa,SDG 13: Climate Action,3446335,Logistics Network,Remote Server Access,Medium,0.9
+GlobalImpact_NGO_0206,Southeast Asia,SDG 9: Industry & Innovation,599890,Regional Soil Data,Clean Energy Grid,Medium,0.14
+GlobalImpact_NGO_0207,South Asia,SDG 13: Climate Action,1731663,Local Healthcare Records,Digital Literacy Training,Medium,0.85
+GlobalImpact_NGO_0208,Sub-Saharan Africa,SDG 17: Partnerships,493015,Logistics Network,Digital Literacy Training,Low,0.81
+GlobalImpact_NGO_0209,Central Asia,SDG 4: Quality Education,1763293,Regional Soil Data,Remote Server Access,High,0.4
+GlobalImpact_NGO_0210,Central Asia,SDG 13: Climate Action,4912779,Logistics Network,Clean Energy Grid,Medium,0.85
+GlobalImpact_NGO_0211,South Asia,SDG 13: Climate Action,1456695,Community Labor,Satellite Data,High,0.48
+GlobalImpact_NGO_0212,Central Asia,SDG 9: Industry & Innovation,3654069,Logistics Network,Satellite Data,Low,0.82
+GlobalImpact_NGO_0213,Sub-Saharan Africa,SDG 17: Partnerships,3390438,Logistics Network,Last-mile Fiber,High,0.71
+GlobalImpact_NGO_0214,South Asia,SDG 13: Climate Action,1585862,Local Healthcare Records,Remote Server Access,Low,0.28
+GlobalImpact_NGO_0215,South Asia,SDG 4: Quality Education,1978028,Community Labor,Remote Server Access,Low,0.35
+GlobalImpact_NGO_0216,Latin America,SDG 9: Industry & Innovation,869928,Regional Soil Data,Satellite Data,Low,0.49
+GlobalImpact_NGO_0217,Southeast Asia,SDG 4: Quality Education,201388,Regional Soil Data,Clean Energy Grid,Medium,0.42
+GlobalImpact_NGO_0218,South Asia,SDG 9: Industry & Innovation,2993311,Regional Soil Data,Digital Literacy Training,Low,0.5
+GlobalImpact_NGO_0219,Southeast Asia,SDG 4: Quality Education,4342878,Indigenous Knowledge,Clean Energy Grid,Low,0.77
+GlobalImpact_NGO_0220,South Asia,SDG 17: Partnerships,3429471,Regional Soil Data,Digital Literacy Training,Low,0.19
+GlobalImpact_NGO_0221,Sub-Saharan Africa,SDG 9: Industry & Innovation,2384095,Regional Soil Data,Digital Literacy Training,Medium,0.53
+GlobalImpact_NGO_0222,Sub-Saharan Africa,SDG 4: Quality Education,4468842,Community Labor,Satellite Data,Medium,0.23
+GlobalImpact_NGO_0223,Latin America,SDG 9: Industry & Innovation,3449049,Logistics Network,Digital Literacy Training,Low,0.47
+GlobalImpact_NGO_0224,Latin America,SDG 17: Partnerships,178896,Indigenous Knowledge,Remote Server Access,Medium,0.2
+GlobalImpact_NGO_0225,Latin America,SDG 17: Partnerships,4815500,Community Labor,Satellite Data,High,0.61
+GlobalImpact_NGO_0226,Central Asia,SDG 17: Partnerships,607429,Regional Soil Data,Clean Energy Grid,Medium,0.34
+GlobalImpact_NGO_0227,Sub-Saharan Africa,SDG 17: Partnerships,2701132,Community Labor,Last-mile Fiber,High,0.49
+GlobalImpact_NGO_0228,South Asia,SDG 9: Industry & Innovation,897723,Logistics Network,Digital Literacy Training,Medium,0.25
+GlobalImpact_NGO_0229,Central Asia,SDG 17: Partnerships,2712012,Regional Soil Data,Digital Literacy Training,High,0.82
+GlobalImpact_NGO_0230,Latin America,SDG 17: Partnerships,3097497,Logistics Network,Satellite Data,Low,0.18
+GlobalImpact_NGO_0231,Southeast Asia,SDG 9: Industry & Innovation,620657,Regional Soil Data,Clean Energy Grid,Medium,0.71
+GlobalImpact_NGO_0232,South Asia,SDG 4: Quality Education,3258861,Regional Soil Data,Last-mile Fiber,Low,0.29
+GlobalImpact_NGO_0233,Sub-Saharan Africa,SDG 9: Industry & Innovation,1969687,Community Labor,Remote Server Access,Low,0.52
+GlobalImpact_NGO_0234,Central Asia,SDG 9: Industry & Innovation,1320091,Indigenous Knowledge,Remote Server Access,High,0.26
+GlobalImpact_NGO_0235,Southeast Asia,SDG 13: Climate Action,720616,Regional Soil Data,Clean Energy Grid,High,0.4
+GlobalImpact_NGO_0236,Central Asia,SDG 13: Climate Action,1399502,Regional Soil Data,Clean Energy Grid,Low,0.62
+GlobalImpact_NGO_0237,Southeast Asia,SDG 13: Climate Action,2718079,Logistics Network,Clean Energy Grid,High,0.19
+GlobalImpact_NGO_0238,Latin America,SDG 9: Industry & Innovation,1632056,Indigenous Knowledge,Satellite Data,Low,0.68
+GlobalImpact_NGO_0239,Sub-Saharan Africa,SDG 17: Partnerships,3621681,Indigenous Knowledge,Last-mile Fiber,Low,0.73
+GlobalImpact_NGO_0240,Latin America,SDG 17: Partnerships,220584,Community Labor,Remote Server Access,Low,0.75
+GlobalImpact_NGO_0241,Sub-Saharan Africa,SDG 9: Industry & Innovation,137055,Indigenous Knowledge,Remote Server Access,High,0.6
+GlobalImpact_NGO_0242,Latin America,SDG 17: Partnerships,73764,Indigenous Knowledge,Remote Server Access,Medium,0.13
+GlobalImpact_NGO_0243,South Asia,SDG 17: Partnerships,1979643,Community Labor,Remote Server Access,Medium,0.6
+GlobalImpact_NGO_0244,Latin America,SDG 9: Industry & Innovation,2756173,Indigenous Knowledge,Satellite Data,Medium,0.38
+GlobalImpact_NGO_0245,Southeast Asia,SDG 4: Quality Education,2459164,Regional Soil Data,Satellite Data,Medium,0.68
+GlobalImpact_NGO_0246,Southeast Asia,SDG 17: Partnerships,2221710,Logistics Network,Last-mile Fiber,Medium,0.28
+GlobalImpact_NGO_0247,South Asia,SDG 9: Industry & Innovation,1165892,Community Labor,Clean Energy Grid,High,0.42
+GlobalImpact_NGO_0248,Southeast Asia,SDG 13: Climate Action,3372570,Logistics Network,Digital Literacy Training,Medium,0.84
+GlobalImpact_NGO_0249,Latin America,SDG 13: Climate Action,1837677,Logistics Network,Digital Literacy Training,Low,0.38
+GlobalImpact_NGO_0250,South Asia,SDG 17: Partnerships,944754,Local Healthcare Records,Remote Server Access,Medium,0.77
+GlobalImpact_NGO_0251,Sub-Saharan Africa,SDG 13: Climate Action,777285,Logistics Network,Digital Literacy Training,Low,0.56
+GlobalImpact_NGO_0252,Central Asia,SDG 4: Quality Education,2128875,Community Labor,Digital Literacy Training,Low,0.31
+GlobalImpact_NGO_0253,Sub-Saharan Africa,SDG 9: Industry & Innovation,4893922,Local Healthcare Records,Last-mile Fiber,High,0.35
+GlobalImpact_NGO_0254,Central Asia,SDG 4: Quality Education,1639355,Indigenous Knowledge,Remote Server Access,Medium,0.86
+GlobalImpact_NGO_0255,South Asia,SDG 9: Industry & Innovation,1392958,Regional Soil Data,Remote Server Access,Medium,0.48
+GlobalImpact_NGO_0256,Latin America,SDG 13: Climate Action,3518868,Regional Soil Data,Remote Server Access,Low,0.21
+GlobalImpact_NGO_0257,Southeast Asia,SDG 17: Partnerships,2695451,Regional Soil Data,Satellite Data,High,0.32
+GlobalImpact_NGO_0258,Central Asia,SDG 17: Partnerships,3832285,Community Labor,Last-mile Fiber,Medium,0.7
+GlobalImpact_NGO_0259,Sub-Saharan Africa,SDG 17: Partnerships,1891624,Local Healthcare Records,Clean Energy Grid,High,0.32
+GlobalImpact_NGO_0260,Sub-Saharan Africa,SDG 13: Climate Action,4906032,Indigenous Knowledge,Digital Literacy Training,High,0.66
+GlobalImpact_NGO_0261,Southeast Asia,SDG 13: Climate Action,498460,Community Labor,Digital Literacy Training,Medium,0.6
+GlobalImpact_NGO_0262,Latin America,SDG 9: Industry & Innovation,1677401,Local Healthcare Records,Satellite Data,Low,0.26
+GlobalImpact_NGO_0263,Sub-Saharan Africa,SDG 4: Quality Education,738512,Community Labor,Clean Energy Grid,Low,0.22
+GlobalImpact_NGO_0264,Central Asia,SDG 4: Quality Education,2275786,Indigenous Knowledge,Remote Server Access,High,0.11
+GlobalImpact_NGO_0265,South Asia,SDG 9: Industry & Innovation,2930215,Local Healthcare Records,Digital Literacy Training,Medium,0.88
+GlobalImpact_NGO_0266,Central Asia,SDG 17: Partnerships,4827835,Logistics Network,Remote Server Access,High,0.78
+GlobalImpact_NGO_0267,Southeast Asia,SDG 9: Industry & Innovation,1175639,Community Labor,Digital Literacy Training,High,0.76
+GlobalImpact_NGO_0268,Latin America,SDG 17: Partnerships,2337718,Local Healthcare Records,Remote Server Access,Low,0.74
+GlobalImpact_NGO_0269,Southeast Asia,SDG 9: Industry & Innovation,3640982,Indigenous Knowledge,Remote Server Access,Medium,0.55
+GlobalImpact_NGO_0270,Latin America,SDG 9: Industry & Innovation,360594,Indigenous Knowledge,Remote Server Access,Medium,0.52
+GlobalImpact_NGO_0271,Sub-Saharan Africa,SDG 9: Industry & Innovation,1020990,Local Healthcare Records,Clean Energy Grid,High,0.26
+GlobalImpact_NGO_0272,Southeast Asia,SDG 17: Partnerships,2722670,Indigenous Knowledge,Digital Literacy Training,High,0.49
+GlobalImpact_NGO_0273,Southeast Asia,SDG 4: Quality Education,522810,Indigenous Knowledge,Clean Energy Grid,Medium,0.65
+GlobalImpact_NGO_0274,Latin America,SDG 4: Quality Education,3444304,Community Labor,Satellite Data,Medium,0.43
+GlobalImpact_NGO_0275,Central Asia,SDG 13: Climate Action,3000938,Community Labor,Remote Server Access,High,0.64
+GlobalImpact_NGO_0276,South Asia,SDG 13: Climate Action,2094578,Community Labor,Remote Server Access,Low,0.62
+GlobalImpact_NGO_0277,Central Asia,SDG 9: Industry & Innovation,4132814,Indigenous Knowledge,Satellite Data,High,0.65
+GlobalImpact_NGO_0278,South Asia,SDG 17: Partnerships,1014708,Indigenous Knowledge,Remote Server Access,Medium,0.88
+GlobalImpact_NGO_0279,Central Asia,SDG 9: Industry & Innovation,2821000,Regional Soil Data,Clean Energy Grid,Low,0.16
+GlobalImpact_NGO_0280,Latin America,SDG 13: Climate Action,636795,Local Healthcare Records,Last-mile Fiber,Medium,0.56
+GlobalImpact_NGO_0281,Central Asia,SDG 9: Industry & Innovation,1999858,Community Labor,Digital Literacy Training,Low,0.4
+GlobalImpact_NGO_0282,Southeast Asia,SDG 9: Industry & Innovation,2673900,Regional Soil Data,Clean Energy Grid,Low,0.82
+GlobalImpact_NGO_0283,Southeast Asia,SDG 17: Partnerships,2521689,Community Labor,Satellite Data,Medium,0.35
+GlobalImpact_NGO_0284,Southeast Asia,SDG 4: Quality Education,2898226,Local Healthcare Records,Last-mile Fiber,High,0.33
+GlobalImpact_NGO_0285,South Asia,SDG 4: Quality Education,1401653,Regional Soil Data,Clean Energy Grid,High,0.26
+GlobalImpact_NGO_0286,Central Asia,SDG 17: Partnerships,3138908,Regional Soil Data,Satellite Data,Medium,0.28
+GlobalImpact_NGO_0287,Latin America,SDG 9: Industry & Innovation,1140330,Indigenous Knowledge,Last-mile Fiber,Medium,0.55
+GlobalImpact_NGO_0288,Latin America,SDG 9: Industry & Innovation,919999,Local Healthcare Records,Satellite Data,Low,0.68
+GlobalImpact_NGO_0289,Latin America,SDG 17: Partnerships,3121526,Community Labor,Satellite Data,High,0.37
+GlobalImpact_NGO_0290,Central Asia,SDG 17: Partnerships,1059636,Community Labor,Satellite Data,Medium,0.81
+GlobalImpact_NGO_0291,Sub-Saharan Africa,SDG 4: Quality Education,2011759,Logistics Network,Digital Literacy Training,Medium,0.83
+GlobalImpact_NGO_0292,Sub-Saharan Africa,SDG 4: Quality Education,816487,Indigenous Knowledge,Last-mile Fiber,Medium,0.36
+GlobalImpact_NGO_0293,Sub-Saharan Africa,SDG 9: Industry & Innovation,799645,Indigenous Knowledge,Last-mile Fiber,High,0.38
+GlobalImpact_NGO_0294,Sub-Saharan Africa,SDG 13: Climate Action,3214207,Logistics Network,Satellite Data,Medium,0.25
+GlobalImpact_NGO_0295,South Asia,SDG 9: Industry & Innovation,4130382,Indigenous Knowledge,Last-mile Fiber,High,0.6
+GlobalImpact_NGO_0296,Central Asia,SDG 4: Quality Education,4569674,Logistics Network,Clean Energy Grid,High,0.27
+GlobalImpact_NGO_0297,Sub-Saharan Africa,SDG 17: Partnerships,1718497,Community Labor,Remote Server Access,Low,0.25
+GlobalImpact_NGO_0298,Sub-Saharan Africa,SDG 13: Climate Action,2265210,Logistics Network,Digital Literacy Training,Low,0.87
+GlobalImpact_NGO_0299,Southeast Asia,SDG 9: Industry & Innovation,442021,Regional Soil Data,Satellite Data,High,0.35
+GlobalImpact_NGO_0300,South Asia,SDG 13: Climate Action,863090,Logistics Network,Last-mile Fiber,Medium,0.12
+GlobalImpact_NGO_0301,Sub-Saharan Africa,SDG 13: Climate Action,4665929,Indigenous Knowledge,Remote Server Access,High,0.66
+GlobalImpact_NGO_0302,Central Asia,SDG 4: Quality Education,1354639,Logistics Network,Remote Server Access,High,0.21
+GlobalImpact_NGO_0303,Southeast Asia,SDG 4: Quality Education,560265,Regional Soil Data,Satellite Data,High,0.75
+GlobalImpact_NGO_0304,Southeast Asia,SDG 9: Industry & Innovation,4567683,Local Healthcare Records,Satellite Data,High,0.59
+GlobalImpact_NGO_0305,Latin America,SDG 17: Partnerships,4758975,Local Healthcare Records,Clean Energy Grid,Medium,0.85
+GlobalImpact_NGO_0306,South Asia,SDG 9: Industry & Innovation,4805719,Logistics Network,Last-mile Fiber,Low,0.87
+GlobalImpact_NGO_0307,Central Asia,SDG 9: Industry & Innovation,3673963,Indigenous Knowledge,Remote Server Access,Medium,0.45
+GlobalImpact_NGO_0308,Central Asia,SDG 4: Quality Education,2582885,Indigenous Knowledge,Remote Server Access,High,0.67
+GlobalImpact_NGO_0309,Latin America,SDG 4: Quality Education,573046,Regional Soil Data,Satellite Data,High,0.2
+GlobalImpact_NGO_0310,South Asia,SDG 17: Partnerships,2656155,Community Labor,Digital Literacy Training,Medium,0.48
+GlobalImpact_NGO_0311,Southeast Asia,SDG 13: Climate Action,2178503,Logistics Network,Digital Literacy Training,Medium,0.25
+GlobalImpact_NGO_0312,Central Asia,SDG 9: Industry & Innovation,2006467,Local Healthcare Records,Satellite Data,Low,0.18
+GlobalImpact_NGO_0313,Latin America,SDG 4: Quality Education,4407540,Logistics Network,Satellite Data,Medium,0.24
+GlobalImpact_NGO_0314,Sub-Saharan Africa,SDG 4: Quality Education,3171200,Community Labor,Last-mile Fiber,Low,0.18
+GlobalImpact_NGO_0315,Sub-Saharan Africa,SDG 13: Climate Action,1377671,Logistics Network,Digital Literacy Training,Medium,0.45
+GlobalImpact_NGO_0316,Southeast Asia,SDG 4: Quality Education,3367222,Indigenous Knowledge,Digital Literacy Training,Medium,0.54
+GlobalImpact_NGO_0317,Sub-Saharan Africa,SDG 4: Quality Education,1268719,Regional Soil Data,Clean Energy Grid,Medium,0.41
+GlobalImpact_NGO_0318,Latin America,SDG 13: Climate Action,3925935,Regional Soil Data,Digital Literacy Training,Medium,0.2
+GlobalImpact_NGO_0319,South Asia,SDG 17: Partnerships,1384980,Local Healthcare Records,Clean Energy Grid,Low,0.55
+GlobalImpact_NGO_0320,Southeast Asia,SDG 17: Partnerships,2119486,Logistics Network,Satellite Data,Low,0.25
+GlobalImpact_NGO_0321,South Asia,SDG 17: Partnerships,3307399,Regional Soil Data,Remote Server Access,Medium,0.72
+GlobalImpact_NGO_0322,Latin America,SDG 4: Quality Education,4435749,Local Healthcare Records,Satellite Data,High,0.19
+GlobalImpact_NGO_0323,South Asia,SDG 17: Partnerships,3418203,Local Healthcare Records,Satellite Data,Medium,0.6
+GlobalImpact_NGO_0324,South Asia,SDG 4: Quality Education,4076861,Indigenous Knowledge,Clean Energy Grid,Low,0.12
+GlobalImpact_NGO_0325,Central Asia,SDG 9: Industry & Innovation,1588015,Regional Soil Data,Remote Server Access,High,0.37
+GlobalImpact_NGO_0326,Southeast Asia,SDG 9: Industry & Innovation,2484721,Logistics Network,Digital Literacy Training,Medium,0.53
+GlobalImpact_NGO_0327,Latin America,SDG 17: Partnerships,2501037,Indigenous Knowledge,Satellite Data,Medium,0.45
+GlobalImpact_NGO_0328,South Asia,SDG 9: Industry & Innovation,2782915,Community Labor,Clean Energy Grid,High,0.16
+GlobalImpact_NGO_0329,South Asia,SDG 4: Quality Education,4538082,Logistics Network,Digital Literacy Training,Low,0.81
+GlobalImpact_NGO_0330,Latin America,SDG 17: Partnerships,1136286,Community Labor,Satellite Data,Low,0.1
+GlobalImpact_NGO_0331,Latin America,SDG 17: Partnerships,160057,Community Labor,Last-mile Fiber,Low,0.13
+GlobalImpact_NGO_0332,Sub-Saharan Africa,SDG 13: Climate Action,4248927,Indigenous Knowledge,Remote Server Access,Low,0.2
+GlobalImpact_NGO_0333,Southeast Asia,SDG 13: Climate Action,576721,Regional Soil Data,Digital Literacy Training,High,0.58
+GlobalImpact_NGO_0334,South Asia,SDG 17: Partnerships,2025377,Community Labor,Clean Energy Grid,High,0.55
+GlobalImpact_NGO_0335,Central Asia,SDG 13: Climate Action,2494775,Regional Soil Data,Digital Literacy Training,Low,0.72
+GlobalImpact_NGO_0336,Latin America,SDG 9: Industry & Innovation,426532,Regional Soil Data,Satellite Data,Low,0.89
+GlobalImpact_NGO_0337,Latin America,SDG 9: Industry & Innovation,1081885,Indigenous Knowledge,Digital Literacy Training,High,0.25
+GlobalImpact_NGO_0338,Latin America,SDG 13: Climate Action,3733658,Regional Soil Data,Satellite Data,Medium,0.53
+GlobalImpact_NGO_0339,Central Asia,SDG 17: Partnerships,3835500,Regional Soil Data,Last-mile Fiber,Low,0.81
+GlobalImpact_NGO_0340,Sub-Saharan Africa,SDG 13: Climate Action,272970,Logistics Network,Remote Server Access,High,0.13
+GlobalImpact_NGO_0341,Latin America,SDG 13: Climate Action,2175519,Local Healthcare Records,Digital Literacy Training,Medium,0.58
+GlobalImpact_NGO_0342,South Asia,SDG 13: Climate Action,960732,Community Labor,Satellite Data,High,0.62
+GlobalImpact_NGO_0343,Sub-Saharan Africa,SDG 17: Partnerships,2791305,Regional Soil Data,Remote Server Access,High,0.69
+GlobalImpact_NGO_0344,Central Asia,SDG 17: Partnerships,3916358,Logistics Network,Clean Energy Grid,Medium,0.14
+GlobalImpact_NGO_0345,Latin America,SDG 4: Quality Education,521077,Community Labor,Digital Literacy Training,Low,0.39
+GlobalImpact_NGO_0346,South Asia,SDG 4: Quality Education,2399189,Local Healthcare Records,Satellite Data,High,0.48
+GlobalImpact_NGO_0347,South Asia,SDG 13: Climate Action,4730303,Indigenous Knowledge,Satellite Data,Low,0.67
+GlobalImpact_NGO_0348,Latin America,SDG 4: Quality Education,679765,Local Healthcare Records,Clean Energy Grid,Medium,0.39
+GlobalImpact_NGO_0349,South Asia,SDG 9: Industry & Innovation,4672260,Community Labor,Satellite Data,Low,0.58
+GlobalImpact_NGO_0350,Sub-Saharan Africa,SDG 9: Industry & Innovation,97603,Local Healthcare Records,Remote Server Access,Medium,0.13
+GlobalImpact_NGO_0351,Sub-Saharan Africa,SDG 17: Partnerships,3962913,Community Labor,Last-mile Fiber,Low,0.65
+GlobalImpact_NGO_0352,Sub-Saharan Africa,SDG 4: Quality Education,51079,Logistics Network,Last-mile Fiber,Medium,0.6
+GlobalImpact_NGO_0353,Central Asia,SDG 9: Industry & Innovation,4112826,Indigenous Knowledge,Last-mile Fiber,Low,0.28
+GlobalImpact_NGO_0354,Sub-Saharan Africa,SDG 9: Industry & Innovation,4405318,Community Labor,Last-mile Fiber,Medium,0.72
+GlobalImpact_NGO_0355,Central Asia,SDG 17: Partnerships,3455980,Local Healthcare Records,Remote Server Access,Low,0.51
+GlobalImpact_NGO_0356,Latin America,SDG 17: Partnerships,4794036,Local Healthcare Records,Clean Energy Grid,Medium,0.77
+GlobalImpact_NGO_0357,Southeast Asia,SDG 9: Industry & Innovation,4804349,Indigenous Knowledge,Satellite Data,Medium,0.24
+GlobalImpact_NGO_0358,Central Asia,SDG 4: Quality Education,1177813,Logistics Network,Digital Literacy Training,Medium,0.88
+GlobalImpact_NGO_0359,Central Asia,SDG 17: Partnerships,2801047,Indigenous Knowledge,Digital Literacy Training,Low,0.85
+GlobalImpact_NGO_0360,Southeast Asia,SDG 13: Climate Action,72618,Regional Soil Data,Remote Server Access,Medium,0.82
+GlobalImpact_NGO_0361,South Asia,SDG 17: Partnerships,3967822,Logistics Network,Remote Server Access,Low,0.57
+GlobalImpact_NGO_0362,South Asia,SDG 9: Industry & Innovation,4947897,Community Labor,Remote Server Access,Low,0.58
+GlobalImpact_NGO_0363,South Asia,SDG 17: Partnerships,4475524,Logistics Network,Remote Server Access,Low,0.32
+GlobalImpact_NGO_0364,Latin America,SDG 4: Quality Education,697342,Indigenous Knowledge,Satellite Data,High,0.55
+GlobalImpact_NGO_0365,Sub-Saharan Africa,SDG 17: Partnerships,1035563,Logistics Network,Remote Server Access,Medium,0.71
+GlobalImpact_NGO_0366,Central Asia,SDG 9: Industry & Innovation,2354660,Regional Soil Data,Remote Server Access,High,0.68
+GlobalImpact_NGO_0367,South Asia,SDG 17: Partnerships,488122,Indigenous Knowledge,Digital Literacy Training,High,0.38
+GlobalImpact_NGO_0368,Sub-Saharan Africa,SDG 9: Industry & Innovation,3615406,Local Healthcare Records,Digital Literacy Training,High,0.29
+GlobalImpact_NGO_0369,South Asia,SDG 17: Partnerships,2142377,Local Healthcare Records,Satellite Data,High,0.49
+GlobalImpact_NGO_0370,South Asia,SDG 4: Quality Education,4203983,Regional Soil Data,Digital Literacy Training,Medium,0.2
+GlobalImpact_NGO_0371,Sub-Saharan Africa,SDG 9: Industry & Innovation,4293620,Community Labor,Digital Literacy Training,High,0.71
+GlobalImpact_NGO_0372,Latin America,SDG 17: Partnerships,852053,Local Healthcare Records,Satellite Data,Medium,0.78
+GlobalImpact_NGO_0373,South Asia,SDG 9: Industry & Innovation,1367770,Local Healthcare Records,Remote Server Access,High,0.88
+GlobalImpact_NGO_0374,Central Asia,SDG 4: Quality Education,2607966,Community Labor,Last-mile Fiber,High,0.5
+GlobalImpact_NGO_0375,South Asia,SDG 4: Quality Education,3864640,Regional Soil Data,Satellite Data,Medium,0.76
+GlobalImpact_NGO_0376,South Asia,SDG 17: Partnerships,3172099,Logistics Network,Clean Energy Grid,Low,0.2
+GlobalImpact_NGO_0377,Southeast Asia,SDG 13: Climate Action,2439618,Logistics Network,Clean Energy Grid,High,0.27
+GlobalImpact_NGO_0378,Latin America,SDG 9: Industry & Innovation,3637445,Community Labor,Digital Literacy Training,Low,0.79
+GlobalImpact_NGO_0379,South Asia,SDG 17: Partnerships,1163758,Logistics Network,Remote Server Access,Medium,0.87
+GlobalImpact_NGO_0380,Central Asia,SDG 17: Partnerships,4718282,Logistics Network,Digital Literacy Training,Low,0.89
+GlobalImpact_NGO_0381,Southeast Asia,SDG 4: Quality Education,4074394,Regional Soil Data,Clean Energy Grid,Low,0.26
+GlobalImpact_NGO_0382,Central Asia,SDG 9: Industry & Innovation,4746262,Regional Soil Data,Digital Literacy Training,Low,0.22
+GlobalImpact_NGO_0383,Southeast Asia,SDG 17: Partnerships,4029989,Community Labor,Remote Server Access,Low,0.43
+GlobalImpact_NGO_0384,South Asia,SDG 13: Climate Action,4491935,Indigenous Knowledge,Digital Literacy Training,Medium,0.48
+GlobalImpact_NGO_0385,Southeast Asia,SDG 13: Climate Action,3452788,Community Labor,Clean Energy Grid,Low,0.66
+GlobalImpact_NGO_0386,Southeast Asia,SDG 9: Industry & Innovation,4368253,Community Labor,Satellite Data,High,0.76
+GlobalImpact_NGO_0387,Latin America,SDG 17: Partnerships,3808586,Indigenous Knowledge,Digital Literacy Training,High,0.37
+GlobalImpact_NGO_0388,South Asia,SDG 9: Industry & Innovation,2633514,Logistics Network,Last-mile Fiber,Low,0.36
+GlobalImpact_NGO_0389,Central Asia,SDG 9: Industry & Innovation,1857874,Regional Soil Data,Digital Literacy Training,Low,0.77
+GlobalImpact_NGO_0390,Sub-Saharan Africa,SDG 9: Industry & Innovation,3000261,Logistics Network,Satellite Data,High,0.56
+GlobalImpact_NGO_0391,Sub-Saharan Africa,SDG 13: Climate Action,2308059,Local Healthcare Records,Remote Server Access,Low,0.12
+GlobalImpact_NGO_0392,South Asia,SDG 4: Quality Education,4231584,Community Labor,Last-mile Fiber,High,0.55
+GlobalImpact_NGO_0393,Central Asia,SDG 17: Partnerships,4742845,Indigenous Knowledge,Remote Server Access,High,0.63
+GlobalImpact_NGO_0394,Sub-Saharan Africa,SDG 13: Climate Action,1867572,Indigenous Knowledge,Clean Energy Grid,Medium,0.37
+GlobalImpact_NGO_0395,South Asia,SDG 9: Industry & Innovation,2160955,Regional Soil Data,Digital Literacy Training,Low,0.84
+GlobalImpact_NGO_0396,Latin America,SDG 4: Quality Education,421074,Indigenous Knowledge,Clean Energy Grid,Low,0.2
+GlobalImpact_NGO_0397,Central Asia,SDG 17: Partnerships,3336346,Local Healthcare Records,Remote Server Access,Medium,0.33
+GlobalImpact_NGO_0398,Sub-Saharan Africa,SDG 13: Climate Action,3033613,Logistics Network,Satellite Data,Medium,0.79
+GlobalImpact_NGO_0399,South Asia,SDG 17: Partnerships,986559,Community Labor,Satellite Data,Medium,0.46
+GlobalImpact_NGO_0400,South Asia,SDG 4: Quality Education,2137573,Local Healthcare Records,Remote Server Access,High,0.85
+GlobalImpact_NGO_0401,South Asia,SDG 9: Industry & Innovation,3454732,Local Healthcare Records,Remote Server Access,Low,0.26
+GlobalImpact_NGO_0402,South Asia,SDG 13: Climate Action,4409804,Community Labor,Remote Server Access,High,0.19
+GlobalImpact_NGO_0403,South Asia,SDG 9: Industry & Innovation,4448687,Indigenous Knowledge,Last-mile Fiber,Medium,0.69
+GlobalImpact_NGO_0404,Central Asia,SDG 4: Quality Education,722980,Indigenous Knowledge,Satellite Data,High,0.16
+GlobalImpact_NGO_0405,Southeast Asia,SDG 13: Climate Action,283699,Logistics Network,Last-mile Fiber,Medium,0.54
+GlobalImpact_NGO_0406,Latin America,SDG 13: Climate Action,2858538,Logistics Network,Last-mile Fiber,Low,0.56
+GlobalImpact_NGO_0407,South Asia,SDG 4: Quality Education,1489200,Community Labor,Clean Energy Grid,Low,0.8
+GlobalImpact_NGO_0408,Sub-Saharan Africa,SDG 13: Climate Action,1562101,Community Labor,Satellite Data,Medium,0.64
+GlobalImpact_NGO_0409,Sub-Saharan Africa,SDG 13: Climate Action,4514247,Local Healthcare Records,Clean Energy Grid,Medium,0.74
+GlobalImpact_NGO_0410,South Asia,SDG 13: Climate Action,1291641,Logistics Network,Remote Server Access,Low,0.12
+GlobalImpact_NGO_0411,Central Asia,SDG 9: Industry & Innovation,4255203,Indigenous Knowledge,Satellite Data,High,0.79
+GlobalImpact_NGO_0412,Latin America,SDG 17: Partnerships,480510,Community Labor,Satellite Data,Low,0.52
+GlobalImpact_NGO_0413,Latin America,SDG 13: Climate Action,474087,Community Labor,Remote Server Access,Low,0.39
+GlobalImpact_NGO_0414,Central Asia,SDG 9: Industry & Innovation,3974299,Logistics Network,Clean Energy Grid,Medium,0.1
+GlobalImpact_NGO_0415,Latin America,SDG 17: Partnerships,1658744,Local Healthcare Records,Last-mile Fiber,High,0.59
+GlobalImpact_NGO_0416,South Asia,SDG 9: Industry & Innovation,4162741,Logistics Network,Remote Server Access,High,0.57
+GlobalImpact_NGO_0417,Latin America,SDG 4: Quality Education,3812880,Community Labor,Satellite Data,High,0.68
+GlobalImpact_NGO_0418,Sub-Saharan Africa,SDG 9: Industry & Innovation,771209,Local Healthcare Records,Clean Energy Grid,High,0.25
+GlobalImpact_NGO_0419,South Asia,SDG 9: Industry & Innovation,4488534,Logistics Network,Digital Literacy Training,Medium,0.56
+GlobalImpact_NGO_0420,Southeast Asia,SDG 4: Quality Education,4420030,Local Healthcare Records,Remote Server Access,Medium,0.23
+GlobalImpact_NGO_0421,Sub-Saharan Africa,SDG 4: Quality Education,510139,Logistics Network,Satellite Data,Low,0.39
+GlobalImpact_NGO_0422,South Asia,SDG 9: Industry & Innovation,4870657,Logistics Network,Remote Server Access,Medium,0.55
+GlobalImpact_NGO_0423,South Asia,SDG 9: Industry & Innovation,994049,Local Healthcare Records,Satellite Data,Medium,0.27
+GlobalImpact_NGO_0424,Latin America,SDG 9: Industry & Innovation,1573056,Local Healthcare Records,Remote Server Access,High,0.35
+GlobalImpact_NGO_0425,Southeast Asia,SDG 4: Quality Education,2945815,Logistics Network,Remote Server Access,High,0.63
+GlobalImpact_NGO_0426,Southeast Asia,SDG 17: Partnerships,483481,Indigenous Knowledge,Last-mile Fiber,Medium,0.18
+GlobalImpact_NGO_0427,South Asia,SDG 9: Industry & Innovation,730395,Community Labor,Clean Energy Grid,Low,0.79
+GlobalImpact_NGO_0428,South Asia,SDG 13: Climate Action,2768727,Indigenous Knowledge,Clean Energy Grid,Low,0.32
+GlobalImpact_NGO_0429,Central Asia,SDG 17: Partnerships,2106241,Regional Soil Data,Satellite Data,Medium,0.54
+GlobalImpact_NGO_0430,Sub-Saharan Africa,SDG 4: Quality Education,4663843,Local Healthcare Records,Clean Energy Grid,High,0.38
+GlobalImpact_NGO_0431,Sub-Saharan Africa,SDG 17: Partnerships,3433124,Regional Soil Data,Clean Energy Grid,Medium,0.44
+GlobalImpact_NGO_0432,Latin America,SDG 13: Climate Action,4345194,Local Healthcare Records,Digital Literacy Training,High,0.27
+GlobalImpact_NGO_0433,Latin America,SDG 17: Partnerships,208141,Local Healthcare Records,Last-mile Fiber,Medium,0.21
+GlobalImpact_NGO_0434,South Asia,SDG 17: Partnerships,981781,Logistics Network,Satellite Data,Medium,0.12
+GlobalImpact_NGO_0435,South Asia,SDG 9: Industry & Innovation,1793064,Local Healthcare Records,Digital Literacy Training,High,0.39
+GlobalImpact_NGO_0436,Latin America,SDG 9: Industry & Innovation,2952313,Indigenous Knowledge,Remote Server Access,Low,0.36
+GlobalImpact_NGO_0437,South Asia,SDG 13: Climate Action,2639204,Local Healthcare Records,Last-mile Fiber,Low,0.35
+GlobalImpact_NGO_0438,Latin America,SDG 13: Climate Action,3738001,Logistics Network,Digital Literacy Training,Low,0.14
+GlobalImpact_NGO_0439,Sub-Saharan Africa,SDG 17: Partnerships,665647,Regional Soil Data,Remote Server Access,Low,0.6
+GlobalImpact_NGO_0440,Central Asia,SDG 4: Quality Education,3220765,Community Labor,Remote Server Access,Medium,0.13
+GlobalImpact_NGO_0441,South Asia,SDG 4: Quality Education,2368230,Local Healthcare Records,Satellite Data,Low,0.31
+GlobalImpact_NGO_0442,Sub-Saharan Africa,SDG 13: Climate Action,3193837,Local Healthcare Records,Digital Literacy Training,Low,0.42
+GlobalImpact_NGO_0443,Central Asia,SDG 13: Climate Action,2162726,Local Healthcare Records,Last-mile Fiber,High,0.46
+GlobalImpact_NGO_0444,Central Asia,SDG 13: Climate Action,3264295,Regional Soil Data,Clean Energy Grid,Medium,0.3
+GlobalImpact_NGO_0445,Southeast Asia,SDG 9: Industry & Innovation,2416859,Indigenous Knowledge,Clean Energy Grid,High,0.59
+GlobalImpact_NGO_0446,Central Asia,SDG 4: Quality Education,2896913,Indigenous Knowledge,Satellite Data,High,0.39
+GlobalImpact_NGO_0447,Southeast Asia,SDG 13: Climate Action,4328596,Regional Soil Data,Clean Energy Grid,High,0.65
+GlobalImpact_NGO_0448,Sub-Saharan Africa,SDG 17: Partnerships,4640115,Indigenous Knowledge,Digital Literacy Training,Low,0.42
+GlobalImpact_NGO_0449,Sub-Saharan Africa,SDG 4: Quality Education,1595530,Community Labor,Clean Energy Grid,High,0.76
+GlobalImpact_NGO_0450,Latin America,SDG 9: Industry & Innovation,3289747,Regional Soil Data,Remote Server Access,Medium,0.51
+GlobalImpact_NGO_0451,South Asia,SDG 17: Partnerships,3041752,Logistics Network,Satellite Data,High,0.84
+GlobalImpact_NGO_0452,Latin America,SDG 13: Climate Action,1956464,Logistics Network,Remote Server Access,High,0.12
+GlobalImpact_NGO_0453,Southeast Asia,SDG 4: Quality Education,506342,Logistics Network,Clean Energy Grid,Low,0.14
+GlobalImpact_NGO_0454,Central Asia,SDG 4: Quality Education,1614437,Local Healthcare Records,Last-mile Fiber,Medium,0.57
+GlobalImpact_NGO_0455,Latin America,SDG 13: Climate Action,1673813,Logistics Network,Last-mile Fiber,Medium,0.14
+GlobalImpact_NGO_0456,Latin America,SDG 4: Quality Education,1949091,Indigenous Knowledge,Digital Literacy Training,Low,0.18
+GlobalImpact_NGO_0457,South Asia,SDG 4: Quality Education,54902,Community Labor,Clean Energy Grid,Medium,0.17
+GlobalImpact_NGO_0458,Sub-Saharan Africa,SDG 13: Climate Action,379439,Local Healthcare Records,Last-mile Fiber,High,0.4
+GlobalImpact_NGO_0459,Latin America,SDG 4: Quality Education,413160,Local Healthcare Records,Last-mile Fiber,Medium,0.46
+GlobalImpact_NGO_0460,South Asia,SDG 9: Industry & Innovation,2842806,Regional Soil Data,Satellite Data,Low,0.35
+GlobalImpact_NGO_0461,Sub-Saharan Africa,SDG 13: Climate Action,3668463,Indigenous Knowledge,Satellite Data,High,0.87
+GlobalImpact_NGO_0462,Sub-Saharan Africa,SDG 17: Partnerships,1734967,Indigenous Knowledge,Remote Server Access,Low,0.38
+GlobalImpact_NGO_0463,Sub-Saharan Africa,SDG 9: Industry & Innovation,3669496,Logistics Network,Satellite Data,High,0.18
+GlobalImpact_NGO_0464,Southeast Asia,SDG 9: Industry & Innovation,1170747,Regional Soil Data,Digital Literacy Training,High,0.17
+GlobalImpact_NGO_0465,South Asia,SDG 17: Partnerships,121131,Community Labor,Satellite Data,Low,0.51
+GlobalImpact_NGO_0466,Southeast Asia,SDG 9: Industry & Innovation,4122824,Logistics Network,Remote Server Access,High,0.73
+GlobalImpact_NGO_0467,Latin America,SDG 9: Industry & Innovation,1589890,Indigenous Knowledge,Last-mile Fiber,High,0.5
+GlobalImpact_NGO_0468,Central Asia,SDG 9: Industry & Innovation,1883103,Indigenous Knowledge,Clean Energy Grid,Low,0.75
+GlobalImpact_NGO_0469,Sub-Saharan Africa,SDG 17: Partnerships,372463,Regional Soil Data,Last-mile Fiber,Low,0.6
+GlobalImpact_NGO_0470,Southeast Asia,SDG 4: Quality Education,4901985,Community Labor,Clean Energy Grid,High,0.61
+GlobalImpact_NGO_0471,Latin America,SDG 9: Industry & Innovation,419443,Logistics Network,Digital Literacy Training,Low,0.52
+GlobalImpact_NGO_0472,Sub-Saharan Africa,SDG 17: Partnerships,3974014,Community Labor,Last-mile Fiber,Medium,0.59
+GlobalImpact_NGO_0473,Latin America,SDG 4: Quality Education,4526191,Indigenous Knowledge,Remote Server Access,Medium,0.46
+GlobalImpact_NGO_0474,Latin America,SDG 13: Climate Action,2822512,Community Labor,Last-mile Fiber,Medium,0.4
+GlobalImpact_NGO_0475,Latin America,SDG 17: Partnerships,352595,Logistics Network,Last-mile Fiber,Medium,0.57
+GlobalImpact_NGO_0476,Latin America,SDG 4: Quality Education,4698603,Indigenous Knowledge,Last-mile Fiber,Low,0.25
+GlobalImpact_NGO_0477,Central Asia,SDG 9: Industry & Innovation,1850785,Community Labor,Remote Server Access,Medium,0.79
+GlobalImpact_NGO_0478,Latin America,SDG 9: Industry & Innovation,3959728,Local Healthcare Records,Last-mile Fiber,Low,0.49
+GlobalImpact_NGO_0479,South Asia,SDG 17: Partnerships,2041997,Community Labor,Satellite Data,Low,0.47
+GlobalImpact_NGO_0480,Latin America,SDG 17: Partnerships,3389100,Local Healthcare Records,Satellite Data,Medium,0.46
+GlobalImpact_NGO_0481,Latin America,SDG 4: Quality Education,4176164,Logistics Network,Last-mile Fiber,Medium,0.18
+GlobalImpact_NGO_0482,South Asia,SDG 4: Quality Education,1655635,Indigenous Knowledge,Digital Literacy Training,Medium,0.5
+GlobalImpact_NGO_0483,Central Asia,SDG 13: Climate Action,4805527,Regional Soil Data,Last-mile Fiber,Low,0.31
+GlobalImpact_NGO_0484,South Asia,SDG 9: Industry & Innovation,1103105,Local Healthcare Records,Last-mile Fiber,Low,0.43
+GlobalImpact_NGO_0485,Central Asia,SDG 9: Industry & Innovation,3671318,Logistics Network,Satellite Data,High,0.73
+GlobalImpact_NGO_0486,South Asia,SDG 17: Partnerships,4104424,Indigenous Knowledge,Remote Server Access,Low,0.46
+GlobalImpact_NGO_0487,Southeast Asia,SDG 17: Partnerships,1050162,Logistics Network,Last-mile Fiber,Medium,0.28
+GlobalImpact_NGO_0488,South Asia,SDG 9: Industry & Innovation,914675,Regional Soil Data,Digital Literacy Training,Low,0.32
+GlobalImpact_NGO_0489,Central Asia,SDG 4: Quality Education,3975321,Community Labor,Remote Server Access,High,0.44
+GlobalImpact_NGO_0490,Central Asia,SDG 17: Partnerships,2789468,Logistics Network,Digital Literacy Training,Medium,0.72
+GlobalImpact_NGO_0491,Latin America,SDG 4: Quality Education,238426,Regional Soil Data,Last-mile Fiber,Medium,0.71
+GlobalImpact_NGO_0492,South Asia,SDG 9: Industry & Innovation,1437776,Regional Soil Data,Remote Server Access,High,0.43
+GlobalImpact_NGO_0493,South Asia,SDG 4: Quality Education,4555026,Local Healthcare Records,Last-mile Fiber,Low,0.83
+GlobalImpact_NGO_0494,South Asia,SDG 13: Climate Action,1183936,Regional Soil Data,Digital Literacy Training,Low,0.34
+GlobalImpact_NGO_0495,Latin America,SDG 17: Partnerships,698308,Regional Soil Data,Remote Server Access,High,0.61
+GlobalImpact_NGO_0496,South Asia,SDG 17: Partnerships,1324447,Local Healthcare Records,Remote Server Access,Low,0.72
+GlobalImpact_NGO_0497,Central Asia,SDG 17: Partnerships,699793,Local Healthcare Records,Clean Energy Grid,Medium,0.35
+GlobalImpact_NGO_0498,Central Asia,SDG 9: Industry & Innovation,3098581,Indigenous Knowledge,Last-mile Fiber,Medium,0.8
+GlobalImpact_NGO_0499,Latin America,SDG 9: Industry & Innovation,2249043,Local Healthcare Records,Digital Literacy Training,Low,0.83
+GlobalImpact_NGO_0500,Central Asia,SDG 4: Quality Education,3339639,Regional Soil Data,Satellite Data,Medium,0.13
+GlobalImpact_NGO_0501,South Asia,SDG 17: Partnerships,2268341,Local Healthcare Records,Clean Energy Grid,High,0.72
+GlobalImpact_NGO_0502,Sub-Saharan Africa,SDG 17: Partnerships,1225743,Community Labor,Digital Literacy Training,Low,0.52
+GlobalImpact_NGO_0503,South Asia,SDG 13: Climate Action,3409540,Logistics Network,Satellite Data,Low,0.87
+GlobalImpact_NGO_0504,Central Asia,SDG 17: Partnerships,2717324,Community Labor,Last-mile Fiber,Medium,0.43
+GlobalImpact_NGO_0505,Latin America,SDG 13: Climate Action,326062,Indigenous Knowledge,Digital Literacy Training,High,0.49
+GlobalImpact_NGO_0506,Sub-Saharan Africa,SDG 4: Quality Education,3766901,Indigenous Knowledge,Digital Literacy Training,Medium,0.81
+GlobalImpact_NGO_0507,Southeast Asia,SDG 9: Industry & Innovation,823675,Regional Soil Data,Satellite Data,Low,0.53
+GlobalImpact_NGO_0508,Central Asia,SDG 17: Partnerships,539447,Indigenous Knowledge,Digital Literacy Training,Medium,0.64
+GlobalImpact_NGO_0509,Latin America,SDG 9: Industry & Innovation,831331,Regional Soil Data,Remote Server Access,Low,0.59
+GlobalImpact_NGO_0510,Sub-Saharan Africa,SDG 9: Industry & Innovation,3796215,Local Healthcare Records,Clean Energy Grid,Low,0.52
+GlobalImpact_NGO_0511,Sub-Saharan Africa,SDG 17: Partnerships,2091698,Local Healthcare Records,Clean Energy Grid,High,0.14
+GlobalImpact_NGO_0512,Central Asia,SDG 9: Industry & Innovation,2486349,Regional Soil Data,Last-mile Fiber,High,0.76
+GlobalImpact_NGO_0513,Latin America,SDG 9: Industry & Innovation,2647128,Local Healthcare Records,Clean Energy Grid,Low,0.28
+GlobalImpact_NGO_0514,Southeast Asia,SDG 9: Industry & Innovation,3307473,Indigenous Knowledge,Clean Energy Grid,Medium,0.9
+GlobalImpact_NGO_0515,Latin America,SDG 17: Partnerships,531524,Local Healthcare Records,Clean Energy Grid,High,0.64
+GlobalImpact_NGO_0516,Sub-Saharan Africa,SDG 17: Partnerships,1353478,Indigenous Knowledge,Digital Literacy Training,High,0.37
+GlobalImpact_NGO_0517,Sub-Saharan Africa,SDG 4: Quality Education,379334,Local Healthcare Records,Remote Server Access,High,0.62
+GlobalImpact_NGO_0518,Sub-Saharan Africa,SDG 4: Quality Education,2230003,Regional Soil Data,Satellite Data,Low,0.74
+GlobalImpact_NGO_0519,Sub-Saharan Africa,SDG 13: Climate Action,3855766,Regional Soil Data,Remote Server Access,Low,0.27
+GlobalImpact_NGO_0520,Southeast Asia,SDG 17: Partnerships,2794712,Community Labor,Remote Server Access,Low,0.8
+GlobalImpact_NGO_0521,Central Asia,SDG 17: Partnerships,680804,Local Healthcare Records,Last-mile Fiber,Low,0.69
+GlobalImpact_NGO_0522,Sub-Saharan Africa,SDG 9: Industry & Innovation,3793768,Indigenous Knowledge,Remote Server Access,High,0.84
+GlobalImpact_NGO_0523,South Asia,SDG 13: Climate Action,915968,Regional Soil Data,Satellite Data,High,0.11
+GlobalImpact_NGO_0524,Latin America,SDG 17: Partnerships,4014704,Community Labor,Last-mile Fiber,Low,0.59
+GlobalImpact_NGO_0525,South Asia,SDG 17: Partnerships,2646022,Indigenous Knowledge,Digital Literacy Training,High,0.19
+GlobalImpact_NGO_0526,South Asia,SDG 13: Climate Action,2863667,Indigenous Knowledge,Last-mile Fiber,High,0.89
+GlobalImpact_NGO_0527,South Asia,SDG 9: Industry & Innovation,3713759,Local Healthcare Records,Digital Literacy Training,Low,0.73
+GlobalImpact_NGO_0528,Sub-Saharan Africa,SDG 17: Partnerships,4319761,Community Labor,Digital Literacy Training,Low,0.49
+GlobalImpact_NGO_0529,Southeast Asia,SDG 17: Partnerships,1300636,Community Labor,Last-mile Fiber,Low,0.71
+GlobalImpact_NGO_0530,Southeast Asia,SDG 4: Quality Education,4524475,Community Labor,Remote Server Access,High,0.32
+GlobalImpact_NGO_0531,South Asia,SDG 13: Climate Action,2377448,Logistics Network,Remote Server Access,High,0.75
+GlobalImpact_NGO_0532,Sub-Saharan Africa,SDG 4: Quality Education,569002,Local Healthcare Records,Remote Server Access,High,0.77
+GlobalImpact_NGO_0533,Latin America,SDG 4: Quality Education,3644257,Indigenous Knowledge,Satellite Data,Medium,0.25
+GlobalImpact_NGO_0534,South Asia,SDG 13: Climate Action,569392,Community Labor,Clean Energy Grid,High,0.44
+GlobalImpact_NGO_0535,Southeast Asia,SDG 4: Quality Education,4181071,Indigenous Knowledge,Remote Server Access,Low,0.36
+GlobalImpact_NGO_0536,South Asia,SDG 17: Partnerships,4676911,Regional Soil Data,Satellite Data,Low,0.68
+GlobalImpact_NGO_0537,Latin America,SDG 13: Climate Action,4447281,Indigenous Knowledge,Remote Server Access,High,0.35
+GlobalImpact_NGO_0538,South Asia,SDG 4: Quality Education,1044189,Local Healthcare Records,Remote Server Access,Medium,0.58
+GlobalImpact_NGO_0539,South Asia,SDG 17: Partnerships,1243148,Indigenous Knowledge,Satellite Data,High,0.2
+GlobalImpact_NGO_0540,Central Asia,SDG 4: Quality Education,2625504,Local Healthcare Records,Digital Literacy Training,High,0.48
+GlobalImpact_NGO_0541,Central Asia,SDG 4: Quality Education,4332363,Regional Soil Data,Satellite Data,High,0.33
+GlobalImpact_NGO_0542,Southeast Asia,SDG 9: Industry & Innovation,3376164,Community Labor,Clean Energy Grid,Medium,0.71
+GlobalImpact_NGO_0543,South Asia,SDG 17: Partnerships,1209670,Indigenous Knowledge,Digital Literacy Training,Low,0.81
+GlobalImpact_NGO_0544,Latin America,SDG 9: Industry & Innovation,2772086,Local Healthcare Records,Remote Server Access,Medium,0.27
+GlobalImpact_NGO_0545,South Asia,SDG 17: Partnerships,3694015,Indigenous Knowledge,Satellite Data,Medium,0.53
+GlobalImpact_NGO_0546,Latin America,SDG 4: Quality Education,3585489,Logistics Network,Digital Literacy Training,High,0.19
+GlobalImpact_NGO_0547,Sub-Saharan Africa,SDG 17: Partnerships,1659679,Local Healthcare Records,Last-mile Fiber,Medium,0.59
+GlobalImpact_NGO_0548,South Asia,SDG 13: Climate Action,2202184,Logistics Network,Last-mile Fiber,Low,0.63
+GlobalImpact_NGO_0549,Sub-Saharan Africa,SDG 4: Quality Education,4023851,Local Healthcare Records,Satellite Data,Low,0.18
+GlobalImpact_NGO_0550,South Asia,SDG 17: Partnerships,2940841,Community Labor,Last-mile Fiber,Low,0.14
+GlobalImpact_NGO_0551,South Asia,SDG 13: Climate Action,4684985,Logistics Network,Digital Literacy Training,Medium,0.84
+GlobalImpact_NGO_0552,Latin America,SDG 4: Quality Education,3716534,Logistics Network,Digital Literacy Training,High,0.58
+GlobalImpact_NGO_0553,Sub-Saharan Africa,SDG 13: Climate Action,1893992,Community Labor,Remote Server Access,High,0.67
+GlobalImpact_NGO_0554,Sub-Saharan Africa,SDG 17: Partnerships,537533,Community Labor,Remote Server Access,High,0.25
+GlobalImpact_NGO_0555,Sub-Saharan Africa,SDG 4: Quality Education,4952510,Community Labor,Digital Literacy Training,High,0.35
+GlobalImpact_NGO_0556,Latin America,SDG 13: Climate Action,3458873,Indigenous Knowledge,Last-mile Fiber,High,0.32
+GlobalImpact_NGO_0557,Sub-Saharan Africa,SDG 13: Climate Action,524578,Local Healthcare Records,Digital Literacy Training,Low,0.44
+GlobalImpact_NGO_0558,South Asia,SDG 13: Climate Action,1372066,Regional Soil Data,Last-mile Fiber,High,0.15
+GlobalImpact_NGO_0559,South Asia,SDG 4: Quality Education,3703074,Community Labor,Satellite Data,High,0.8
+GlobalImpact_NGO_0560,Sub-Saharan Africa,SDG 4: Quality Education,4996928,Logistics Network,Last-mile Fiber,High,0.76
+GlobalImpact_NGO_0561,Central Asia,SDG 4: Quality Education,1692220,Local Healthcare Records,Clean Energy Grid,Low,0.65
+GlobalImpact_NGO_0562,South Asia,SDG 13: Climate Action,3477181,Logistics Network,Digital Literacy Training,Medium,0.36
+GlobalImpact_NGO_0563,Central Asia,SDG 13: Climate Action,343751,Regional Soil Data,Satellite Data,Low,0.39
+GlobalImpact_NGO_0564,Central Asia,SDG 17: Partnerships,1974980,Indigenous Knowledge,Digital Literacy Training,High,0.6
+GlobalImpact_NGO_0565,Central Asia,SDG 13: Climate Action,2830098,Local Healthcare Records,Satellite Data,Low,0.27
+GlobalImpact_NGO_0566,Latin America,SDG 13: Climate Action,3386126,Community Labor,Clean Energy Grid,Low,0.35
+GlobalImpact_NGO_0567,Southeast Asia,SDG 4: Quality Education,747620,Local Healthcare Records,Clean Energy Grid,Medium,0.86
+GlobalImpact_NGO_0568,Sub-Saharan Africa,SDG 17: Partnerships,4675357,Local Healthcare Records,Remote Server Access,Low,0.3
+GlobalImpact_NGO_0569,Southeast Asia,SDG 9: Industry & Innovation,4095509,Community Labor,Satellite Data,Medium,0.76
+GlobalImpact_NGO_0570,Sub-Saharan Africa,SDG 4: Quality Education,4442651,Local Healthcare Records,Digital Literacy Training,Medium,0.24
+GlobalImpact_NGO_0571,Central Asia,SDG 13: Climate Action,4822833,Community Labor,Clean Energy Grid,Low,0.77
+GlobalImpact_NGO_0572,Southeast Asia,SDG 9: Industry & Innovation,881301,Community Labor,Remote Server Access,Medium,0.31
+GlobalImpact_NGO_0573,Latin America,SDG 13: Climate Action,2326779,Logistics Network,Remote Server Access,Low,0.72
+GlobalImpact_NGO_0574,South Asia,SDG 4: Quality Education,2232163,Local Healthcare Records,Satellite Data,High,0.19
+GlobalImpact_NGO_0575,Latin America,SDG 17: Partnerships,2958369,Local Healthcare Records,Digital Literacy Training,High,0.46
+GlobalImpact_NGO_0576,Central Asia,SDG 13: Climate Action,4242913,Regional Soil Data,Remote Server Access,Low,0.63
+GlobalImpact_NGO_0577,Sub-Saharan Africa,SDG 9: Industry & Innovation,3940888,Regional Soil Data,Clean Energy Grid,High,0.57
+GlobalImpact_NGO_0578,Central Asia,SDG 4: Quality Education,1409496,Local Healthcare Records,Clean Energy Grid,Medium,0.47
+GlobalImpact_NGO_0579,Sub-Saharan Africa,SDG 17: Partnerships,4126414,Local Healthcare Records,Clean Energy Grid,High,0.47
+GlobalImpact_NGO_0580,Sub-Saharan Africa,SDG 17: Partnerships,2984332,Indigenous Knowledge,Clean Energy Grid,Medium,0.24
+GlobalImpact_NGO_0581,Latin America,SDG 17: Partnerships,1696815,Indigenous Knowledge,Last-mile Fiber,Medium,0.37
+GlobalImpact_NGO_0582,Southeast Asia,SDG 4: Quality Education,3057635,Logistics Network,Remote Server Access,High,0.52
+GlobalImpact_NGO_0583,Latin America,SDG 9: Industry & Innovation,2988408,Indigenous Knowledge,Clean Energy Grid,Medium,0.12
+GlobalImpact_NGO_0584,Latin America,SDG 13: Climate Action,1724181,Regional Soil Data,Last-mile Fiber,Medium,0.74
+GlobalImpact_NGO_0585,Latin America,SDG 9: Industry & Innovation,1649052,Indigenous Knowledge,Satellite Data,Low,0.36
+GlobalImpact_NGO_0586,Sub-Saharan Africa,SDG 9: Industry & Innovation,3965318,Regional Soil Data,Digital Literacy Training,High,0.35
+GlobalImpact_NGO_0587,Latin America,SDG 17: Partnerships,861000,Regional Soil Data,Remote Server Access,Medium,0.83
+GlobalImpact_NGO_0588,Sub-Saharan Africa,SDG 17: Partnerships,3478794,Community Labor,Satellite Data,Medium,0.89
+GlobalImpact_NGO_0589,Southeast Asia,SDG 17: Partnerships,3978332,Regional Soil Data,Clean Energy Grid,Low,0.75
+GlobalImpact_NGO_0590,Sub-Saharan Africa,SDG 13: Climate Action,2126865,Local Healthcare Records,Clean Energy Grid,Low,0.87
+GlobalImpact_NGO_0591,Sub-Saharan Africa,SDG 4: Quality Education,3810596,Local Healthcare Records,Digital Literacy Training,Medium,0.54
+GlobalImpact_NGO_0592,Southeast Asia,SDG 4: Quality Education,4937964,Indigenous Knowledge,Clean Energy Grid,Medium,0.17
+GlobalImpact_NGO_0593,Latin America,SDG 13: Climate Action,610942,Indigenous Knowledge,Remote Server Access,Low,0.19
+GlobalImpact_NGO_0594,Central Asia,SDG 17: Partnerships,4292793,Logistics Network,Clean Energy Grid,Low,0.62
+GlobalImpact_NGO_0595,Latin America,SDG 9: Industry & Innovation,4303814,Indigenous Knowledge,Last-mile Fiber,Medium,0.59
+GlobalImpact_NGO_0596,Southeast Asia,SDG 9: Industry & Innovation,4868412,Regional Soil Data,Satellite Data,High,0.76
+GlobalImpact_NGO_0597,Southeast Asia,SDG 13: Climate Action,3010622,Indigenous Knowledge,Digital Literacy Training,Medium,0.52
+GlobalImpact_NGO_0598,Latin America,SDG 17: Partnerships,4101956,Community Labor,Last-mile Fiber,High,0.36
+GlobalImpact_NGO_0599,Southeast Asia,SDG 17: Partnerships,2658117,Community Labor,Satellite Data,High,0.61
+GlobalImpact_NGO_0600,Latin America,SDG 13: Climate Action,3215078,Logistics Network,Satellite Data,Medium,0.51
+GlobalImpact_NGO_0601,Central Asia,SDG 17: Partnerships,2621858,Logistics Network,Digital Literacy Training,Medium,0.62
+GlobalImpact_NGO_0602,South Asia,SDG 9: Industry & Innovation,302545,Indigenous Knowledge,Digital Literacy Training,High,0.83
+GlobalImpact_NGO_0603,South Asia,SDG 9: Industry & Innovation,2289743,Logistics Network,Remote Server Access,Medium,0.88
+GlobalImpact_NGO_0604,Sub-Saharan Africa,SDG 4: Quality Education,3910858,Regional Soil Data,Digital Literacy Training,Low,0.84
+GlobalImpact_NGO_0605,Latin America,SDG 17: Partnerships,2404451,Logistics Network,Digital Literacy Training,Medium,0.22
+GlobalImpact_NGO_0606,Southeast Asia,SDG 13: Climate Action,4205784,Local Healthcare Records,Last-mile Fiber,Low,0.44
+GlobalImpact_NGO_0607,South Asia,SDG 17: Partnerships,2609055,Indigenous Knowledge,Digital Literacy Training,Low,0.65
+GlobalImpact_NGO_0608,Central Asia,SDG 17: Partnerships,3366085,Indigenous Knowledge,Last-mile Fiber,High,0.15
+GlobalImpact_NGO_0609,Latin America,SDG 9: Industry & Innovation,3355717,Indigenous Knowledge,Remote Server Access,High,0.38
+GlobalImpact_NGO_0610,Latin America,SDG 17: Partnerships,4525481,Indigenous Knowledge,Clean Energy Grid,Low,0.36
+GlobalImpact_NGO_0611,Latin America,SDG 13: Climate Action,4287639,Logistics Network,Clean Energy Grid,Low,0.4
+GlobalImpact_NGO_0612,Southeast Asia,SDG 13: Climate Action,4685737,Indigenous Knowledge,Last-mile Fiber,Low,0.31
+GlobalImpact_NGO_0613,Southeast Asia,SDG 4: Quality Education,1994997,Indigenous Knowledge,Satellite Data,Low,0.59
+GlobalImpact_NGO_0614,Sub-Saharan Africa,SDG 9: Industry & Innovation,2590854,Regional Soil Data,Last-mile Fiber,Low,0.33
+GlobalImpact_NGO_0615,Southeast Asia,SDG 4: Quality Education,2832413,Indigenous Knowledge,Clean Energy Grid,Low,0.5
+GlobalImpact_NGO_0616,South Asia,SDG 13: Climate Action,2091687,Community Labor,Clean Energy Grid,Low,0.43
+GlobalImpact_NGO_0617,Central Asia,SDG 13: Climate Action,4893150,Logistics Network,Digital Literacy Training,Low,0.46
+GlobalImpact_NGO_0618,South Asia,SDG 4: Quality Education,3718240,Community Labor,Satellite Data,Medium,0.82
+GlobalImpact_NGO_0619,Sub-Saharan Africa,SDG 4: Quality Education,1367585,Local Healthcare Records,Satellite Data,Low,0.42
+GlobalImpact_NGO_0620,South Asia,SDG 17: Partnerships,4799299,Indigenous Knowledge,Last-mile Fiber,High,0.17
+GlobalImpact_NGO_0621,Central Asia,SDG 13: Climate Action,3346960,Logistics Network,Satellite Data,Low,0.64
+GlobalImpact_NGO_0622,Southeast Asia,SDG 9: Industry & Innovation,4532880,Local Healthcare Records,Clean Energy Grid,Medium,0.38
+GlobalImpact_NGO_0623,Latin America,SDG 4: Quality Education,3225533,Indigenous Knowledge,Satellite Data,Low,0.28
+GlobalImpact_NGO_0624,South Asia,SDG 4: Quality Education,1616368,Indigenous Knowledge,Satellite Data,High,0.24
+GlobalImpact_NGO_0625,Sub-Saharan Africa,SDG 9: Industry & Innovation,306284,Community Labor,Digital Literacy Training,Low,0.8
+GlobalImpact_NGO_0626,South Asia,SDG 4: Quality Education,3019840,Regional Soil Data,Clean Energy Grid,Low,0.47
+GlobalImpact_NGO_0627,Latin America,SDG 13: Climate Action,2186127,Logistics Network,Clean Energy Grid,Low,0.46
+GlobalImpact_NGO_0628,Southeast Asia,SDG 13: Climate Action,2513695,Community Labor,Digital Literacy Training,Low,0.42
+GlobalImpact_NGO_0629,Southeast Asia,SDG 9: Industry & Innovation,4247120,Logistics Network,Remote Server Access,Medium,0.77
+GlobalImpact_NGO_0630,Latin America,SDG 17: Partnerships,4577680,Indigenous Knowledge,Remote Server Access,Low,0.28
+GlobalImpact_NGO_0631,Latin America,SDG 13: Climate Action,1297089,Local Healthcare Records,Remote Server Access,Medium,0.34
+GlobalImpact_NGO_0632,Central Asia,SDG 17: Partnerships,4736623,Regional Soil Data,Digital Literacy Training,Low,0.79
+GlobalImpact_NGO_0633,Latin America,SDG 4: Quality Education,3165641,Community Labor,Satellite Data,Medium,0.5
+GlobalImpact_NGO_0634,Latin America,SDG 4: Quality Education,4885549,Regional Soil Data,Remote Server Access,Medium,0.85
+GlobalImpact_NGO_0635,South Asia,SDG 13: Climate Action,1536000,Indigenous Knowledge,Digital Literacy Training,High,0.28
+GlobalImpact_NGO_0636,Southeast Asia,SDG 13: Climate Action,4306853,Community Labor,Satellite Data,Medium,0.85
+GlobalImpact_NGO_0637,Latin America,SDG 9: Industry & Innovation,2090680,Indigenous Knowledge,Digital Literacy Training,Medium,0.86
+GlobalImpact_NGO_0638,Latin America,SDG 13: Climate Action,2297127,Local Healthcare Records,Satellite Data,High,0.16
+GlobalImpact_NGO_0639,South Asia,SDG 4: Quality Education,2183437,Indigenous Knowledge,Clean Energy Grid,Low,0.87
+GlobalImpact_NGO_0640,Latin America,SDG 9: Industry & Innovation,2375264,Logistics Network,Satellite Data,Medium,0.52
+GlobalImpact_NGO_0641,Latin America,SDG 17: Partnerships,2149327,Local Healthcare Records,Satellite Data,Low,0.14
+GlobalImpact_NGO_0642,South Asia,SDG 9: Industry & Innovation,1718794,Logistics Network,Clean Energy Grid,Low,0.34
+GlobalImpact_NGO_0643,Southeast Asia,SDG 13: Climate Action,4982454,Indigenous Knowledge,Digital Literacy Training,High,0.75
+GlobalImpact_NGO_0644,Sub-Saharan Africa,SDG 9: Industry & Innovation,2096061,Regional Soil Data,Remote Server Access,High,0.28
+GlobalImpact_NGO_0645,Central Asia,SDG 4: Quality Education,1448165,Regional Soil Data,Clean Energy Grid,Medium,0.85
+GlobalImpact_NGO_0646,Southeast Asia,SDG 4: Quality Education,3850876,Regional Soil Data,Clean Energy Grid,Medium,0.52
+GlobalImpact_NGO_0647,Sub-Saharan Africa,SDG 17: Partnerships,2854113,Community Labor,Satellite Data,Low,0.18
+GlobalImpact_NGO_0648,South Asia,SDG 13: Climate Action,349057,Indigenous Knowledge,Clean Energy Grid,High,0.53
+GlobalImpact_NGO_0649,Sub-Saharan Africa,SDG 9: Industry & Innovation,1100390,Indigenous Knowledge,Last-mile Fiber,Low,0.25
+GlobalImpact_NGO_0650,Southeast Asia,SDG 4: Quality Education,135683,Community Labor,Digital Literacy Training,High,0.22
+GlobalImpact_NGO_0651,South Asia,SDG 9: Industry & Innovation,3749801,Community Labor,Satellite Data,High,0.86
+GlobalImpact_NGO_0652,Southeast Asia,SDG 17: Partnerships,116425,Regional Soil Data,Satellite Data,High,0.77
+GlobalImpact_NGO_0653,Central Asia,SDG 17: Partnerships,260673,Logistics Network,Clean Energy Grid,Low,0.74
+GlobalImpact_NGO_0654,Latin America,SDG 17: Partnerships,4181728,Logistics Network,Clean Energy Grid,High,0.64
+GlobalImpact_NGO_0655,South Asia,SDG 17: Partnerships,624547,Regional Soil Data,Digital Literacy Training,Low,0.87
+GlobalImpact_NGO_0656,Sub-Saharan Africa,SDG 17: Partnerships,1429462,Regional Soil Data,Satellite Data,Medium,0.73
+GlobalImpact_NGO_0657,Southeast Asia,SDG 17: Partnerships,3072270,Indigenous Knowledge,Remote Server Access,Low,0.59
+GlobalImpact_NGO_0658,Central Asia,SDG 9: Industry & Innovation,3215849,Logistics Network,Digital Literacy Training,Medium,0.45
+GlobalImpact_NGO_0659,Central Asia,SDG 13: Climate Action,2462260,Community Labor,Last-mile Fiber,Medium,0.58
+GlobalImpact_NGO_0660,Sub-Saharan Africa,SDG 9: Industry & Innovation,4929831,Logistics Network,Last-mile Fiber,Low,0.53
+GlobalImpact_NGO_0661,Central Asia,SDG 4: Quality Education,909304,Logistics Network,Digital Literacy Training,Medium,0.66
+GlobalImpact_NGO_0662,Latin America,SDG 13: Climate Action,1118478,Community Labor,Remote Server Access,High,0.22
+GlobalImpact_NGO_0663,South Asia,SDG 17: Partnerships,50111,Local Healthcare Records,Digital Literacy Training,Low,0.7
+GlobalImpact_NGO_0664,South Asia,SDG 9: Industry & Innovation,3793131,Logistics Network,Clean Energy Grid,Medium,0.54
+GlobalImpact_NGO_0665,Southeast Asia,SDG 9: Industry & Innovation,4166026,Community Labor,Satellite Data,Low,0.26
+GlobalImpact_NGO_0666,Latin America,SDG 17: Partnerships,2461723,Local Healthcare Records,Remote Server Access,High,0.42
+GlobalImpact_NGO_0667,Sub-Saharan Africa,SDG 9: Industry & Innovation,4054046,Indigenous Knowledge,Digital Literacy Training,High,0.82
+GlobalImpact_NGO_0668,Latin America,SDG 4: Quality Education,4020812,Indigenous Knowledge,Remote Server Access,Medium,0.9
+GlobalImpact_NGO_0669,Southeast Asia,SDG 13: Climate Action,4428475,Indigenous Knowledge,Clean Energy Grid,Medium,0.89
+GlobalImpact_NGO_0670,Latin America,SDG 9: Industry & Innovation,1203284,Indigenous Knowledge,Digital Literacy Training,High,0.2
+GlobalImpact_NGO_0671,Latin America,SDG 17: Partnerships,1115545,Regional Soil Data,Clean Energy Grid,High,0.69
+GlobalImpact_NGO_0672,Sub-Saharan Africa,SDG 17: Partnerships,1811749,Indigenous Knowledge,Clean Energy Grid,High,0.43
+GlobalImpact_NGO_0673,Central Asia,SDG 9: Industry & Innovation,1668638,Local Healthcare Records,Last-mile Fiber,Low,0.2
+GlobalImpact_NGO_0674,Central Asia,SDG 17: Partnerships,4376688,Regional Soil Data,Last-mile Fiber,Low,0.54
+GlobalImpact_NGO_0675,Central Asia,SDG 4: Quality Education,1533488,Regional Soil Data,Clean Energy Grid,High,0.18
+GlobalImpact_NGO_0676,Southeast Asia,SDG 13: Climate Action,335646,Local Healthcare Records,Remote Server Access,Low,0.63
+GlobalImpact_NGO_0677,Southeast Asia,SDG 13: Climate Action,4378920,Community Labor,Remote Server Access,Medium,0.12
+GlobalImpact_NGO_0678,Latin America,SDG 13: Climate Action,4090508,Regional Soil Data,Remote Server Access,Medium,0.83
+GlobalImpact_NGO_0679,South Asia,SDG 17: Partnerships,2650189,Local Healthcare Records,Satellite Data,Low,0.83
+GlobalImpact_NGO_0680,Latin America,SDG 17: Partnerships,4157385,Indigenous Knowledge,Clean Energy Grid,High,0.88
+GlobalImpact_NGO_0681,Sub-Saharan Africa,SDG 9: Industry & Innovation,2491629,Local Healthcare Records,Remote Server Access,High,0.84
+GlobalImpact_NGO_0682,South Asia,SDG 9: Industry & Innovation,2524144,Indigenous Knowledge,Satellite Data,Low,0.22
+GlobalImpact_NGO_0683,Southeast Asia,SDG 9: Industry & Innovation,3196948,Logistics Network,Clean Energy Grid,Medium,0.39
+GlobalImpact_NGO_0684,South Asia,SDG 4: Quality Education,1929679,Logistics Network,Digital Literacy Training,Low,0.45
+GlobalImpact_NGO_0685,Central Asia,SDG 4: Quality Education,1899130,Logistics Network,Last-mile Fiber,Medium,0.47
+GlobalImpact_NGO_0686,Latin America,SDG 4: Quality Education,4238998,Indigenous Knowledge,Remote Server Access,Medium,0.84
+GlobalImpact_NGO_0687,Sub-Saharan Africa,SDG 17: Partnerships,4564697,Indigenous Knowledge,Last-mile Fiber,Low,0.87
+GlobalImpact_NGO_0688,Latin America,SDG 17: Partnerships,4026928,Community Labor,Satellite Data,High,0.25
+GlobalImpact_NGO_0689,Sub-Saharan Africa,SDG 17: Partnerships,1064534,Logistics Network,Last-mile Fiber,Low,0.53
+GlobalImpact_NGO_0690,Latin America,SDG 17: Partnerships,4097967,Local Healthcare Records,Remote Server Access,High,0.78
+GlobalImpact_NGO_0691,South Asia,SDG 9: Industry & Innovation,1869489,Local Healthcare Records,Remote Server Access,High,0.52
+GlobalImpact_NGO_0692,Sub-Saharan Africa,SDG 9: Industry & Innovation,2495922,Regional Soil Data,Clean Energy Grid,Low,0.58
+GlobalImpact_NGO_0693,Sub-Saharan Africa,SDG 17: Partnerships,415590,Indigenous Knowledge,Last-mile Fiber,High,0.87
+GlobalImpact_NGO_0694,Sub-Saharan Africa,SDG 17: Partnerships,2396492,Local Healthcare Records,Remote Server Access,Low,0.41
+GlobalImpact_NGO_0695,Central Asia,SDG 17: Partnerships,1881950,Regional Soil Data,Digital Literacy Training,Low,0.61
+GlobalImpact_NGO_0696,Central Asia,SDG 17: Partnerships,1434014,Regional Soil Data,Clean Energy Grid,Low,0.53
+GlobalImpact_NGO_0697,Southeast Asia,SDG 4: Quality Education,2878584,Logistics Network,Last-mile Fiber,Low,0.5
+GlobalImpact_NGO_0698,Central Asia,SDG 13: Climate Action,64011,Local Healthcare Records,Remote Server Access,Medium,0.22
+GlobalImpact_NGO_0699,Latin America,SDG 4: Quality Education,2312449,Regional Soil Data,Remote Server Access,Low,0.72
+GlobalImpact_NGO_0700,Central Asia,SDG 17: Partnerships,4723222,Indigenous Knowledge,Clean Energy Grid,High,0.58
+GlobalImpact_NGO_0701,Southeast Asia,SDG 9: Industry & Innovation,4894763,Local Healthcare Records,Digital Literacy Training,High,0.81
+GlobalImpact_NGO_0702,Southeast Asia,SDG 9: Industry & Innovation,3491824,Community Labor,Clean Energy Grid,Low,0.24
+GlobalImpact_NGO_0703,South Asia,SDG 9: Industry & Innovation,2415517,Indigenous Knowledge,Remote Server Access,High,0.15
+GlobalImpact_NGO_0704,Sub-Saharan Africa,SDG 17: Partnerships,3280951,Indigenous Knowledge,Satellite Data,Low,0.26
+GlobalImpact_NGO_0705,Southeast Asia,SDG 9: Industry & Innovation,4918599,Local Healthcare Records,Digital Literacy Training,Medium,0.17
+GlobalImpact_NGO_0706,South Asia,SDG 9: Industry & Innovation,4078958,Indigenous Knowledge,Remote Server Access,Medium,0.18
+GlobalImpact_NGO_0707,Southeast Asia,SDG 13: Climate Action,4527283,Logistics Network,Remote Server Access,Low,0.25
+GlobalImpact_NGO_0708,Central Asia,SDG 13: Climate Action,2615458,Indigenous Knowledge,Remote Server Access,Medium,0.78
+GlobalImpact_NGO_0709,Sub-Saharan Africa,SDG 17: Partnerships,4370064,Community Labor,Last-mile Fiber,Low,0.53
+GlobalImpact_NGO_0710,South Asia,SDG 17: Partnerships,3270510,Indigenous Knowledge,Last-mile Fiber,Medium,0.78
+GlobalImpact_NGO_0711,Central Asia,SDG 13: Climate Action,2077173,Logistics Network,Satellite Data,Medium,0.24
+GlobalImpact_NGO_0712,Central Asia,SDG 4: Quality Education,4828238,Community Labor,Satellite Data,Low,0.61
+GlobalImpact_NGO_0713,Sub-Saharan Africa,SDG 17: Partnerships,3206362,Regional Soil Data,Satellite Data,High,0.71
+GlobalImpact_NGO_0714,Central Asia,SDG 4: Quality Education,1322115,Regional Soil Data,Satellite Data,Medium,0.22
+GlobalImpact_NGO_0715,Sub-Saharan Africa,SDG 9: Industry & Innovation,1912094,Regional Soil Data,Clean Energy Grid,Medium,0.16
+GlobalImpact_NGO_0716,Sub-Saharan Africa,SDG 4: Quality Education,4192050,Community Labor,Digital Literacy Training,Medium,0.34
+GlobalImpact_NGO_0717,South Asia,SDG 17: Partnerships,2742250,Community Labor,Remote Server Access,High,0.22
+GlobalImpact_NGO_0718,Sub-Saharan Africa,SDG 4: Quality Education,62717,Local Healthcare Records,Digital Literacy Training,Medium,0.51
+GlobalImpact_NGO_0719,Central Asia,SDG 17: Partnerships,1394255,Logistics Network,Remote Server Access,Low,0.35
+GlobalImpact_NGO_0720,South Asia,SDG 4: Quality Education,3774703,Logistics Network,Digital Literacy Training,Medium,0.26
+GlobalImpact_NGO_0721,Sub-Saharan Africa,SDG 9: Industry & Innovation,2830365,Indigenous Knowledge,Remote Server Access,Medium,0.31
+GlobalImpact_NGO_0722,Southeast Asia,SDG 13: Climate Action,1752363,Local Healthcare Records,Remote Server Access,High,0.33
+GlobalImpact_NGO_0723,South Asia,SDG 9: Industry & Innovation,1029349,Community Labor,Remote Server Access,Low,0.26
+GlobalImpact_NGO_0724,Central Asia,SDG 9: Industry & Innovation,1072547,Regional Soil Data,Digital Literacy Training,Medium,0.85
+GlobalImpact_NGO_0725,Southeast Asia,SDG 17: Partnerships,3898195,Community Labor,Clean Energy Grid,Medium,0.49
+GlobalImpact_NGO_0726,Southeast Asia,SDG 13: Climate Action,3047376,Community Labor,Satellite Data,Low,0.15
+GlobalImpact_NGO_0727,Latin America,SDG 9: Industry & Innovation,371989,Logistics Network,Satellite Data,High,0.87
+GlobalImpact_NGO_0728,Latin America,SDG 9: Industry & Innovation,635114,Indigenous Knowledge,Digital Literacy Training,Low,0.4
+GlobalImpact_NGO_0729,South Asia,SDG 9: Industry & Innovation,757735,Logistics Network,Digital Literacy Training,Medium,0.36
+GlobalImpact_NGO_0730,Central Asia,SDG 4: Quality Education,637487,Regional Soil Data,Remote Server Access,Low,0.85
+GlobalImpact_NGO_0731,South Asia,SDG 13: Climate Action,4338783,Local Healthcare Records,Remote Server Access,Low,0.81
+GlobalImpact_NGO_0732,Sub-Saharan Africa,SDG 9: Industry & Innovation,1378369,Community Labor,Last-mile Fiber,High,0.33
+GlobalImpact_NGO_0733,Latin America,SDG 13: Climate Action,4065383,Indigenous Knowledge,Clean Energy Grid,Medium,0.62
+GlobalImpact_NGO_0734,Latin America,SDG 4: Quality Education,2890149,Logistics Network,Last-mile Fiber,Low,0.67
+GlobalImpact_NGO_0735,Latin America,SDG 17: Partnerships,4943454,Indigenous Knowledge,Digital Literacy Training,High,0.77
+GlobalImpact_NGO_0736,Central Asia,SDG 17: Partnerships,3983744,Local Healthcare Records,Last-mile Fiber,High,0.33
+GlobalImpact_NGO_0737,Sub-Saharan Africa,SDG 4: Quality Education,225399,Regional Soil Data,Digital Literacy Training,High,0.34
+GlobalImpact_NGO_0738,Central Asia,SDG 17: Partnerships,4917220,Local Healthcare Records,Remote Server Access,Low,0.35
+GlobalImpact_NGO_0739,Central Asia,SDG 4: Quality Education,3945024,Logistics Network,Digital Literacy Training,Low,0.35
+GlobalImpact_NGO_0740,Central Asia,SDG 9: Industry & Innovation,2317732,Logistics Network,Clean Energy Grid,Medium,0.73
+GlobalImpact_NGO_0741,Southeast Asia,SDG 4: Quality Education,1823438,Regional Soil Data,Clean Energy Grid,Medium,0.64
+GlobalImpact_NGO_0742,Latin America,SDG 9: Industry & Innovation,892989,Indigenous Knowledge,Remote Server Access,Medium,0.18
+GlobalImpact_NGO_0743,Latin America,SDG 17: Partnerships,4223337,Regional Soil Data,Digital Literacy Training,Medium,0.64
+GlobalImpact_NGO_0744,Latin America,SDG 9: Industry & Innovation,4461865,Community Labor,Remote Server Access,Low,0.8
+GlobalImpact_NGO_0745,Sub-Saharan Africa,SDG 4: Quality Education,3899281,Community Labor,Last-mile Fiber,Low,0.45
+GlobalImpact_NGO_0746,Central Asia,SDG 9: Industry & Innovation,695714,Regional Soil Data,Last-mile Fiber,High,0.87
+GlobalImpact_NGO_0747,Southeast Asia,SDG 13: Climate Action,428864,Community Labor,Clean Energy Grid,High,0.59
+GlobalImpact_NGO_0748,Sub-Saharan Africa,SDG 17: Partnerships,642683,Indigenous Knowledge,Digital Literacy Training,Low,0.37
+GlobalImpact_NGO_0749,Latin America,SDG 4: Quality Education,915817,Logistics Network,Last-mile Fiber,High,0.77
+GlobalImpact_NGO_0750,Latin America,SDG 9: Industry & Innovation,459446,Local Healthcare Records,Digital Literacy Training,High,0.57
+GlobalImpact_NGO_0751,Southeast Asia,SDG 17: Partnerships,3666053,Logistics Network,Digital Literacy Training,High,0.21
+GlobalImpact_NGO_0752,Southeast Asia,SDG 17: Partnerships,541854,Local Healthcare Records,Remote Server Access,Low,0.13
+GlobalImpact_NGO_0753,Sub-Saharan Africa,SDG 13: Climate Action,4097841,Logistics Network,Remote Server Access,Low,0.1
+GlobalImpact_NGO_0754,South Asia,SDG 17: Partnerships,1073360,Local Healthcare Records,Remote Server Access,Medium,0.87
+GlobalImpact_NGO_0755,Latin America,SDG 13: Climate Action,1137249,Logistics Network,Satellite Data,Low,0.75
+GlobalImpact_NGO_0756,South Asia,SDG 9: Industry & Innovation,2652922,Regional Soil Data,Last-mile Fiber,High,0.14
+GlobalImpact_NGO_0757,Central Asia,SDG 9: Industry & Innovation,4507061,Community Labor,Satellite Data,High,0.5
+GlobalImpact_NGO_0758,South Asia,SDG 13: Climate Action,4776095,Regional Soil Data,Satellite Data,Medium,0.88
+GlobalImpact_NGO_0759,Southeast Asia,SDG 9: Industry & Innovation,1392661,Logistics Network,Remote Server Access,High,0.71
+GlobalImpact_NGO_0760,South Asia,SDG 13: Climate Action,2330232,Local Healthcare Records,Digital Literacy Training,Low,0.24
+GlobalImpact_NGO_0761,South Asia,SDG 4: Quality Education,825310,Indigenous Knowledge,Satellite Data,Low,0.15
+GlobalImpact_NGO_0762,Central Asia,SDG 4: Quality Education,4108203,Logistics Network,Last-mile Fiber,High,0.83
+GlobalImpact_NGO_0763,Southeast Asia,SDG 13: Climate Action,4330941,Local Healthcare Records,Digital Literacy Training,Medium,0.42
+GlobalImpact_NGO_0764,Southeast Asia,SDG 13: Climate Action,1089488,Local Healthcare Records,Clean Energy Grid,Low,0.19
+GlobalImpact_NGO_0765,Latin America,SDG 17: Partnerships,4231958,Regional Soil Data,Clean Energy Grid,Medium,0.62
+GlobalImpact_NGO_0766,Sub-Saharan Africa,SDG 13: Climate Action,3742988,Local Healthcare Records,Clean Energy Grid,Medium,0.11
+GlobalImpact_NGO_0767,Central Asia,SDG 4: Quality Education,2674827,Indigenous Knowledge,Digital Literacy Training,Low,0.89
+GlobalImpact_NGO_0768,Southeast Asia,SDG 4: Quality Education,1660189,Local Healthcare Records,Clean Energy Grid,Low,0.88
+GlobalImpact_NGO_0769,Sub-Saharan Africa,SDG 9: Industry & Innovation,698265,Community Labor,Clean Energy Grid,High,0.34
+GlobalImpact_NGO_0770,Latin America,SDG 13: Climate Action,4102767,Regional Soil Data,Remote Server Access,Low,0.38
+GlobalImpact_NGO_0771,South Asia,SDG 17: Partnerships,3459371,Logistics Network,Clean Energy Grid,Medium,0.73
+GlobalImpact_NGO_0772,Central Asia,SDG 17: Partnerships,4938549,Local Healthcare Records,Clean Energy Grid,High,0.63
+GlobalImpact_NGO_0773,South Asia,SDG 13: Climate Action,721252,Regional Soil Data,Remote Server Access,High,0.25
+GlobalImpact_NGO_0774,South Asia,SDG 17: Partnerships,1616063,Logistics Network,Remote Server Access,Low,0.54
+GlobalImpact_NGO_0775,South Asia,SDG 13: Climate Action,1252940,Regional Soil Data,Clean Energy Grid,Low,0.62
+GlobalImpact_NGO_0776,Southeast Asia,SDG 17: Partnerships,4148558,Local Healthcare Records,Clean Energy Grid,Medium,0.85
+GlobalImpact_NGO_0777,Central Asia,SDG 4: Quality Education,4044704,Community Labor,Satellite Data,High,0.26
+GlobalImpact_NGO_0778,Central Asia,SDG 4: Quality Education,3130491,Local Healthcare Records,Satellite Data,Medium,0.89
+GlobalImpact_NGO_0779,Latin America,SDG 17: Partnerships,2575010,Indigenous Knowledge,Digital Literacy Training,Low,0.56
+GlobalImpact_NGO_0780,Sub-Saharan Africa,SDG 4: Quality Education,4694937,Local Healthcare Records,Clean Energy Grid,Medium,0.89
+GlobalImpact_NGO_0781,Sub-Saharan Africa,SDG 9: Industry & Innovation,4908415,Community Labor,Digital Literacy Training,Low,0.24
+GlobalImpact_NGO_0782,South Asia,SDG 17: Partnerships,500938,Regional Soil Data,Satellite Data,High,0.58
+GlobalImpact_NGO_0783,South Asia,SDG 9: Industry & Innovation,2674104,Logistics Network,Clean Energy Grid,High,0.18
+GlobalImpact_NGO_0784,Sub-Saharan Africa,SDG 13: Climate Action,2976797,Local Healthcare Records,Remote Server Access,Medium,0.71
+GlobalImpact_NGO_0785,Southeast Asia,SDG 4: Quality Education,4333789,Indigenous Knowledge,Clean Energy Grid,Low,0.23
+GlobalImpact_NGO_0786,Latin America,SDG 13: Climate Action,295130,Indigenous Knowledge,Digital Literacy Training,High,0.47
+GlobalImpact_NGO_0787,Sub-Saharan Africa,SDG 9: Industry & Innovation,4201412,Indigenous Knowledge,Last-mile Fiber,Low,0.8
+GlobalImpact_NGO_0788,Sub-Saharan Africa,SDG 4: Quality Education,4558097,Logistics Network,Clean Energy Grid,Low,0.71
+GlobalImpact_NGO_0789,Southeast Asia,SDG 4: Quality Education,371063,Community Labor,Digital Literacy Training,Low,0.44
+GlobalImpact_NGO_0790,South Asia,SDG 13: Climate Action,2042271,Local Healthcare Records,Last-mile Fiber,High,0.2
+GlobalImpact_NGO_0791,South Asia,SDG 4: Quality Education,100627,Logistics Network,Satellite Data,Low,0.69
+GlobalImpact_NGO_0792,South Asia,SDG 4: Quality Education,671307,Logistics Network,Clean Energy Grid,Low,0.27
+GlobalImpact_NGO_0793,Latin America,SDG 9: Industry & Innovation,208847,Community Labor,Clean Energy Grid,Low,0.34
+GlobalImpact_NGO_0794,Central Asia,SDG 13: Climate Action,762921,Logistics Network,Last-mile Fiber,Low,0.66
+GlobalImpact_NGO_0795,South Asia,SDG 9: Industry & Innovation,4784200,Community Labor,Clean Energy Grid,High,0.23
+GlobalImpact_NGO_0796,South Asia,SDG 9: Industry & Innovation,846924,Regional Soil Data,Clean Energy Grid,High,0.24
+GlobalImpact_NGO_0797,South Asia,SDG 9: Industry & Innovation,4402333,Community Labor,Digital Literacy Training,Medium,0.75
+GlobalImpact_NGO_0798,Latin America,SDG 4: Quality Education,2779426,Local Healthcare Records,Digital Literacy Training,High,0.87
+GlobalImpact_NGO_0799,South Asia,SDG 13: Climate Action,3934961,Community Labor,Satellite Data,Low,0.79
+GlobalImpact_NGO_0800,Sub-Saharan Africa,SDG 13: Climate Action,1083517,Indigenous Knowledge,Last-mile Fiber,Low,0.16
+GlobalImpact_NGO_0801,Southeast Asia,SDG 9: Industry & Innovation,3294076,Local Healthcare Records,Satellite Data,High,0.88
+GlobalImpact_NGO_0802,Latin America,SDG 9: Industry & Innovation,4648952,Local Healthcare Records,Digital Literacy Training,High,0.31
+GlobalImpact_NGO_0803,Southeast Asia,SDG 13: Climate Action,1126192,Local Healthcare Records,Digital Literacy Training,Medium,0.48
+GlobalImpact_NGO_0804,Sub-Saharan Africa,SDG 13: Climate Action,4589103,Regional Soil Data,Remote Server Access,High,0.29
+GlobalImpact_NGO_0805,Latin America,SDG 9: Industry & Innovation,1725067,Regional Soil Data,Satellite Data,Low,0.41
+GlobalImpact_NGO_0806,South Asia,SDG 13: Climate Action,4131534,Indigenous Knowledge,Satellite Data,High,0.77
+GlobalImpact_NGO_0807,Latin America,SDG 9: Industry & Innovation,181376,Regional Soil Data,Remote Server Access,Low,0.72
+GlobalImpact_NGO_0808,Sub-Saharan Africa,SDG 9: Industry & Innovation,2621453,Regional Soil Data,Remote Server Access,High,0.86
+GlobalImpact_NGO_0809,Latin America,SDG 13: Climate Action,833360,Indigenous Knowledge,Remote Server Access,High,0.88
+GlobalImpact_NGO_0810,Central Asia,SDG 9: Industry & Innovation,4522749,Community Labor,Digital Literacy Training,Medium,0.37
+GlobalImpact_NGO_0811,Southeast Asia,SDG 13: Climate Action,4531809,Indigenous Knowledge,Satellite Data,Low,0.85
+GlobalImpact_NGO_0812,Southeast Asia,SDG 17: Partnerships,319537,Community Labor,Clean Energy Grid,High,0.46
+GlobalImpact_NGO_0813,South Asia,SDG 13: Climate Action,1939203,Community Labor,Clean Energy Grid,High,0.26
+GlobalImpact_NGO_0814,Sub-Saharan Africa,SDG 4: Quality Education,2994269,Community Labor,Last-mile Fiber,Medium,0.44
+GlobalImpact_NGO_0815,Southeast Asia,SDG 9: Industry & Innovation,235106,Local Healthcare Records,Remote Server Access,Low,0.27
+GlobalImpact_NGO_0816,South Asia,SDG 17: Partnerships,95102,Indigenous Knowledge,Remote Server Access,Low,0.3
+GlobalImpact_NGO_0817,Sub-Saharan Africa,SDG 9: Industry & Innovation,3330958,Local Healthcare Records,Remote Server Access,High,0.29
+GlobalImpact_NGO_0818,Southeast Asia,SDG 17: Partnerships,3722787,Local Healthcare Records,Clean Energy Grid,Low,0.45
+GlobalImpact_NGO_0819,Central Asia,SDG 9: Industry & Innovation,3271517,Logistics Network,Clean Energy Grid,Low,0.26
+GlobalImpact_NGO_0820,Central Asia,SDG 13: Climate Action,3612598,Regional Soil Data,Digital Literacy Training,Low,0.41
+GlobalImpact_NGO_0821,Latin America,SDG 9: Industry & Innovation,1611414,Indigenous Knowledge,Remote Server Access,Medium,0.81
+GlobalImpact_NGO_0822,Central Asia,SDG 17: Partnerships,2517395,Regional Soil Data,Clean Energy Grid,High,0.23
+GlobalImpact_NGO_0823,Central Asia,SDG 17: Partnerships,976862,Logistics Network,Last-mile Fiber,Medium,0.67
+GlobalImpact_NGO_0824,Southeast Asia,SDG 4: Quality Education,3827558,Logistics Network,Clean Energy Grid,High,0.6
+GlobalImpact_NGO_0825,South Asia,SDG 17: Partnerships,1905919,Regional Soil Data,Digital Literacy Training,Medium,0.49
+GlobalImpact_NGO_0826,South Asia,SDG 4: Quality Education,4566635,Local Healthcare Records,Last-mile Fiber,Low,0.38
+GlobalImpact_NGO_0827,Southeast Asia,SDG 13: Climate Action,686296,Logistics Network,Clean Energy Grid,Low,0.76
+GlobalImpact_NGO_0828,Southeast Asia,SDG 13: Climate Action,4429119,Local Healthcare Records,Satellite Data,High,0.83
+GlobalImpact_NGO_0829,Central Asia,SDG 9: Industry & Innovation,3300533,Indigenous Knowledge,Remote Server Access,High,0.26
+GlobalImpact_NGO_0830,Southeast Asia,SDG 9: Industry & Innovation,891162,Community Labor,Remote Server Access,Low,0.13
+GlobalImpact_NGO_0831,Central Asia,SDG 9: Industry & Innovation,510716,Community Labor,Digital Literacy Training,Medium,0.55
+GlobalImpact_NGO_0832,South Asia,SDG 9: Industry & Innovation,3772603,Regional Soil Data,Digital Literacy Training,High,0.28
+GlobalImpact_NGO_0833,Sub-Saharan Africa,SDG 9: Industry & Innovation,3004843,Regional Soil Data,Clean Energy Grid,Medium,0.7
+GlobalImpact_NGO_0834,Sub-Saharan Africa,SDG 13: Climate Action,2873075,Local Healthcare Records,Clean Energy Grid,Low,0.49
+GlobalImpact_NGO_0835,Latin America,SDG 13: Climate Action,2013342,Indigenous Knowledge,Last-mile Fiber,Low,0.52
+GlobalImpact_NGO_0836,South Asia,SDG 13: Climate Action,1416941,Logistics Network,Last-mile Fiber,High,0.15
+GlobalImpact_NGO_0837,Central Asia,SDG 9: Industry & Innovation,1546615,Logistics Network,Last-mile Fiber,Medium,0.42
+GlobalImpact_NGO_0838,South Asia,SDG 9: Industry & Innovation,177225,Regional Soil Data,Clean Energy Grid,Low,0.87
+GlobalImpact_NGO_0839,Southeast Asia,SDG 4: Quality Education,3318368,Regional Soil Data,Remote Server Access,Low,0.76
+GlobalImpact_NGO_0840,Sub-Saharan Africa,SDG 4: Quality Education,3642242,Community Labor,Digital Literacy Training,Low,0.82
+GlobalImpact_NGO_0841,Southeast Asia,SDG 17: Partnerships,4572107,Logistics Network,Digital Literacy Training,Medium,0.71
+GlobalImpact_NGO_0842,Latin America,SDG 17: Partnerships,170875,Logistics Network,Remote Server Access,Medium,0.18
+GlobalImpact_NGO_0843,Central Asia,SDG 13: Climate Action,980921,Local Healthcare Records,Last-mile Fiber,Low,0.57
+GlobalImpact_NGO_0844,Sub-Saharan Africa,SDG 9: Industry & Innovation,2899815,Local Healthcare Records,Satellite Data,Low,0.19
+GlobalImpact_NGO_0845,Sub-Saharan Africa,SDG 13: Climate Action,2067492,Regional Soil Data,Satellite Data,Medium,0.89
+GlobalImpact_NGO_0846,Latin America,SDG 13: Climate Action,4461317,Regional Soil Data,Clean Energy Grid,Low,0.15
+GlobalImpact_NGO_0847,Sub-Saharan Africa,SDG 17: Partnerships,4142410,Logistics Network,Clean Energy Grid,Medium,0.32
+GlobalImpact_NGO_0848,Southeast Asia,SDG 13: Climate Action,2451620,Regional Soil Data,Last-mile Fiber,High,0.54
+GlobalImpact_NGO_0849,Central Asia,SDG 13: Climate Action,2800946,Logistics Network,Last-mile Fiber,Medium,0.53
+GlobalImpact_NGO_0850,South Asia,SDG 9: Industry & Innovation,2591058,Regional Soil Data,Last-mile Fiber,Low,0.52
+GlobalImpact_NGO_0851,Central Asia,SDG 17: Partnerships,465859,Regional Soil Data,Last-mile Fiber,Low,0.81
+GlobalImpact_NGO_0852,Latin America,SDG 9: Industry & Innovation,4450417,Local Healthcare Records,Remote Server Access,High,0.39
+GlobalImpact_NGO_0853,Central Asia,SDG 17: Partnerships,3226896,Regional Soil Data,Digital Literacy Training,Medium,0.13
+GlobalImpact_NGO_0854,Central Asia,SDG 9: Industry & Innovation,3777652,Local Healthcare Records,Satellite Data,Low,0.6
+GlobalImpact_NGO_0855,South Asia,SDG 17: Partnerships,4604518,Logistics Network,Remote Server Access,High,0.33
+GlobalImpact_NGO_0856,Southeast Asia,SDG 13: Climate Action,2985453,Community Labor,Digital Literacy Training,Medium,0.6
+GlobalImpact_NGO_0857,Sub-Saharan Africa,SDG 9: Industry & Innovation,4990969,Logistics Network,Remote Server Access,Low,0.79
+GlobalImpact_NGO_0858,Central Asia,SDG 13: Climate Action,2140122,Logistics Network,Digital Literacy Training,Low,0.33
+GlobalImpact_NGO_0859,Latin America,SDG 4: Quality Education,711223,Indigenous Knowledge,Digital Literacy Training,Low,0.27
+GlobalImpact_NGO_0860,Southeast Asia,SDG 13: Climate Action,3990248,Local Healthcare Records,Digital Literacy Training,Low,0.83
+GlobalImpact_NGO_0861,Southeast Asia,SDG 9: Industry & Innovation,2453466,Indigenous Knowledge,Digital Literacy Training,Medium,0.66
+GlobalImpact_NGO_0862,South Asia,SDG 17: Partnerships,2406591,Indigenous Knowledge,Remote Server Access,Medium,0.81
+GlobalImpact_NGO_0863,Central Asia,SDG 4: Quality Education,2239140,Indigenous Knowledge,Clean Energy Grid,Low,0.21
+GlobalImpact_NGO_0864,South Asia,SDG 9: Industry & Innovation,4838966,Indigenous Knowledge,Digital Literacy Training,Medium,0.75
+GlobalImpact_NGO_0865,Southeast Asia,SDG 13: Climate Action,3734025,Community Labor,Remote Server Access,High,0.19
+GlobalImpact_NGO_0866,Central Asia,SDG 13: Climate Action,1998581,Logistics Network,Last-mile Fiber,High,0.58
+GlobalImpact_NGO_0867,Southeast Asia,SDG 13: Climate Action,4515027,Indigenous Knowledge,Remote Server Access,Low,0.26
+GlobalImpact_NGO_0868,Southeast Asia,SDG 17: Partnerships,2751496,Logistics Network,Digital Literacy Training,Medium,0.1
+GlobalImpact_NGO_0869,Central Asia,SDG 17: Partnerships,1156515,Local Healthcare Records,Last-mile Fiber,High,0.39
+GlobalImpact_NGO_0870,Southeast Asia,SDG 4: Quality Education,1641720,Local Healthcare Records,Digital Literacy Training,Medium,0.27
+GlobalImpact_NGO_0871,Sub-Saharan Africa,SDG 9: Industry & Innovation,4166225,Local Healthcare Records,Remote Server Access,High,0.55
+GlobalImpact_NGO_0872,Central Asia,SDG 17: Partnerships,289585,Local Healthcare Records,Satellite Data,High,0.15
+GlobalImpact_NGO_0873,Southeast Asia,SDG 17: Partnerships,2910770,Indigenous Knowledge,Digital Literacy Training,High,0.18
+GlobalImpact_NGO_0874,Latin America,SDG 17: Partnerships,2369334,Logistics Network,Remote Server Access,High,0.64
+GlobalImpact_NGO_0875,South Asia,SDG 13: Climate Action,1414915,Community Labor,Last-mile Fiber,Low,0.12
+GlobalImpact_NGO_0876,South Asia,SDG 4: Quality Education,2591766,Community Labor,Satellite Data,Low,0.75
+GlobalImpact_NGO_0877,South Asia,SDG 9: Industry & Innovation,3483326,Regional Soil Data,Remote Server Access,Low,0.58
+GlobalImpact_NGO_0878,Southeast Asia,SDG 4: Quality Education,3815418,Local Healthcare Records,Satellite Data,High,0.81
+GlobalImpact_NGO_0879,Southeast Asia,SDG 13: Climate Action,3859621,Logistics Network,Clean Energy Grid,High,0.86
+GlobalImpact_NGO_0880,Sub-Saharan Africa,SDG 13: Climate Action,1707908,Community Labor,Digital Literacy Training,High,0.22
+GlobalImpact_NGO_0881,Sub-Saharan Africa,SDG 13: Climate Action,2251118,Regional Soil Data,Digital Literacy Training,High,0.71
+GlobalImpact_NGO_0882,Central Asia,SDG 4: Quality Education,162395,Logistics Network,Last-mile Fiber,Low,0.46
+GlobalImpact_NGO_0883,South Asia,SDG 17: Partnerships,3211513,Logistics Network,Last-mile Fiber,Low,0.72
+GlobalImpact_NGO_0884,Southeast Asia,SDG 9: Industry & Innovation,515439,Logistics Network,Clean Energy Grid,Medium,0.86
+GlobalImpact_NGO_0885,Central Asia,SDG 13: Climate Action,3400752,Community Labor,Remote Server Access,High,0.79
+GlobalImpact_NGO_0886,Southeast Asia,SDG 4: Quality Education,2131565,Logistics Network,Remote Server Access,Low,0.46
+GlobalImpact_NGO_0887,Latin America,SDG 9: Industry & Innovation,4823231,Indigenous Knowledge,Satellite Data,High,0.65
+GlobalImpact_NGO_0888,South Asia,SDG 17: Partnerships,4344579,Logistics Network,Remote Server Access,Low,0.8
+GlobalImpact_NGO_0889,Southeast Asia,SDG 4: Quality Education,4906253,Local Healthcare Records,Satellite Data,High,0.4
+GlobalImpact_NGO_0890,Central Asia,SDG 13: Climate Action,154000,Community Labor,Digital Literacy Training,High,0.11
+GlobalImpact_NGO_0891,South Asia,SDG 9: Industry & Innovation,1581464,Local Healthcare Records,Last-mile Fiber,High,0.56
+GlobalImpact_NGO_0892,Sub-Saharan Africa,SDG 17: Partnerships,3481484,Local Healthcare Records,Satellite Data,Low,0.68
+GlobalImpact_NGO_0893,South Asia,SDG 4: Quality Education,148534,Local Healthcare Records,Clean Energy Grid,Low,0.67
+GlobalImpact_NGO_0894,Sub-Saharan Africa,SDG 13: Climate Action,1206070,Regional Soil Data,Digital Literacy Training,High,0.67
+GlobalImpact_NGO_0895,South Asia,SDG 4: Quality Education,2935997,Logistics Network,Satellite Data,Low,0.41
+GlobalImpact_NGO_0896,Central Asia,SDG 4: Quality Education,1047140,Local Healthcare Records,Satellite Data,Low,0.56
+GlobalImpact_NGO_0897,Central Asia,SDG 9: Industry & Innovation,2710852,Local Healthcare Records,Last-mile Fiber,Medium,0.81
+GlobalImpact_NGO_0898,Latin America,SDG 17: Partnerships,3332322,Regional Soil Data,Remote Server Access,Medium,0.31
+GlobalImpact_NGO_0899,Central Asia,SDG 13: Climate Action,4631986,Indigenous Knowledge,Last-mile Fiber,Medium,0.34
+GlobalImpact_NGO_0900,Latin America,SDG 9: Industry & Innovation,141469,Indigenous Knowledge,Last-mile Fiber,Medium,0.29
+GlobalImpact_NGO_0901,Central Asia,SDG 4: Quality Education,2275753,Regional Soil Data,Digital Literacy Training,Medium,0.34
+GlobalImpact_NGO_0902,South Asia,SDG 13: Climate Action,4144051,Local Healthcare Records,Clean Energy Grid,Medium,0.61
+GlobalImpact_NGO_0903,Central Asia,SDG 4: Quality Education,514588,Indigenous Knowledge,Satellite Data,High,0.28
+GlobalImpact_NGO_0904,Central Asia,SDG 17: Partnerships,2797321,Indigenous Knowledge,Digital Literacy Training,Medium,0.13
+GlobalImpact_NGO_0905,Southeast Asia,SDG 13: Climate Action,4558241,Regional Soil Data,Digital Literacy Training,Medium,0.26
+GlobalImpact_NGO_0906,Latin America,SDG 17: Partnerships,3414322,Regional Soil Data,Satellite Data,High,0.27
+GlobalImpact_NGO_0907,Central Asia,SDG 4: Quality Education,3299128,Regional Soil Data,Satellite Data,High,0.12
+GlobalImpact_NGO_0908,Southeast Asia,SDG 13: Climate Action,3654517,Local Healthcare Records,Digital Literacy Training,High,0.7
+GlobalImpact_NGO_0909,Central Asia,SDG 4: Quality Education,4760440,Local Healthcare Records,Clean Energy Grid,High,0.63
+GlobalImpact_NGO_0910,Central Asia,SDG 13: Climate Action,4453910,Community Labor,Satellite Data,Medium,0.14
+GlobalImpact_NGO_0911,South Asia,SDG 17: Partnerships,2471493,Indigenous Knowledge,Digital Literacy Training,Medium,0.49
+GlobalImpact_NGO_0912,Latin America,SDG 17: Partnerships,3365024,Logistics Network,Digital Literacy Training,Low,0.52
+GlobalImpact_NGO_0913,Latin America,SDG 17: Partnerships,1643431,Local Healthcare Records,Last-mile Fiber,Medium,0.52
+GlobalImpact_NGO_0914,Sub-Saharan Africa,SDG 13: Climate Action,3330781,Logistics Network,Satellite Data,Low,0.3
+GlobalImpact_NGO_0915,Sub-Saharan Africa,SDG 4: Quality Education,4954407,Regional Soil Data,Clean Energy Grid,Low,0.45
+GlobalImpact_NGO_0916,South Asia,SDG 13: Climate Action,4665479,Local Healthcare Records,Digital Literacy Training,High,0.39
+GlobalImpact_NGO_0917,Latin America,SDG 13: Climate Action,4279431,Community Labor,Last-mile Fiber,High,0.26
+GlobalImpact_NGO_0918,South Asia,SDG 4: Quality Education,2418596,Community Labor,Last-mile Fiber,Medium,0.19
+GlobalImpact_NGO_0919,South Asia,SDG 9: Industry & Innovation,2233629,Regional Soil Data,Digital Literacy Training,Low,0.22
+GlobalImpact_NGO_0920,Southeast Asia,SDG 9: Industry & Innovation,4751165,Logistics Network,Last-mile Fiber,Medium,0.65
+GlobalImpact_NGO_0921,South Asia,SDG 17: Partnerships,2703877,Community Labor,Clean Energy Grid,Medium,0.89
+GlobalImpact_NGO_0922,Latin America,SDG 17: Partnerships,4032818,Community Labor,Last-mile Fiber,High,0.74
+GlobalImpact_NGO_0923,Sub-Saharan Africa,SDG 9: Industry & Innovation,586910,Regional Soil Data,Remote Server Access,Medium,0.34
+GlobalImpact_NGO_0924,Sub-Saharan Africa,SDG 9: Industry & Innovation,449197,Logistics Network,Digital Literacy Training,High,0.29
+GlobalImpact_NGO_0925,South Asia,SDG 13: Climate Action,2197628,Regional Soil Data,Satellite Data,High,0.2
+GlobalImpact_NGO_0926,Southeast Asia,SDG 9: Industry & Innovation,2263111,Regional Soil Data,Digital Literacy Training,High,0.54
+GlobalImpact_NGO_0927,South Asia,SDG 9: Industry & Innovation,865133,Logistics Network,Satellite Data,Low,0.69
+GlobalImpact_NGO_0928,Central Asia,SDG 9: Industry & Innovation,333400,Community Labor,Clean Energy Grid,Medium,0.8
+GlobalImpact_NGO_0929,Sub-Saharan Africa,SDG 17: Partnerships,4696234,Local Healthcare Records,Satellite Data,High,0.2
+GlobalImpact_NGO_0930,Central Asia,SDG 17: Partnerships,3886119,Community Labor,Last-mile Fiber,Medium,0.3
+GlobalImpact_NGO_0931,Latin America,SDG 17: Partnerships,2713854,Regional Soil Data,Satellite Data,Medium,0.58
+GlobalImpact_NGO_0932,Southeast Asia,SDG 4: Quality Education,810379,Logistics Network,Last-mile Fiber,Medium,0.14
+GlobalImpact_NGO_0933,Latin America,SDG 4: Quality Education,4519977,Regional Soil Data,Remote Server Access,Medium,0.42
+GlobalImpact_NGO_0934,Latin America,SDG 4: Quality Education,4517487,Local Healthcare Records,Satellite Data,Low,0.59
+GlobalImpact_NGO_0935,Latin America,SDG 13: Climate Action,117125,Logistics Network,Last-mile Fiber,High,0.13
+GlobalImpact_NGO_0936,Latin America,SDG 17: Partnerships,1599122,Community Labor,Last-mile Fiber,Low,0.47
+GlobalImpact_NGO_0937,Latin America,SDG 4: Quality Education,1048727,Indigenous Knowledge,Clean Energy Grid,High,0.27
+GlobalImpact_NGO_0938,Central Asia,SDG 17: Partnerships,3805900,Logistics Network,Clean Energy Grid,High,0.5
+GlobalImpact_NGO_0939,Sub-Saharan Africa,SDG 17: Partnerships,621078,Indigenous Knowledge,Remote Server Access,Medium,0.18
+GlobalImpact_NGO_0940,Southeast Asia,SDG 4: Quality Education,2057114,Logistics Network,Last-mile Fiber,Medium,0.31
+GlobalImpact_NGO_0941,Sub-Saharan Africa,SDG 13: Climate Action,4000664,Logistics Network,Last-mile Fiber,Medium,0.84
+GlobalImpact_NGO_0942,Southeast Asia,SDG 13: Climate Action,4593133,Community Labor,Satellite Data,High,0.79
+GlobalImpact_NGO_0943,Sub-Saharan Africa,SDG 4: Quality Education,1902276,Regional Soil Data,Last-mile Fiber,Low,0.18
+GlobalImpact_NGO_0944,Latin America,SDG 17: Partnerships,2084517,Community Labor,Clean Energy Grid,Medium,0.85
+GlobalImpact_NGO_0945,Southeast Asia,SDG 13: Climate Action,1015558,Regional Soil Data,Clean Energy Grid,High,0.21
+GlobalImpact_NGO_0946,Southeast Asia,SDG 4: Quality Education,4799009,Regional Soil Data,Remote Server Access,Medium,0.43
+GlobalImpact_NGO_0947,Sub-Saharan Africa,SDG 13: Climate Action,3228996,Local Healthcare Records,Remote Server Access,High,0.69
+GlobalImpact_NGO_0948,Sub-Saharan Africa,SDG 9: Industry & Innovation,4373904,Logistics Network,Clean Energy Grid,High,0.75
+GlobalImpact_NGO_0949,Central Asia,SDG 17: Partnerships,916950,Indigenous Knowledge,Satellite Data,High,0.42
+GlobalImpact_NGO_0950,Sub-Saharan Africa,SDG 4: Quality Education,4290190,Local Healthcare Records,Last-mile Fiber,Low,0.74
+GlobalImpact_NGO_0951,South Asia,SDG 4: Quality Education,2878548,Regional Soil Data,Clean Energy Grid,Medium,0.38
+GlobalImpact_NGO_0952,Sub-Saharan Africa,SDG 13: Climate Action,4509794,Local Healthcare Records,Remote Server Access,Low,0.64
+GlobalImpact_NGO_0953,South Asia,SDG 13: Climate Action,4122427,Logistics Network,Digital Literacy Training,Medium,0.51
+GlobalImpact_NGO_0954,Southeast Asia,SDG 9: Industry & Innovation,1037979,Indigenous Knowledge,Last-mile Fiber,Medium,0.18
+GlobalImpact_NGO_0955,Latin America,SDG 9: Industry & Innovation,4109474,Local Healthcare Records,Clean Energy Grid,Low,0.74
+GlobalImpact_NGO_0956,Central Asia,SDG 13: Climate Action,320374,Regional Soil Data,Satellite Data,Low,0.82
+GlobalImpact_NGO_0957,Southeast Asia,SDG 4: Quality Education,669241,Local Healthcare Records,Clean Energy Grid,High,0.71
+GlobalImpact_NGO_0958,Sub-Saharan Africa,SDG 9: Industry & Innovation,1346908,Regional Soil Data,Last-mile Fiber,Low,0.54
+GlobalImpact_NGO_0959,Central Asia,SDG 4: Quality Education,3266149,Indigenous Knowledge,Clean Energy Grid,High,0.72
+GlobalImpact_NGO_0960,Sub-Saharan Africa,SDG 13: Climate Action,2745152,Logistics Network,Clean Energy Grid,Low,0.17
+GlobalImpact_NGO_0961,Sub-Saharan Africa,SDG 13: Climate Action,495590,Local Healthcare Records,Last-mile Fiber,Low,0.52
+GlobalImpact_NGO_0962,South Asia,SDG 4: Quality Education,520038,Community Labor,Digital Literacy Training,High,0.56
+GlobalImpact_NGO_0963,Latin America,SDG 4: Quality Education,1945721,Local Healthcare Records,Satellite Data,Medium,0.84
+GlobalImpact_NGO_0964,Sub-Saharan Africa,SDG 13: Climate Action,595181,Indigenous Knowledge,Last-mile Fiber,Medium,0.64
+GlobalImpact_NGO_0965,South Asia,SDG 13: Climate Action,1287346,Local Healthcare Records,Remote Server Access,Low,0.3
+GlobalImpact_NGO_0966,Sub-Saharan Africa,SDG 17: Partnerships,1906631,Community Labor,Remote Server Access,Low,0.14
+GlobalImpact_NGO_0967,Latin America,SDG 13: Climate Action,341424,Logistics Network,Remote Server Access,Low,0.2
+GlobalImpact_NGO_0968,South Asia,SDG 4: Quality Education,4455319,Local Healthcare Records,Digital Literacy Training,Medium,0.43
+GlobalImpact_NGO_0969,Southeast Asia,SDG 17: Partnerships,1236449,Logistics Network,Digital Literacy Training,Low,0.28
+GlobalImpact_NGO_0970,Latin America,SDG 17: Partnerships,3277384,Regional Soil Data,Digital Literacy Training,Medium,0.22
+GlobalImpact_NGO_0971,Southeast Asia,SDG 4: Quality Education,4472669,Regional Soil Data,Digital Literacy Training,Medium,0.23
+GlobalImpact_NGO_0972,South Asia,SDG 9: Industry & Innovation,2637213,Logistics Network,Satellite Data,Low,0.55
+GlobalImpact_NGO_0973,Southeast Asia,SDG 9: Industry & Innovation,725073,Community Labor,Clean Energy Grid,Low,0.36
+GlobalImpact_NGO_0974,Southeast Asia,SDG 9: Industry & Innovation,4010225,Indigenous Knowledge,Remote Server Access,Low,0.85
+GlobalImpact_NGO_0975,Latin America,SDG 17: Partnerships,4660296,Local Healthcare Records,Remote Server Access,High,0.44
+GlobalImpact_NGO_0976,Central Asia,SDG 13: Climate Action,351079,Local Healthcare Records,Satellite Data,Medium,0.79
+GlobalImpact_NGO_0977,Sub-Saharan Africa,SDG 17: Partnerships,3924977,Local Healthcare Records,Remote Server Access,Low,0.25
+GlobalImpact_NGO_0978,Central Asia,SDG 13: Climate Action,639327,Local Healthcare Records,Digital Literacy Training,Low,0.28
+GlobalImpact_NGO_0979,South Asia,SDG 13: Climate Action,998433,Logistics Network,Digital Literacy Training,Low,0.16
+GlobalImpact_NGO_0980,Southeast Asia,SDG 17: Partnerships,1159440,Indigenous Knowledge,Digital Literacy Training,High,0.64
+GlobalImpact_NGO_0981,South Asia,SDG 17: Partnerships,1405207,Local Healthcare Records,Remote Server Access,High,0.18
+GlobalImpact_NGO_0982,Latin America,SDG 4: Quality Education,4422320,Regional Soil Data,Last-mile Fiber,High,0.7
+GlobalImpact_NGO_0983,Southeast Asia,SDG 17: Partnerships,4493151,Logistics Network,Satellite Data,Medium,0.62
+GlobalImpact_NGO_0984,Latin America,SDG 9: Industry & Innovation,4799640,Local Healthcare Records,Clean Energy Grid,High,0.1
+GlobalImpact_NGO_0985,Latin America,SDG 17: Partnerships,4181373,Local Healthcare Records,Remote Server Access,Medium,0.52
+GlobalImpact_NGO_0986,Latin America,SDG 4: Quality Education,2088524,Indigenous Knowledge,Satellite Data,High,0.42
+GlobalImpact_NGO_0987,Latin America,SDG 4: Quality Education,366011,Regional Soil Data,Satellite Data,High,0.23
+GlobalImpact_NGO_0988,South Asia,SDG 9: Industry & Innovation,1454598,Local Healthcare Records,Satellite Data,Low,0.23
+GlobalImpact_NGO_0989,Southeast Asia,SDG 4: Quality Education,3023468,Regional Soil Data,Clean Energy Grid,Low,0.28
+GlobalImpact_NGO_0990,Latin America,SDG 9: Industry & Innovation,4814636,Local Healthcare Records,Satellite Data,Medium,0.32
+GlobalImpact_NGO_0991,South Asia,SDG 13: Climate Action,3715682,Local Healthcare Records,Last-mile Fiber,High,0.88
+GlobalImpact_NGO_0992,Latin America,SDG 4: Quality Education,3705625,Logistics Network,Digital Literacy Training,High,0.13
+GlobalImpact_NGO_0993,South Asia,SDG 13: Climate Action,299771,Indigenous Knowledge,Last-mile Fiber,Low,0.5
+GlobalImpact_NGO_0994,Sub-Saharan Africa,SDG 9: Industry & Innovation,195522,Regional Soil Data,Digital Literacy Training,Low,0.4
+GlobalImpact_NGO_0995,Southeast Asia,SDG 13: Climate Action,1035714,Indigenous Knowledge,Satellite Data,High,0.29
+GlobalImpact_NGO_0996,Latin America,SDG 4: Quality Education,4892331,Local Healthcare Records,Digital Literacy Training,Medium,0.56
+GlobalImpact_NGO_0997,Central Asia,SDG 17: Partnerships,4247090,Community Labor,Last-mile Fiber,Low,0.2
+GlobalImpact_NGO_0998,South Asia,SDG 17: Partnerships,2570087,Local Healthcare Records,Clean Energy Grid,High,0.52
+GlobalImpact_NGO_0999,South Asia,SDG 4: Quality Education,2512843,Community Labor,Digital Literacy Training,High,0.67
+GlobalImpact_NGO_1000,Central Asia,SDG 4: Quality Education,3372092,Community Labor,Clean Energy Grid,Low,0.14
