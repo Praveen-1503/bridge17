@@ -1,53 +1,63 @@
 # agents.py
-def ngo_agent(ngo):
-    """
-    Evaluates the NGO's trust score and assigns a risk level.
-    """
-    score = ngo["trust_score"] * 0.6
 
-    if ngo["trust_score"] < 0.4:
+def ngo_agent(ngo):
+    trust = ngo["trust_score"]
+
+    score = trust * 0.6
+
+    if trust < 0.4:
         risk = "High Risk"
-    elif ngo["trust_score"] < 0.7:
+    elif trust < 0.7:
         risk = "Medium Risk"
     else:
         risk = "Low Risk"
 
-    reasoning = f"Trust Score: {ngo['trust_score']} → {risk}"
-
+    reasoning = f"Trust Score: {trust} → {risk}"
     return score, risk, reasoning
 
 
 def csr_agent(ngo, csr_data):
-    """
-    Matches NGO with CSR funds based on state and SDG goal.
-    Returns a score based on CSR amount.
-    """
-    for csr in csr_data:
-        if ngo["state"] == csr["state"] and ngo["sdg_goal"] == csr["sdg_goal"]:
-            score = (csr["csr_amount"] / 100000000) * 0.7  # scaled for scoring
-            reasoning = f"CSR Available in {ngo['state']} for {csr['sdg_goal']}: ₹{csr['csr_amount']}"
-            return score, csr["csr_amount"], reasoning
+    matching = [
+        c for c in csr_data
+        if c["state"] == ngo["state"]
+        and c["sdg_goal"] == ngo["sdg_goal"]
+    ]
 
-    return 0, 0, "No CSR opportunity found"
+    if not matching:
+        return 0, 0, "No CSR opportunity found"
+
+    max_csr = max(c["csr_amount"] for c in csr_data)
+    csr = matching[0]
+
+    normalized = csr["csr_amount"] / max_csr
+    score = normalized * 0.7
+
+    reasoning = f"CSR Available: ₹{csr['csr_amount']} (Normalized)"
+    return score, csr["csr_amount"], reasoning
 
 
 def supplier_agent(ngo, suppliers):
-    """
-    Finds a supplier in the NGO's state that matches the SDG goal.
-    Returns a score based on supplier reliability.
-    """
-    for sup in suppliers:
-        if ngo["state"] == sup["state"] and ngo["sdg_goal"] == sup["sdg_goal"]:
-            score = sup["reliability"] * 0.5  # scaled for scoring
-            reasoning = f"Supplier Reliability: {sup['reliability']}"
-            return score, sup["name"], reasoning
+    matching = [
+        s for s in suppliers
+        if s["state"] == ngo["state"]
+        and s["sdg_goal"] == ngo["sdg_goal"]
+    ]
 
-    return 0, "No Supplier Found", "No operational supplier available"
+    if not matching:
+        return 0, "No Supplier Found", "No operational supplier available"
+
+    best_supplier = max(matching, key=lambda x: x["reliability"])
+    score = best_supplier["reliability"] * 0.5
+
+    reasoning = f"Best Supplier: {best_supplier['name']} (Reliability {best_supplier['reliability']})"
+
+    return score, best_supplier["name"], reasoning
 
 
 def decision_agent(ngo_score, csr_score, supplier_score):
-    """
-    Combines scores from NGO strength, CSR opportunity, and supplier reliability.
-    """
-    final_score = ngo_score + csr_score + supplier_score
-    return round(final_score, 2)
+    final_score = (
+        0.4 * ngo_score +
+        0.35 * csr_score +
+        0.25 * supplier_score
+    )
+    return round(final_score, 3)
