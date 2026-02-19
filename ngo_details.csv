@@ -1,4 +1,4 @@
-NGO_Name,Region_Focus,Primary_SDG,Annual_Budget,Data_Assets,Infrastructure_Gap,Debt_Sensitivity,ZOPA_Flexibility
+NGO_Name,state,Primary_SDG,Annual_Budget,Data_Assets,Infrastructure_Gap,Debt_Sensitivity,ZOPA_Flexibility
 Bharat_Impact_NGO_0001,Rajasthan,SDG 13: Climate Action,2386016,Traditional Craft Knowledge,Tier-3 City Cloud Infrastructure,Low,0.72
 Bharat_Impact_NGO_0002,West Bengal,SDG 13: Climate Action,3202906,Self-Help Group (SHG) Networks,Tier-3 City Cloud Infrastructure,High,0.58
 Bharat_Impact_NGO_0003,Odisha,SDG 17: Partnerships,1007962,Rural Land Records,Agri-Tech Sensors,High,0.32
